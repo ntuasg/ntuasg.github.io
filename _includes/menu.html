@@ -1,0 +1,29 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h2>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h2>
+      <p class="lead" style="font-size:16px">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">About Me</a>
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+
+      <a class="sidebar-nav-item{% if page.url == '/research/' %} active{% endif %}" href="/research/">Research</a>
+      <a class="sidebar-nav-item{% if page.url == '/book/' %} active{% endif %}" href="/book/">Book</a>
+      <a class="sidebar-nav-item{% if page.url == '/blog/' %} active{% endif %}" href="/blog/">Blog</a>
+      <a class="sidebar-nav-item{% if page.url == '/notes/' %} active{% endif %}" href="/notes/">Notes</a>
+    </nav>
+
+    <p style="font-size:12px">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>
