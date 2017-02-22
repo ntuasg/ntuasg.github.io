@@ -11,9 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>
-    
-      台大棒球明星賽 三月一日提名開跑！ &middot; 台大棒球明星賽
-    
+      台大棒球明星賽
   </title>
 
   <!-- CSS -->
@@ -40,10 +38,10 @@
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card-2">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-opennav w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">首頁</a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">明星賽簡介</a>
-    <a href="#article" class="w3-bar-item w3-button w3-padding-large w3-hide-small">相關文章</a>
-    <a href="#photo" class="w3-bar-item w3-button w3-padding-large w3-hide-small">照片花絮</a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large">首頁</a>
+    <a href="/about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">明星賽簡介</a>
+    <a href="/article" class="w3-bar-item w3-button w3-padding-large w3-hide-small">相關文章</a>
+    <a href="/photo" class="w3-bar-item w3-button w3-padding-large w3-hide-small">照片花絮</a>
     <a href="#video" class="w3-bar-item w3-button w3-padding-large w3-hide-small">影音專區</a>
     <a href="#vote" class="w3-bar-item w3-button w3-padding-large w3-hide-small">票選網站</a>
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
@@ -86,22 +84,6 @@
 </footer>
 
 <script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 4000);
-}
-
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
     var x = document.getElementById("navDemo");
@@ -145,6 +127,7 @@ function myFunction(id) {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
 
 </script>
 

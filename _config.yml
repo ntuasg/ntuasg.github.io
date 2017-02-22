@@ -10,12 +10,12 @@ collections:
   news:
     output:       true
     permalink:    /news/:title:output_ext
-  notes:
+  articles:
     output:       true
-    permalink:    /notes/:title:output_ext
+    permalink:    /articles/:title:output_ext
 
 # Setup
-title:            '台大棒球明星賽'
+title:            台大棒球明星賽
 tagline:          ''
 description:      2017台大棒球明星賽官方網站
 url:
