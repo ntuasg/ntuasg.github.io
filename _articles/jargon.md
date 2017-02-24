@@ -6,6 +6,8 @@ pubdate:    2017年2月11日
 index:      jargon
 photo:      jargon
 num_photo:  8
+link:       https://....
+category:   xxx
 abstract:   "看了前幾篇這麼多專業又精彩的棒球剖析文章
 今天走一個輕鬆路線~
 給大家帶來球場上的用語！

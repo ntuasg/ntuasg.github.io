@@ -12,7 +12,7 @@ layout:   default
 <!-- Menu Container -->
 <div class="w3-container">
   <div class="w3-content w3-padding-48" style="max-width:700px">
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide w3-padding-left w3-padding-right">最新消息</span></h5>
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-theme-d2 w3-wide w3-padding-left w3-padding-right">最新消息</span></h5>
     <div class="w3-row w3-center w3-card-2 w3-padding">
       <a href="javascript:void(0)" onclick="openMenu(event, 'News');" id="myLink">
         <div class="w3-col s6 tablink">新聞</div>
