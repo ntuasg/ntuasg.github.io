@@ -14,6 +14,7 @@ collections:
     output:       true
     permalink:    /articles/:title:output_ext
 
+
 # Setup
 title:            台大棒球明星賽
 tagline:          ''
@@ -26,7 +27,7 @@ author:
   url:            https://twitter.com/jerrychou82
 
 
-gems:             [jekyll-paginate,jekyll-gist]
+gems:             [jekyll-paginate,jekyll-gist,octopress-paginate]
 
 # Custom vars
 version:          2.1.0

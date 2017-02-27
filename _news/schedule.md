@@ -2,7 +2,8 @@
 layout:   default
 title:    明星賽活動流程
 subtitle: 以下是當日活動流程，請大家務必注意
-index:    hi
+date:     2016-12-28
+index:    schedule
 ---
 
 |時間|內容|

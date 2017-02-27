@@ -43,8 +43,8 @@
     <a href="/about" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">明星賽簡介</a>
     <a href="/article" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">相關文章</a>
     <a href="/photo" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">照片花絮</a>
-    <a href="#video" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">影音專區</a>
-    <a href="#vote" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">票選網站</a>
+    <a href="/video" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">影音專區</a>
+    <a href="/vote" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">票選網站</a>
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
@@ -69,8 +69,8 @@
 
 <!-- Menu Container -->
 <div class="w3-container">
-  <div class="w3-content w3-padding-48" style="max-width:700px">
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-theme-d2 w3-wide w3-padding-left w3-padding-right">最新消息</span></h5>
+  <div class="w3-content w3-padding-32" style="max-width:700px">
+    <h2 class="w3-wide w3-center w3-padding-32">最新消息</h2>
     <div class="w3-row w3-center w3-card-2 w3-padding">
       <a href="javascript:void(0)" onclick="openMenu(event, 'News');" id="myLink">
         <div class="w3-col s6 tablink">新聞</div>
@@ -82,10 +82,11 @@
 
     <div id="News" class="w3-container menu w3-padding-48 w3-card-2">
       
-      <h5>台大棒球明星賽 三月一日提名開跑！</h5>
+      
+      <h5>2017-02-02 台大棒球明星賽 三月一日提名開跑！</h5>
       <p class="w3-text-grey">他/她，就是我心目中的棒球明星，我想看他/她在紅土場上奔馳的模樣！</p>
-      <a onclick="myFunction('hello')"><i class="fa fa-chevron-circle-down fa-lg" aria-hidden="true"></i></a><br />
-      <div id="hello" class="w3-container w3-hide">
+      <a onclick="myFunction('propose')"><i class="fa fa-chevron-circle-down fa-lg" aria-hidden="true"></i></a><br />
+      <div id="propose" class="w3-container w3-hide">
         <p><p>如果那個人存在，你會不會願意告訴大家？
 3/1開始為期三週，我們開放系隊提名和個人提名，
 只要填以下表單，並經本人回信確認後，即完成提名手續。（要放圖片嗎？）
@@ -99,10 +100,10 @@
 </p>
       </div>
       
-      <h5>明星賽活動流程</h5>
+      <h5>2016-12-28 明星賽活動流程</h5>
       <p class="w3-text-grey">以下是當日活動流程，請大家務必注意</p>
-      <a onclick="myFunction('hi')"><i class="fa fa-chevron-circle-down fa-lg" aria-hidden="true"></i></a><br />
-      <div id="hi" class="w3-container w3-hide">
+      <a onclick="myFunction('schedule')"><i class="fa fa-chevron-circle-down fa-lg" aria-hidden="true"></i></a><br />
+      <div id="schedule" class="w3-container w3-hide">
         <p><table>
   <thead>
     <tr>
@@ -151,20 +152,7 @@
     </div>
 
     <div id="Games" class="w3-container menu w3-padding-48 w3-card-2">
-      <h5>Coffee</h5>
-      <p class="w3-text-grey">Regular coffee 2.50</p><br />
-
-      <h5>Chocolato</h5>
-      <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br />
-
-      <h5>Corretto</h5>
-      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br />
-
-      <h5>Iced tea</h5>
-      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br />
-
-      <h5>Soda</h5>
-      <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
+      <p>尚未出爐！</p>
     </div>  
   </div>
 </div>
@@ -198,16 +186,6 @@ function carousel() {
 </footer>
 
 <script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
 // When the user clicks anywhere outside of the modal, close it
 var modal = document.getElementById('ticketModal');
 window.onclick = function(event) {
@@ -225,10 +203,10 @@ function openMenu(evt, menuName) {
   }
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < x.length; i++) {
-     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+     tablinks[i].className = tablinks[i].className.replace(" w3-theme-d2", "");
   }
   document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+  evt.currentTarget.firstElementChild.className += " w3-theme-d2";
 }
 document.getElementById("myLink").click();
 

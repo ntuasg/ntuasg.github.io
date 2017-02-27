@@ -43,8 +43,8 @@
     <a href="/about" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">明星賽簡介</a>
     <a href="/article" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">相關文章</a>
     <a href="/photo" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">照片花絮</a>
-    <a href="#video" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">影音專區</a>
-    <a href="#vote" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">票選網站</a>
+    <a href="/video" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">影音專區</a>
+    <a href="/vote" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">票選網站</a>
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
@@ -113,16 +113,6 @@
 </footer>
 
 <script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
 // When the user clicks anywhere outside of the modal, close it
 var modal = document.getElementById('ticketModal');
 window.onclick = function(event) {
@@ -140,10 +130,10 @@ function openMenu(evt, menuName) {
   }
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < x.length; i++) {
-     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+     tablinks[i].className = tablinks[i].className.replace(" w3-theme-d2", "");
   }
   document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+  evt.currentTarget.firstElementChild.className += " w3-theme-d2";
 }
 document.getElementById("myLink").click();
 

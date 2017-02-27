@@ -43,8 +43,8 @@
     <a href="/about" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">明星賽簡介</a>
     <a href="/article" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">相關文章</a>
     <a href="/photo" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">照片花絮</a>
-    <a href="#video" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">影音專區</a>
-    <a href="#vote" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">票選網站</a>
+    <a href="/video" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">影音專區</a>
+    <a href="/vote" class="w3-bar-item w3-hover-theme w3-button w3-padding-large w3-hide-small">票選網站</a>
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
@@ -69,7 +69,7 @@
   <p>因此，一群對台大棒球環境有著更高期盼的夥伴，從今年六月開始，持續地針對「如何提升棒球運動在校內的關注度」進行討論，凝聚共識後決定籌組台大棒球明星賽企劃小組，希望可以藉由「台大棒球明星賽」的號召，吸引校內熱衷棒球運動的同學，一同來參與一場仲夏的棒球饗宴。</p>
 </div>
 
-<div class="w3-black ">
+<div class="w3-theme-d2 ">
 <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="about">
   <h2 class="w3-wide w3-center">賽事簡介</h2>
   <p>由近六年曾進校內盃賽八強賽事之隊伍及全校同學提名校內球員進行票選，選出四十位明星球員，分為兩隊進行對抗賽。賽事當天並將舉辦棒球體驗遊戲，讓參與的觀眾除了觀賞比賽以外，更可親身體驗棒球運動，以達推廣之效果。此外，亦有明星賽相關紀念商品之販售，使參與人員能留下彌足珍貴的紀念。</p>
@@ -83,11 +83,6 @@
   </div>
 </div>
 
-
-<div>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdMk2tsywLd_YXL8XM4yNuT1XRA5CfPcRbzUi0z200g8_49-g/viewform?embedded=true#start=embed" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
-</div>
-
     </div>
 
     <!-- Footer -->
@@ -98,16 +93,6 @@
 </footer>
 
 <script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
 // When the user clicks anywhere outside of the modal, close it
 var modal = document.getElementById('ticketModal');
 window.onclick = function(event) {
@@ -125,10 +110,10 @@ function openMenu(evt, menuName) {
   }
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < x.length; i++) {
-     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+     tablinks[i].className = tablinks[i].className.replace(" w3-theme-d2", "");
   }
   document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+  evt.currentTarget.firstElementChild.className += " w3-theme-d2";
 }
 document.getElementById("myLink").click();
 

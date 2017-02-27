@@ -11,8 +11,8 @@ layout:   default
 
 <!-- Menu Container -->
 <div class="w3-container">
-  <div class="w3-content w3-padding-48" style="max-width:700px">
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-theme-d2 w3-wide w3-padding-left w3-padding-right">最新消息</span></h5>
+  <div class="w3-content w3-padding-32" style="max-width:700px">
+    <h2 class="w3-wide w3-center w3-padding-32">最新消息</h2>
     <div class="w3-row w3-center w3-card-2 w3-padding">
       <a href="javascript:void(0)" onclick="openMenu(event, 'News');" id="myLink">
         <div class="w3-col s6 tablink">新聞</div>
@@ -23,8 +23,9 @@ layout:   default
     </div>
 
     <div id="News" class="w3-container menu w3-padding-48 w3-card-2">
-      {% for new in site.news %}
-      <h5>{{ new.title }}</h5>
+      {% assign news = (site.news | sort: 'date') %}
+      {% for new in news reversed %}
+      <h5>{{ new.date | date: "%Y-%m-%d" }} {{ new.title }}</h5>
       <p class="w3-text-grey">{{ new.subtitle }}</p>
       <a onclick="myFunction('{{ new.index }}')"><i class="fa fa-chevron-circle-down fa-lg" aria-hidden="true"></i></a><br>
       <div id="{{ new.index }}" class="w3-container w3-hide">
@@ -34,23 +35,13 @@ layout:   default
     </div>
 
     <div id="Games" class="w3-container menu w3-padding-48 w3-card-2">
-      <h5>Coffee</h5>
-      <p class="w3-text-grey">Regular coffee 2.50</p><br>
-
-      <h5>Chocolato</h5>
-      <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
-
-      <h5>Corretto</h5>
-      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
-
-      <h5>Iced tea</h5>
-      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
-
-      <h5>Soda</h5>
-      <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
+      <p>尚未出爐！</p>
     </div>  
   </div>
 </div>
+
+
+
 
 <script>
 // Automatic Slideshow - change image every 4 seconds
