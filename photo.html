@@ -1,3 +1,13 @@
 ---
 layout:   default
 ---
+
+{% for photo in site.photos %}
+<div class="w3-container w3-content w3-padding-16" style="max-width:800px" id="motivation">
+  <h2 class="w3-wide w3-center">{{ photo.title }} <a href="{{ photo.url }}"><i class="fa fa-external-link" aria-hidden="true"></i></a></h2>
+</div>
+
+<div class="w3-center w3-content w3-padding-16"><img src="/public/img/{{ photo.index }}/{{ photo.index }}_1.jpg" style="width:50%">
+</div>
+
+{% endfor %}

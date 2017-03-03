@@ -1,0 +1,33 @@
+---
+layout:   default
+---
+
+<div class="w3-container w3-content w3-padding-32" style="max-width:800px" id="motivation">
+  <h2 class="w3-wide w3-center">{{ page.title }}</h2>
+</div>
+
+
+<!-- Photo Grid -->
+<div class="w3-row-padding" style="margin-bottom:128px">
+  <div class="w3-half">
+    {% for ind in (1..page.num_photo) %}
+    {% assign mod = ind | modulo:2 %}
+    {% if mod == 1 %}
+    <img src="/public/img/{{ page.index }}/{{ page.index }}_{{ ind }}.jpg" style="width:100%">
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="w3-half">
+    {% for ind in (1..page.num_photo) %}
+    {% assign mod = ind | modulo:2 %}
+    {% if mod == 0 %}
+    <img src="/public/img/{{ page.index }}/{{ page.index }}_{{ ind }}.jpg" style="width:100%">
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+.w3-row-padding img {margin-bottom: 12px}
+</style>

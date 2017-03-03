@@ -41,8 +41,6 @@ layout:   default
 </div>
 
 
-
-
 <script>
 // Automatic Slideshow - change image every 4 seconds
 var myIndex = 0;

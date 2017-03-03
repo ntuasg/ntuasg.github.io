@@ -9,18 +9,19 @@ layout:   default
 <body>
 
 <!-- Blog entry -->
-{% for article in site.articles %}
+{% assign articles = (site.articles | sort: 'date') %}
+{% for article in articles reversed %}
 <div class="w3-container w3-padding-32">
   <div class="w3-container w3-white w3-margin w3-padding-large">
     <div class="w3-center">
       <h3>{{ article.title }}</h3>
-      <h5>作者：{{ article.author }} <span class="w3-opacity">{{ article.pubdate }}</span></h5>
+      <h5>作者：{{ article.author }} <span class="w3-opacity">{{ article.date | date: "%Y-%m-%d"  }}</span></h5>
     </div>
   </div>
   <div class="w3-row">
     <div class="w3-container w3-half w3-display-container">
       {% for photoNum in (1..article.num_photo) %}
-      <img class="mySlides slides_{{ article.index }}" src="/public/img/{{ article.photo }}-{{ photoNum }}.jpg" style="width:100%">
+      <img class="mySlides slides_{{ article.index }}" src="/public/img/{{ article.photo }}/{{ article.photo }}_{{ photoNum }}.jpg" style="width:100%">
       {% endfor %}
 
       <div class="w3-center w3-section w3-large w3-text-white" style="width:100%">

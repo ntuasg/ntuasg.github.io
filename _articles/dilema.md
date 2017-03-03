@@ -2,7 +2,7 @@
 layout:     default
 title:      棒球場上的道德困境
 author:     簡書廷
-pubdate:    2016年12月24日
+date:       2016-12-24
 index:      dilemma
 photo:      dilemma
 num_photo:  1

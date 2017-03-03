@@ -2,7 +2,7 @@
 layout:     default
 title:      棒球小學堂 - 球場用語
 author:     謝欣芸
-pubdate:    2017年2月11日
+date:       2017-02-11
 index:      jargon
 photo:      jargon
 num_photo:  8

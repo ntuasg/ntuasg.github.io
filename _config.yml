@@ -13,6 +13,12 @@ collections:
   articles:
     output:       true
     permalink:    /articles/:title:output_ext
+  photos:
+    output:       true
+    permalink:    /photos/:title:output_ext
+  nominations:
+    output:       true
+    permalink:    /nominations/:title:output_ext
 
 
 # Setup
