@@ -23,15 +23,20 @@ layout:   default
     </div>
 
     <div id="News" class="w3-container menu w3-padding-48 w3-card-2">
+      <ul class="w3-ul">
       {% assign news = (site.news | sort: 'date') %}
       {% for new in news reversed %}
+      <li>
       <h5>{{ new.date | date: "%Y-%m-%d" }} {{ new.title }}</h5>
       <p class="w3-text-grey">{{ new.subtitle }}</p>
-      <a onclick="myFunction('{{ new.index }}')"><i class="fa fa-chevron-circle-down fa-lg" aria-hidden="true"></i></a><br>
+      <a onclick="myFunction('{{ new.index }}')">查看更多</a><br>
       <div id="{{ new.index }}" class="w3-container w3-hide">
         <p>{{ new.content }}</p>
       </div>
+      <br>
+      </li>
       {% endfor %}
+      </ul>
     </div>
 
     <div id="Games" class="w3-container menu w3-padding-48 w3-card-2">
