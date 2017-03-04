@@ -2,12 +2,30 @@
 layout:   default
 ---
 
+<div class="w3-container w3-content w3-padding-16" style="max-width:800px">
+  <h2 class="w3-wide w3-center">照片花絮</h2>
+</div>
+
+{% assign counter = 0 %}
 {% for photo in site.photos %}
-<div class="w3-container w3-content w3-padding-16" style="max-width:800px" id="motivation">
-  <h2 class="w3-wide w3-center">{{ photo.title }} <a href="{{ photo.url }}"><i class="fa fa-external-link" aria-hidden="true"></i></a></h2>
-</div>
-
-<div class="w3-center w3-content w3-padding-16"><img src="/public/img/{{ photo.index }}/{{ photo.index }}_1.jpg" style="width:50%">
-</div>
-
+  {% assign mod = counter | modulo:2 %}
+  {% if mod == 0 %}
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-half">
+        <img src="/public/img/meeting/meeting_1.jpg" alt="meeting" style="width:100%">
+        <h3>{{ photo.title }} <a href="{{ photo.url }}"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+      </div>
+  {% endif %}
+  {% if mod == 1 %}
+      <div class="w3-half">
+        <img src="/public/img/promote/promote_1.jpg" alt="promote" style="width:100%">
+        <h3>{{ photo.title }} <a href="{{ photo.url }}"><i class="fa fa-external-link" aria-hidden="true"></i></a></h3>
+      </div>
+    </div>
+  {% endif %}
+  {% assign counter = counter | plus: 1 %}
 {% endfor %}
+{% assign mod = counter | modulo:2 %}
+{% if mod == 1  %}
+    </div>
+{% endif %}

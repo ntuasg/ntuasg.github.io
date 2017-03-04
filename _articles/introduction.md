@@ -4,8 +4,8 @@ title:      台大校內盃賽介紹
 author:     陳思彤
 date:       2017-01-14
 index:      introduction
-photo:      
-num_photo:  
+photo:      introduction
+num_photo:  1
 link:       https://www.facebook.com/permalink.php?story_fbid=879107105564741&id=815683195240466
 category:   專欄
 abstract:  "終於放寒假了～相隔一週粉專沒有新文章了！是不是有點寂寞呢？

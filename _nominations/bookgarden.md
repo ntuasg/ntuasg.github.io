@@ -1,0 +1,8 @@
+---
+layout:     default
+name:       簡書廷
+department: 土木碩二
+position:   內野
+intro:      "土木系棒當家游擊手，常自稱武陵智勝，又稱土木游擊霸。出色的守備能力、飛快的腳程和很黑的膚色是招牌。"
+photo:      bookgarden
+---
