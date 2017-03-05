@@ -20,7 +20,6 @@ collections:
     output:       true
     permalink:    /nominations/:title:output_ext
 
-
 # Setup
 title:            台大棒球明星賽
 tagline:          ''

@@ -1,0 +1,44 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Collectionws
+collections:
+  news:
+    output:       true
+    permalink:    /news/:title:output_ext
+  articles:
+    output:       true
+    permalink:    /articles/:title:output_ext
+  photos:
+    output:       true
+    permalink:    /photos/:title:output_ext
+  nominations:
+    output:       true
+    permalink:    /nominations/:title:output_ext
+  IFs:
+    output:       true
+    permalink:    /ifs/:title:output_ext
+
+# Setup
+title:            台大棒球明星賽
+tagline:          ''
+description:      2017台大棒球明星賽官方網站
+url:
+baseurl:          /
+
+author:
+  name:           'Chi-Ning Chou'
+  url:            https://twitter.com/jerrychou82
+
+
+gems:             [jekyll-paginate,jekyll-gist,octopress-paginate]
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/cnchou
