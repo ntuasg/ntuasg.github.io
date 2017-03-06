@@ -19,9 +19,6 @@ collections:
   nominations:
     output:       true
     permalink:    /nominations/:title:output_ext
-  IFs:
-    output:       true
-    permalink:    /ifs/:title:output_ext
 
 # Setup
 title:            台大棒球明星賽
