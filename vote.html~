@@ -36,9 +36,9 @@ layout:   default
             <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
             <div class="w3-container w3-white">
               <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>經歷：{{ nominee.experience }}</p>
               <p>紀錄：<br>{{ nominee.record }}</p>
-              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <a onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹</b></a><br>
               <div id="{{ nominee.ID }}" class="w3-container w3-hide">
                 <p>{{ nominee.intro }}</p>
               </div>
@@ -50,9 +50,9 @@ layout:   default
             <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
             <div class="w3-container w3-white">
               <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>經歷：{{ nominee.experience }}</p>
               <p>紀錄：<br>{{ nominee.record }}</p>
-              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <a onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹</b></a><br>
               <div id="{{ nominee.ID }}" class="w3-container w3-hide">
                 <p>{{ nominee.intro }}</p>
               </div>
@@ -80,9 +80,9 @@ layout:   default
             <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
             <div class="w3-container w3-white">
               <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>經歷：{{ nominee.experience }}</p>
               <p>紀錄：<br>{{ nominee.record }}</p>
-              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <a onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹</b></a><br>
               <div id="{{ nominee.ID }}" class="w3-container w3-hide">
                 <p>{{ nominee.intro }}</p>
               </div>
@@ -94,9 +94,9 @@ layout:   default
             <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
             <div class="w3-container w3-white">
               <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>經歷：{{ nominee.experience }}</p>
               <p>紀錄：<br>{{ nominee.record }}</p>
-              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <a onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹</b></a><br>
               <div id="{{ nominee.ID }}" class="w3-container w3-hide">
                 <p>{{ nominee.intro }}</p>
               </div>
@@ -124,9 +124,9 @@ layout:   default
             <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
             <div class="w3-container w3-white">
               <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>經歷：{{ nominee.experience }}</p>
               <p>紀錄：<br>{{ nominee.record }}</p>
-              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <a onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹</b></a><br>
               <div id="{{ nominee.ID }}" class="w3-container w3-hide">
                 <p>{{ nominee.intro }}</p>
               </div>
@@ -138,9 +138,9 @@ layout:   default
             <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
             <div class="w3-container w3-white">
               <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>經歷：{{ nominee.experience }}</p>
               <p>紀錄：<br>{{ nominee.record }}</p>
-              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <a onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹</b></a><br>
               <div id="{{ nominee.ID }}" class="w3-container w3-hide">
                 <p>{{ nominee.intro }}</p>
               </div>
@@ -168,9 +168,9 @@ layout:   default
             <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
             <div class="w3-container w3-white">
               <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>經歷：{{ nominee.experience }}</p>
               <p>紀錄：<br>{{ nominee.record }}</p>
-              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <a onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹</b></a><br>
               <div id="{{ nominee.ID }}" class="w3-container w3-hide">
                 <p>{{ nominee.intro }}</p>
               </div>
@@ -182,9 +182,9 @@ layout:   default
             <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
             <div class="w3-container w3-white">
               <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>經歷：{{ nominee.experience }}</p>
               <p>紀錄：<br>{{ nominee.record }}</p>
-              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <a onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹</b></a><br>
               <div id="{{ nominee.ID }}" class="w3-container w3-hide">
                 <p>{{ nominee.intro }}</p>
               </div>
@@ -201,7 +201,7 @@ layout:   default
     </div>
 
     <div id="Vote" class="w3-container menu w3-padding-48 w3-card-2">
-      <p>尚未出爐！</p>
+      <p>提名期間投票表單尚未開放！</p>
     </div>
 
   </div>
