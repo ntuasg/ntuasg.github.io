@@ -29,7 +29,7 @@ layout:   default
       <li>
       <h5>{{ new.date | date: "%Y-%m-%d" }} {{ new.title }}</h5>
       <p class="w3-text-grey">{{ new.subtitle }}</p>
-      <a onclick="myFunction('{{ new.index }}')">查看更多</a><br>
+      <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ new.index }}')">查看更多</a><br>
       <div id="{{ new.index }}" class="w3-container w3-hide">
         <p>{{ new.content }}</p>
       </div>

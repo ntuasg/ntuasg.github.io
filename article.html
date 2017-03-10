@@ -8,10 +8,32 @@ layout:   default
 </style>
 <body>
 
+<!-- Blog list -->
+<div id="articlelist" class="w3-container w3-padding-32">
+  <div class="w3-center">
+    <h2>文章列表</h2>
+  </div>
+  <table class="w3-table w3-striped w3-bordered">
+    <tr>
+      <th>日期</th>
+      <th>作者</th>
+      <th>標題</th>
+    </tr>
+    {% assign articles = (site.articles | sort: 'date') %}
+    {% for article in articles reversed %}
+    <tr>
+      <th>{{ article.date | date: "%Y-%m-%d" }}</th>
+      <th>{{ article.author }}</th>
+      <th>{{ article.title }}</th>
+      <th><a href="#{{ article.index }}"><i class="fa fa-file-text"></a></th>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+
 <!-- Blog entry -->
-{% assign articles = (site.articles | sort: 'date') %}
 {% for article in articles reversed %}
-<div class="w3-container w3-padding-32">
+<div id="{{ article.index }}" class="w3-container w3-padding-32">
   <div class="w3-container w3-white w3-margin w3-padding-large">
     <div class="w3-center">
       <h3>{{ article.title }}</h3>
@@ -36,7 +58,7 @@ layout:   default
     <div class="w3-container w3-half">
       {{ article.abstract }}
       <br>
-      <p class="w3-left"><button class="w3-btn w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+      <p class="w3-left"><a class="w3-btn w3-white w3-border" href="{{ article.link }}" target="_blank"><b><i class="fa fa-facebook-square"></i> Link</b></a>   <a class="w3-btn w3-white w3-border" href="#articlelist"><b><i class="fa fa-eject"></i> List</b></a></p>
     </div>
   </div>
 </div>
