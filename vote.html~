@@ -13,10 +13,10 @@ layout:   default
       <a href="javascript:void(0)" onclick="openMenu(event, 'OF');">
         <div class="w3-col s6 tablink">外野</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'P');">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'PI');">
         <div class="w3-col s6 tablink">投手</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'C');">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'CA');">
         <div class="w3-col s6 tablink">捕手</div>
       </a>
       <a href="javascript:void(0)" onclick="openMenu(event, 'Vote');">
@@ -24,10 +24,143 @@ layout:   default
       </a>
     </div>
 
+    {% assign counter = 0 %}
     <div id="IF" class="w3-row-padding menu">
       <ul class="w3-ul">
-      {% assign infielders = (site.nominations | where: 'position', 'IF' | sort: 'ID' ) %}
-      {% for nominee in infielders %}
+      {% assign players = (site.nominations | where: 'position', 'IF' | sort: 'ID' ) %}
+      {% for nominee in players %}
+        {% assign mod = counter | modulo:3 %}
+        {% if mod == 0 %}
+        <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>紀錄：<br>{{ nominee.record }}</p>
+              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                <p>{{ nominee.intro }}</p>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+        {% if mod != 0 %}
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>紀錄：<br>{{ nominee.record }}</p>
+              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                <p>{{ nominee.intro }}</p>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% assign counter = counter | plus: 1 %}
+      {% endfor %}
+      {% assign mod = counter | modulo:3 %}
+      {% if mod == 0 %}
+      </div>
+      {% endif %}
+      </ul>
+    </div>
+
+    {% assign counter = 0 %}
+    <div id="OF" class="w3-row-padding menu">
+      <ul class="w3-ul">
+      {% assign players = (site.nominations | where: 'position', 'OF' | sort: 'ID' ) %}
+      {% for nominee in players %}
+        {% assign mod = counter | modulo:3 %}
+        {% if mod == 0 %}
+        <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>紀錄：<br>{{ nominee.record }}</p>
+              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                <p>{{ nominee.intro }}</p>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+        {% if mod != 0 %}
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>紀錄：<br>{{ nominee.record }}</p>
+              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                <p>{{ nominee.intro }}</p>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% assign counter = counter | plus: 1 %}
+      {% endfor %}
+      {% assign mod = counter | modulo:3 %}
+      {% if mod == 0 %}
+      </div>
+      {% endif %}
+      </ul>
+    </div>
+    
+    {% assign counter = 0 %}
+    <div id="PI" class="w3-row-padding menu">
+      <ul class="w3-ul">
+      {% assign players = (site.nominations | where: 'position', 'PI' | sort: 'ID' ) %}
+      {% for nominee in players %}
+        {% assign mod = counter | modulo:3 %}
+        {% if mod == 0 %}
+        <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>紀錄：<br>{{ nominee.record }}</p>
+              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                <p>{{ nominee.intro }}</p>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+        {% if mod != 0 %}
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+              <p><b>經歷：{{ nominee.experience }}</b></p>
+              <p>紀錄：<br>{{ nominee.record }}</p>
+              <a onclick="myFunction('{{ nominee.ID }}')">球員介紹</a><br>
+              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                <p>{{ nominee.intro }}</p>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% assign counter = counter | plus: 1 %}
+      {% endfor %}
+      {% assign mod = counter | modulo:3 %}
+      {% if mod == 0 %}
+      </div>
+      {% endif %}
+      </ul>
+    </div>
+    
+    {% assign counter = 0 %}
+    <div id="CA" class="w3-row-padding menu">
+      <ul class="w3-ul">
+      {% assign players = (site.nominations | where: 'position', 'CA' | sort: 'ID' ) %}
+      {% for nominee in players %}
         {% assign mod = counter | modulo:3 %}
         {% if mod == 0 %}
         <div class="w3-row-padding">

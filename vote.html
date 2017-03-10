@@ -13,10 +13,10 @@ layout:   default
       <a href="javascript:void(0)" onclick="openMenu(event, 'OF');">
         <div class="w3-col s6 tablink">外野</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'P');">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'PI');">
         <div class="w3-col s6 tablink">投手</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'C');">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'CA');">
         <div class="w3-col s6 tablink">捕手</div>
       </a>
       <a href="javascript:void(0)" onclick="openMenu(event, 'Vote');">
@@ -24,6 +24,7 @@ layout:   default
       </a>
     </div>
 
+    {% assign counter = 0 %}
     <div id="IF" class="w3-row-padding menu">
       <ul class="w3-ul">
       {% assign players = (site.nominations | where: 'position', 'IF' | sort: 'ID' ) %}
@@ -67,6 +68,7 @@ layout:   default
       </ul>
     </div>
 
+    {% assign counter = 0 %}
     <div id="OF" class="w3-row-padding menu">
       <ul class="w3-ul">
       {% assign players = (site.nominations | where: 'position', 'OF' | sort: 'ID' ) %}
@@ -109,10 +111,11 @@ layout:   default
       {% endif %}
       </ul>
     </div>
-
-    <div id="P" class="w3-row-padding menu">
+    
+    {% assign counter = 0 %}
+    <div id="PI" class="w3-row-padding menu">
       <ul class="w3-ul">
-      {% assign players = (site.nominations | where: 'position', 'P' | sort: 'ID' ) %}
+      {% assign players = (site.nominations | where: 'position', 'PI' | sort: 'ID' ) %}
       {% for nominee in players %}
         {% assign mod = counter | modulo:3 %}
         {% if mod == 0 %}
@@ -152,10 +155,11 @@ layout:   default
       {% endif %}
       </ul>
     </div>
-
-    <div id="C" class="w3-row-padding menu">
+    
+    {% assign counter = 0 %}
+    <div id="CA" class="w3-row-padding menu">
       <ul class="w3-ul">
-      {% assign players = (site.nominations | where: 'position', 'C' | sort: 'ID' ) %}
+      {% assign players = (site.nominations | where: 'position', 'CA' | sort: 'ID' ) %}
       {% for nominee in players %}
         {% assign mod = counter | modulo:3 %}
         {% if mod == 0 %}
@@ -197,7 +201,7 @@ layout:   default
     </div>
 
     <div id="Vote" class="w3-container menu w3-padding-48 w3-card-2">
-      <p>尚未出爐！</p>
+      <p>提名期間投票表單尚未開放！</p>
     </div>
 
   </div>
