@@ -9,6 +9,7 @@ num_photo:  2
 link:       https://www.facebook.com/permalink.php?story_fbid=824568831018569&id=815683195240466
 category:   公告
 abstract:   "到底台大棒球明星賽有什麼特別的地方呢？參與籌備小組又會有哪些限制和收穫呢？讓我們的Q&A一次解答你的所有疑惑吧"
+vertical:   false
 published:  true
 ---
 

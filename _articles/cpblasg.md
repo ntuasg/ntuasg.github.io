@@ -9,6 +9,7 @@ num_photo:  1
 link:       https://www.facebook.com/permalink.php?story_fbid=862407360568049&id=815683195240466
 category:   專欄
 abstract:   "介紹了各國明星賽後，大家是否會好奇，中華職棒的明星賽是什麼模樣呢？又有什麼有趣的小故事？就讓小編帶大家一起看看中華職棒明星賽的各種小知識吧！"
+vertical:   false
 published:  true
 ---
 

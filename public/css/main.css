@@ -34,3 +34,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "蒙纳超刚黑繁", "MStiffHeiHK-Ult
     padding-right: 16px;
 }
 
+.img-vertical {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}

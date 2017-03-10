@@ -10,6 +10,7 @@ link:       https://www.facebook.com/permalink.php?story_fbid=892073214268130&id
 category:   專欄
 abstract:  "小編從大一打棒球開始，學長就跟我說，在還沒有輪到我打擊時，要到本壘後面看投手的投球姿勢。如果你也有打過棒球，那麼你大概也曾經歷過在板凳上觀察對方投手投球的日子吧！
 但是，觀察投手的投球動作，其實也是有訣竅的，今天，小編就要帶大家來看看，一個專業的棒球員，在看投手投球姿勢時，應該要怎麼看呢？"
+vertical:   false
 published:  true
 ---
 

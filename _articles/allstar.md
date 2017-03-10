@@ -9,6 +9,7 @@ num_photo:  1
 link:       https://www.facebook.com/815683195240466/photos/a.815736448568474.1073741828.815683195240466/857591084383010/?type=3
 category:   專欄
 abstract:   "台大棒球明星賽怎麼還有那麼久QAQ大家是不是也和小編一樣等不及了呢？為了填補空虛寂寞的心靈小編先帶大家看看國外的明星賽吧！"
+vertical:   false
 published:  true
 ---
 

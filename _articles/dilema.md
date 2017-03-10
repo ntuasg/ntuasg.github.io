@@ -7,6 +7,7 @@ index:      dilemma
 photo:      dilemma
 num_photo:  1
 abstract:   若你是三壘跑者，當對方投手投出暴投，你拔腿向本壘狂衝，眼看要得分了，此時棒球之神對你小聲地說：「如果你『故意出局』，球隊就晉級；而『再得一分』會招致淘汰。」此時的你會怎麼做呢？
+vertical:   false
 published:  true
 ---
 

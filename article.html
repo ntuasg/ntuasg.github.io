@@ -21,7 +21,7 @@ layout:   default
   <div class="w3-row">
     <div class="w3-container w3-half w3-display-container">
       {% for photoNum in (1..article.num_photo) %}
-      <img class="mySlides slides_{{ article.index }}" src="/public/img/{{ article.photo }}/{{ article.photo }}_{{ photoNum }}.jpg" style="width:100%">
+      <img class="mySlides slides_{{ article.index }}{% if article.vertical == true %} img-vertical {% endif %}" src="/public/img/{{ article.photo }}/{{ article.photo }}_{{ photoNum }}.jpg" style="width:90%">
       {% endfor %}
 
       <div class="w3-center w3-section w3-large w3-text-white" style="width:100%">
