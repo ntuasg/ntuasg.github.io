@@ -2,6 +2,9 @@
 layout:   default
 ---
 
+<!-- Test -->
+
+
 <!-- Menu Container -->
 <div class="w3-container">
   <div class="w3-content w3-padding-32" style="max-width:1500px">
@@ -37,6 +40,9 @@ layout:   default
 
     {% assign counter = 0 %}
     <div id="IF" class="w3-row-padding menu w3-padding-32">
+      <div class="w3-padding-32">
+        <canvas id="chart_IF" width="100" height="30"></canvas>
+      </div>
       <ul class="w3-ul">
       {% assign players = (site.nominations | where: 'position', 'IF' | sort: 'ID' ) %}
       {% for nominee in players %}
@@ -217,6 +223,37 @@ layout:   default
 
   </div>
 </div>
+
+
+<script>
+var ctx_IF = document.getElementById("chart_IF");
+var myChart_IF = new Chart(ctx_IF, {
+    type: 'horizontalBar',
+    data: {
+        labels: ["林大鈞", "徐聖龍", "魏士傑", "詹家昕", "簡書廷", "小柿喜朗"],
+        datasets: [{
+            label: '# of Votes',
+            data: [12, 19, 3, 5, 2, 3],
+            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            borderColor: 'rgba(255,99,132,1)',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                },
+                barThickness: 15
+            }],
+            xAxes: [{
+                categoryPercentage: 0.5
+            }]
+        }
+    }
+});
+</script>
 
 <script>
 
