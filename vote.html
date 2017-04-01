@@ -40,8 +40,9 @@ layout:   default
 
     {% assign counter = 0 %}
     <div id="IF" class="w3-row-padding menu w3-padding-32">
+      <h3 class="w3-center w3-padding-16">(測試中)</h3>
       <div class="w3-padding-32">
-        <canvas id="chart_IF" width="100" height="30"></canvas>
+        <canvas id="chart_IF" width="100" height="70"></canvas>
       </div>
       <ul class="w3-ul">
       {% assign players = (site.nominations | where: 'position', 'IF' | sort: 'ID' ) %}
@@ -230,10 +231,10 @@ var ctx_IF = document.getElementById("chart_IF");
 var myChart_IF = new Chart(ctx_IF, {
     type: 'horizontalBar',
     data: {
-        labels: ["林大鈞", "徐聖龍", "魏士傑", "詹家昕", "簡書廷", "小柿喜朗"],
+        labels: ['李彥頡', '李政泓', '簡珜任', '余中睿', '林資峻', '張朝翔', '吳宥靚', '林華宗', '陳竑瑋', '賴昶亙', '林敬根', '呂翔禾', '葉競仁', '黃靖天', '小柿喜朗', '吳仲民', '廖于鈞', '劉員成', '翁義軒', '李建皜', '林厚和', '詹家昕', '蕭清元', '忻振宇', '楊仲涵', '簡書廷', '林俊佑', '何長庭', '徐聖龍', '楊庭彰', '林大鈞', '魏士傑', '何光展', '劉晏昀', '鄭士淮'],
         datasets: [{
             label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
+            data: [90,73,72,64,62,62,61,55,53,51,47,45,40,34,32,31,31,30,28,24,21,20,20,18,17,16,15,14,10,9,7,5,5,4,1],
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
             borderColor: 'rgba(255,99,132,1)',
             borderWidth: 1
@@ -245,10 +246,10 @@ var myChart_IF = new Chart(ctx_IF, {
                 ticks: {
                     beginAtZero:true
                 },
-                barThickness: 15
+                barThickness: 10
             }],
             xAxes: [{
-                categoryPercentage: 0.5
+                categoryPercentage: 0.2
             }]
         }
     }
