@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      情人節特輯－宣傳照側拍
 author:     影音宣傳組
 date:       2017-02-14

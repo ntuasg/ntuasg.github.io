@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      只提一人好苦惱　系隊提名會更好
 author:     影音宣傳組
 date:       2017-02-27

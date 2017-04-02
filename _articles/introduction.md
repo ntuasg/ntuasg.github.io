@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      台大校內盃賽介紹
 author:     陳思彤
 date:       2017-01-14

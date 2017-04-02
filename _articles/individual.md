@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      台大棒球明星賽　2017/3/1提名開跑
 author:     影音宣傳組
 date:       2017-02-25

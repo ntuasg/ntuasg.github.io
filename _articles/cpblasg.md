@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      中華職棒明星賽
 author:     陳羿妏
 date:       2016-12-17

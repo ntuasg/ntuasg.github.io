@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      特色球場番外篇 令人又愛又恨的福和球場
 author:     黃品維
 date:       2017-2-10

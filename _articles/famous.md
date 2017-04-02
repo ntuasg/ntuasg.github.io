@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      棒球圈的台大校友
 author:     柯劭珩
 date:       2016-12-30

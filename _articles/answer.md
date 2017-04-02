@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      宣傳照側拍—答案揭曉
 author:     影音宣傳組
 date:       2017-02-16

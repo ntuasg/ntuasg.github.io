@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      系棒的日常生活
 author:     張庭瑜
 date:       2017-02-18

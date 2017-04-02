@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      千奇百怪的棒球場
 author:     黃品維
 date:       2017-01-20

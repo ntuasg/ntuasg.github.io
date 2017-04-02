@@ -1,0 +1,14 @@
+---
+layout:   default
+---
+<div class="w3-container">
+  <br>
+  <a href="/article">回到文章列表</a>
+  <h3 class="w3-padding-8">{{ page.title }}</h3>
+  <h5>作者：{{ page.author }} <span class="w3-opacity">{{ page.date | date: "%Y-%m-%d"  }}</span></h5>
+
+  <div>
+    {{ content }}
+  </div>
+  <br>
+</div>

@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      如何成為pro級的打者？棒球科學告訴你
 author:     龔佑霖
 date:       2017-02-04

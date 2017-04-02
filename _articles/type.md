@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      台大棒球明星賽是什麼型式的活動呢？
 author:     影音宣傳組
 date:    2016-10-18

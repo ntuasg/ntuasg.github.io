@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      第一屆台大棒球明星賽Q&A
 author:     影音宣傳組
 date:       2016-10-21

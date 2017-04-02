@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      棒球場上的道德困境
 author:     簡書廷
 date:       2016-12-24

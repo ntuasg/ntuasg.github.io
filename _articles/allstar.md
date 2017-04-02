@@ -1,5 +1,5 @@
 ---
-layout:     default
+layout:     article
 title:      各國職棒明星賽
 author:     張智玲
 date:       2016-12-10
