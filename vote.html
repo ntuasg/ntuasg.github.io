@@ -46,29 +46,33 @@ layout:   default
         {% assign mod = counter | modulo:3 %}
         {% if mod == 0 %}
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p>經歷：{{ nominee.experience }}</p>
-              <p>紀錄：<br>{{ nominee.record }}</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
-              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
-                <p>{{ nominee.intro }}</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/{{ nominee.photo }}_big.jpg'><img src="/public/img/nomination/{{ nominee.photo }}_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+                <p>經歷：{{ nominee.experience }}</p>
+                <p>紀錄：<br>{{ nominee.record }}</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
+                <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                  <p>{{ nominee.intro }}</p>
+                </div>
               </div>
             </div>
           </div>
         {% endif %}
         {% if mod != 0 %}
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p>經歷：{{ nominee.experience }}</p>
-              <p>紀錄：<br>{{ nominee.record }}</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
-              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
-                <p>{{ nominee.intro }}</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/{{ nominee.photo }}_big.jpg'><img src="/public/img/nomination/{{ nominee.photo }}_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+                <p>經歷：{{ nominee.experience }}</p>
+                <p>紀錄：<br>{{ nominee.record }}</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
+                <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                  <p>{{ nominee.intro }}</p>
+                </div>
               </div>
             </div>
           </div>
@@ -90,29 +94,33 @@ layout:   default
         {% assign mod = counter | modulo:3 %}
         {% if mod == 0 %}
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p>經歷：{{ nominee.experience }}</p>
-              <p>紀錄：<br>{{ nominee.record }}</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
-              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
-                <p>{{ nominee.intro }}</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/{{ nominee.photo }}_big.jpg'><img src="/public/img/nomination/{{ nominee.photo }}_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+                <p>經歷：{{ nominee.experience }}</p>
+                <p>紀錄：<br>{{ nominee.record }}</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
+                <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                  <p>{{ nominee.intro }}</p>
+                </div>
               </div>
             </div>
           </div>
         {% endif %}
         {% if mod != 0 %}
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p>經歷：{{ nominee.experience }}</p>
-              <p>紀錄：<br>{{ nominee.record }}</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
-              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
-                <p>{{ nominee.intro }}</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/{{ nominee.photo }}_big.jpg'><img src="/public/img/nomination/{{ nominee.photo }}_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+                <p>經歷：{{ nominee.experience }}</p>
+                <p>紀錄：<br>{{ nominee.record }}</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
+                <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                  <p>{{ nominee.intro }}</p>
+                </div>
               </div>
             </div>
           </div>
@@ -134,29 +142,33 @@ layout:   default
         {% assign mod = counter | modulo:3 %}
         {% if mod == 0 %}
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p>經歷：{{ nominee.experience }}</p>
-              <p>紀錄：<br>{{ nominee.record }}</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
-              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
-                <p>{{ nominee.intro }}</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/{{ nominee.photo }}_big.jpg'><img src="/public/img/nomination/{{ nominee.photo }}_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+                <p>經歷：{{ nominee.experience }}</p>
+                <p>紀錄：<br>{{ nominee.record }}</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
+                <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                  <p>{{ nominee.intro }}</p>
+                </div>
               </div>
             </div>
           </div>
         {% endif %}
         {% if mod != 0 %}
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p>經歷：{{ nominee.experience }}</p>
-              <p>紀錄：<br>{{ nominee.record }}</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
-              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
-                <p>{{ nominee.intro }}</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/{{ nominee.photo }}_big.jpg'><img src="/public/img/nomination/{{ nominee.photo }}_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+                <p>經歷：{{ nominee.experience }}</p>
+                <p>紀錄：<br>{{ nominee.record }}</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
+                <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                  <p>{{ nominee.intro }}</p>
+                </div>
               </div>
             </div>
           </div>
@@ -178,29 +190,33 @@ layout:   default
         {% assign mod = counter | modulo:3 %}
         {% if mod == 0 %}
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p>經歷：{{ nominee.experience }}</p>
-              <p>紀錄：<br>{{ nominee.record }}</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
-              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
-                <p>{{ nominee.intro }}</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/{{ nominee.photo }}_big.jpg'><img src="/public/img/nomination/{{ nominee.photo }}_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+                <p>經歷：{{ nominee.experience }}</p>
+                <p>紀錄：<br>{{ nominee.record }}</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
+                <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                  <p>{{ nominee.intro }}</p>
+                </div>
               </div>
             </div>
           </div>
         {% endif %}
         {% if mod != 0 %}
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/{{ nominee.photo }}.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
-              <p>經歷：{{ nominee.experience }}</p>
-              <p>紀錄：<br>{{ nominee.record }}</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
-              <div id="{{ nominee.ID }}" class="w3-container w3-hide">
-                <p>{{ nominee.intro }}</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/{{ nominee.photo }}_big.jpg'><img src="/public/img/nomination/{{ nominee.photo }}_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>{{ nominee.ID }}　{{ nominee.name }}／{{ nominee.department }}</b></p>
+                <p>經歷：{{ nominee.experience }}</p>
+                <p>紀錄：<br>{{ nominee.record }}</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('{{ nominee.ID }}')"><b>查看球員介紹↓</b></a><br>
+                <div id="{{ nominee.ID }}" class="w3-container w3-hide">
+                  <p>{{ nominee.intro }}</p>
+                </div>
               </div>
             </div>
           </div>
@@ -249,5 +265,11 @@ function myFunction(id) {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
+// colorbox
+ jQuery('a.gallery').colorbox();
+ $(".gallery").colorbox({
+  width: "50%"
+});
 
 </script>

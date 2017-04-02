@@ -22,6 +22,7 @@
   <script src="https://www.w3schools.com/lib/w3data.js"></script>
   <link rel="stylesheet" href="/public/css/main.css">
   <link rel="stylesheet" href="/public/css/color.css">
+  <link rel="stylesheet" href="/public/css/colorbox.css">
   <style>
   body {font-family: "Lato", sans-serif}
   .mySlides {display: none}
@@ -31,6 +32,7 @@
   <script src="/public/js/main.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="/public/js/jquery.colorbox-min.js"></script>
 
 </head>
 
@@ -118,15 +120,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF001.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF001　林大鈞／生技二</b></p>
-              <p>經歷：打過建中棒球隊，目前效力農化生技之帥哥大軍(及其前身)</p>
-              <p>紀錄：<br>於2013年北區高中棒球聯會夏季聯賽擊出滿貫砲；曾拿下2014年北區高中棒球聯會夏季聯賽打點王；2016年北區高中棒球聯會夏季聯賽打鐵王、被三振王</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF001')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF001" class="w3-container w3-hide">
-                <p>大鈞出身在雲林，是個純樸的大男孩，從小鋤禾日當午，汗滴禾下土的拼命工作，也鍛鍊出了一身好體力。每到閒暇時刻，他總會跑到務農人家的農地裡，抓住牛角和水牛鬥力氣，因此他的雙手鍛鍊出強大的握力，下盤的支撐力更是不在話下高中時期的大鈞，來到了台北求學，加入建中棒球社，在游擊區展現一夫當關的氣勢，以小時候力抗水牛的氣勢擋下所有來球，打擊更是扛出一隻又一隻的長打，讓天上的諸葛丞相不禁感嘆，若大鈞早生個兩千年，不只能守住街亭，北伐成功都有望啊但上到大學後的大鈞，一度面臨安打荒，對自己感到十分失望。一天，他在下著雨的椰林大道上獨自一人反省，騎著騎著，就遇上了車禍，實在是非常令人難過R。在心態上，大鈞也有很值得大家學習的部分，為了不讓外務影響他在球場上的表現，他遵從少林寺達摩祖師的教誨，清心寡慾不近現實女色，曾經有一次，大鈞騎車載著一個妹子，到達目的地後即使妹子再三挽留，他頭也不回地帶著手套直奔球場，當隊友問：「大鈞，你不理那個妹子嗎？」他只是淡淡地回：「剛剛我已經把她放下了，怎麼你們都還放不下呢？」這樣一位全方位的暖男型優秀球員，怎麼能不選呢？</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF001_big.jpg'><img src="/public/img/nomination/IF001_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF001　林大鈞／生技二</b></p>
+                <p>經歷：打過建中棒球隊，目前效力農化生技之帥哥大軍(及其前身)</p>
+                <p>紀錄：<br>於2013年北區高中棒球聯會夏季聯賽擊出滿貫砲；曾拿下2014年北區高中棒球聯會夏季聯賽打點王；2016年北區高中棒球聯會夏季聯賽打鐵王、被三振王</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF001')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF001" class="w3-container w3-hide">
+                  <p>大鈞出身在雲林，是個純樸的大男孩，從小鋤禾日當午，汗滴禾下土的拼命工作，也鍛鍊出了一身好體力。每到閒暇時刻，他總會跑到務農人家的農地裡，抓住牛角和水牛鬥力氣，因此他的雙手鍛鍊出強大的握力，下盤的支撐力更是不在話下高中時期的大鈞，來到了台北求學，加入建中棒球社，在游擊區展現一夫當關的氣勢，以小時候力抗水牛的氣勢擋下所有來球，打擊更是扛出一隻又一隻的長打，讓天上的諸葛丞相不禁感嘆，若大鈞早生個兩千年，不只能守住街亭，北伐成功都有望啊但上到大學後的大鈞，一度面臨安打荒，對自己感到十分失望。一天，他在下著雨的椰林大道上獨自一人反省，騎著騎著，就遇上了車禍，實在是非常令人難過R。在心態上，大鈞也有很值得大家學習的部分，為了不讓外務影響他在球場上的表現，他遵從少林寺達摩祖師的教誨，清心寡慾不近現實女色，曾經有一次，大鈞騎車載著一個妹子，到達目的地後即使妹子再三挽留，他頭也不回地帶著手套直奔球場，當隊友問：「大鈞，你不理那個妹子嗎？」他只是淡淡地回：「剛剛我已經把她放下了，怎麼你們都還放不下呢？」這樣一位全方位的暖男型優秀球員，怎麼能不選呢？</p>
+                </div>
               </div>
             </div>
           </div>
@@ -137,15 +141,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF002.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF002　徐聖龍／森林五</b></p>
-              <p>經歷：新莊高中棒球隊三年、擔任隊長一年；全國高中棒球聯賽複賽；台大棒球校隊兩年</p>
-              <p>紀錄：<br>高二冬聯聯賽盜壘11次排名第二、2016年攻城盃單場七打點</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF002')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF002" class="w3-container w3-hide">
-                <p>我最崇拜的就是徐聖龍，從他進球場我的目光就被他碩壯的身材吸引住，說他是台大棒球界的統神也不為過。 他最喜歡幫路人甲乙丙丁打fly，是不是很有愛心呢～除此之外，他還是森林系情歌王耶！ 雖然他肩膀受傷休息一陣子，但是，他熱愛棒球的心從不被澆熄，大學最後一年了，請多多支持龍哥，讓他站上明星賽的舞台發光發熱！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF002_big.jpg'><img src="/public/img/nomination/IF002_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF002　徐聖龍／森林五</b></p>
+                <p>經歷：新莊高中棒球隊三年、擔任隊長一年；全國高中棒球聯賽複賽；台大棒球校隊兩年</p>
+                <p>紀錄：<br>高二冬聯聯賽盜壘11次排名第二、2016年攻城盃單場七打點</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF002')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF002" class="w3-container w3-hide">
+                  <p>我最崇拜的就是徐聖龍，從他進球場我的目光就被他碩壯的身材吸引住，說他是台大棒球界的統神也不為過。 他最喜歡幫路人甲乙丙丁打fly，是不是很有愛心呢～除此之外，他還是森林系情歌王耶！ 雖然他肩膀受傷休息一陣子，但是，他熱愛棒球的心從不被澆熄，大學最後一年了，請多多支持龍哥，讓他站上明星賽的舞台發光發熱！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -155,70 +161,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF003.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF003　魏士傑／機械三</b></p>
-              <p>經歷：103學年度新生盃亞軍成員、104學年度新生盃亞軍成員、104學年度台大盃冠軍成員、105學年度新生盃冠軍隊長</p>
-              <p>紀錄：<br>104學年度攻城盃打擊獎</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF003')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF003" class="w3-container w3-hide">
-                <p>作為傳統勁旅冠軍賽常客的機械的一份子，並且身為同屆中唯一大二便登上一軍成為主力的球員，士傑一直給予自己很高的要求。在強打如林的機械中，怠慢的人而停止進步的人，很快就會被後面的人趕過而坐板凳，即使是學長也是如此。 由於深知這一點，他總是抱著比其他人更多一些的熱情驅使自己練球再進步。今年接下隊長後，也把連霸重任的棒子接到手中，希望能貢獻一己之力，帶領機械繼續駛往三連霸的航道</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF004.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF004　詹家昕／土木所碩一</b></p>
-              <p>經歷：2014年土木系棒球隊隊長、2014年第六屆攻城盃主辦</p>
-              <p>紀錄：<br>2013/06/02 台大盃預賽擊出消失於台大場左外野擋網的場內全壘打！2014/01/11 新生盃冠軍戰，一局上半的一個撲接美技，沒收可能穿越二壘防區的安打球！2016/05/30 台大盃八強賽，從機械系強投手上所投出的快速直球中擊出直射於台大場右外野的強力一壘安打！</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF004')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF004" class="w3-container w3-hide">
-                <p>如果你還記得因為「海豚飛撲」一戰成名的林瑋恩，那千萬要來看看這位與林瑋恩有87分像的球員，土木系棒背號44號的「詹家昕」！ 敢撲、敢跑的精神，加上精湛的判斷力，讓他在球場上不斷沒收穿越安打及德州安打的球。從進入大學以來所展現出的守備能力，使其為土木系棒二游防線不可或缺的角色！</p>
-              </div>
-            </div>
-          </div>
-        
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF005.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF005　簡書廷／土木所碩二</b></p>
-              <p>經歷：2013年土木系棒球隊副隊長、2013年第五屆攻城盃主辦、2014年第六屆攻城盃紀錄組組長、2016年6月考取C級棒球教練執照、2016年8月考取C級棒球裁判執照、武陵高中棒球隊教練、2016年12月台灣大學大專盃女子棒球賽教練</p>
-              <p>紀錄：<br>2013/06/28台大盃冠軍戰遭到梟雄演出9傳3美技，因此9-3成為其於球場之呼叫代號之一。2015/12/29完成台大投手生涯百K紀錄，但同日遭擊出一記直飛台大鳥籠的再見安打而含恨吞敗。該場比賽過後對於綠色鐵網持續存有陰影。以下是比較正向的：2016/09/25完成台大生涯百盜紀錄、2016/12/26完成台大生涯百安打紀錄、在台大比賽平均打擊三圍為.459/.556/.652</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF005')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF005" class="w3-container w3-hide">
-                <p>在2011年，土木以一紙四年總值9487萬的合約，簽下了來自泰國的簡書廷，補強球隊中線防守。他自新人年即開始長據游擊一職，人稱土木UG8（游擊霸）。自號武陵智勝，但以短程安打居多，因此實際上是武陵智平。 有飛快的腳程和廣大的守備範圍，常常跨區辦案搶隊友的球，整個內野飛球都是其管轄區域。 合約結束後，土木決定與他簽下兩年延長超高CP值合約，約定他必須兼任不得熱身的球隊終結者。因此常見他於滿壘時，緊急從游擊區被調上投手丘。即便不是滿壘上場，也會自己堆成滿壘才開始對付打者，投球屬性為「沒有滿壘不會投」。 想看書廷內野滿場跑嗎？一人一票先把他送進正選名單吧！</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF006.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF006　小柿喜朗／會計交換生</b></p>
-              <p>經歷：105學年度新生盃冠軍成員</p>
-              <p>紀錄：<br>105學年度新生盃打擊獎</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF006')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF006" class="w3-container w3-hide">
-                <p>ポジションは主に外野手。レギュラーではなかったので、特に目立った成績は残していない。日本で６年間野球をやってたことや台湾の野球熱が強いことを知っていたので、台湾大学でも野球をしたいと思い、今のチームに入りました。日本では主に外野手をしていましたが、チームの事情もあり、現在は三塁手をしています。 我的棒球生涯從進入國中後開始，主要的守備位置為外野手。在日本時沒辦法當上先發選手，並沒有留下甚麼特別醒目的成績。 在日本打球的六年間就知道台灣也對棒球很瘋狂也很強，來到台大後也想要打球，所以因緣際會下就加入了現在的球隊－機械。雖然在日本時主要是外野手，但目前是三壘手。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF003_big.jpg'><img src="/public/img/nomination/IF003_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF003　魏士傑／機械三</b></p>
+                <p>經歷：103學年度新生盃亞軍成員、104學年度新生盃亞軍成員、104學年度台大盃冠軍成員、105學年度新生盃冠軍隊長</p>
+                <p>紀錄：<br>104學年度攻城盃打擊獎</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF003')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF003" class="w3-container w3-hide">
+                  <p>作為傳統勁旅冠軍賽常客的機械的一份子，並且身為同屆中唯一大二便登上一軍成為主力的球員，士傑一直給予自己很高的要求。在強打如林的機械中，怠慢的人而停止進步的人，很快就會被後面的人趕過而坐板凳，即使是學長也是如此。 由於深知這一點，他總是抱著比其他人更多一些的熱情驅使自己練球再進步。今年接下隊長後，也把連霸重任的棒子接到手中，希望能貢獻一己之力，帶領機械繼續駛往三連霸的航道</p>
+                </div>
               </div>
             </div>
           </div>
@@ -228,15 +181,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF007.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF007　賴昶亙／機械二</b></p>
-              <p>經歷：104學年度新生盃亞軍球員</p>
-              <p>紀錄：<br>打過幾支安打、選過幾次保送、但也被三振過一些</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF007')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF007" class="w3-container w3-hide">
-                <p>上大學後才開始打棒球，大一上在新生盃的第一場比賽，就用再見安打幫助機械系隊拿下勝利，然後，就沒有然後了。 能跟系上一群朋友一起做自己最愛的運動，真的是一件很幸福的事，也為了幫助球隊的能力有所提升而努力練球，希望能成為一個優秀的一壘手，擋下所有隊友的爆傳。 我想棒球之所以吸引人的地方，就是場上的狀況千變萬化吧，不知道什麼時候球會往自己來，不知道下一球投手會投甚麼，勝負或許就在幾秒之間，充滿力量和速度的張力。 好啦，因為才打不到兩年的球，所以也不知道要說什麼了顆顆。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF004_big.jpg'><img src="/public/img/nomination/IF004_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF004　詹家昕／土木所碩一</b></p>
+                <p>經歷：2014年土木系棒球隊隊長、2014年第六屆攻城盃主辦</p>
+                <p>紀錄：<br>2013/06/02 台大盃預賽擊出消失於台大場左外野擋網的場內全壘打！2014/01/11 新生盃冠軍戰，一局上半的一個撲接美技，沒收可能穿越二壘防區的安打球！2016/05/30 台大盃八強賽，從機械系強投手上所投出的快速直球中擊出直射於台大場右外野的強力一壘安打！</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF004')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF004" class="w3-container w3-hide">
+                  <p>如果你還記得因為「海豚飛撲」一戰成名的林瑋恩，那千萬要來看看這位與林瑋恩有87分像的球員，土木系棒背號44號的「詹家昕」！ 敢撲、敢跑的精神，加上精湛的判斷力，讓他在球場上不斷沒收穿越安打及德州安打的球。從進入大學以來所展現出的守備能力，使其為土木系棒二游防線不可或缺的角色！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -247,15 +202,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF008.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF008　劉晏昀／生機五</b></p>
-              <p>經歷：105學年度新生盃冠軍成員、104學年度台大盃冠軍成員、104學年度新生盃亞軍成員、103學年度新生盃亞軍成員、102學年度台大盃季軍成員</p>
-              <p>紀錄：<br>102學年度台大盃最佳投手獎</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF008')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF008" class="w3-container w3-hide">
-                <p>102學年度開始就加入機械系棒，不離不棄，是我兄弟。甫入隊旋即憑實力（而非靠哥哥），而成為機械系棒的中流砥柱， 投內外兼修，連打棒球都擺脫不了成為超級工具人的命運。對於校內棒球有極度的熱情，十分期待台大明星賽能夠在校內帶起一股棒球熱，讓更多的觀眾賞校內所有熱愛棒球的人們的奮戰！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF005_big.jpg'><img src="/public/img/nomination/IF005_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF005　簡書廷／土木所碩二</b></p>
+                <p>經歷：2013年土木系棒球隊副隊長、2013年第五屆攻城盃主辦、2014年第六屆攻城盃紀錄組組長、2016年6月考取C級棒球教練執照、2016年8月考取C級棒球裁判執照、武陵高中棒球隊教練、2016年12月台灣大學大專盃女子棒球賽教練</p>
+                <p>紀錄：<br>2013/06/28台大盃冠軍戰遭到梟雄演出9傳3美技，因此9-3成為其於球場之呼叫代號之一。2015/12/29完成台大投手生涯百K紀錄，但同日遭擊出一記直飛台大鳥籠的再見安打而含恨吞敗。該場比賽過後對於綠色鐵網持續存有陰影。以下是比較正向的：2016/09/25完成台大生涯百盜紀錄、2016/12/26完成台大生涯百安打紀錄、在台大比賽平均打擊三圍為.459/.556/.652</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF005')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF005" class="w3-container w3-hide">
+                  <p>在2011年，土木以一紙四年總值9487萬的合約，簽下了來自泰國的簡書廷，補強球隊中線防守。他自新人年即開始長據游擊一職，人稱土木UG8（游擊霸）。自號武陵智勝，但以短程安打居多，因此實際上是武陵智平。 有飛快的腳程和廣大的守備範圍，常常跨區辦案搶隊友的球，整個內野飛球都是其管轄區域。 合約結束後，土木決定與他簽下兩年延長超高CP值合約，約定他必須兼任不得熱身的球隊終結者。因此常見他於滿壘時，緊急從游擊區被調上投手丘。即便不是滿壘上場，也會自己堆成滿壘才開始對付打者，投球屬性為「沒有滿壘不會投」。 想看書廷內野滿場跑嗎？一人一票先把他送進正選名單吧！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -265,70 +222,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF009.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF009　劉員成／機械四</b></p>
-              <p>經歷：105學年度新生盃冠軍隊、104學年度攻城聯盟季軍隊、104學年度台大盃冠軍隊、104學年度新生盃亞軍隊、103學年度新生盃亞軍隊</p>
-              <p>紀錄：<br>目前生涯四支場外全壘打</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF009')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF009" class="w3-container w3-hide">
-                <p>上大學後人生第一次能夠加入球隊，這是人生中第一次，有機會能跟著一群有著相同熱情與夢想的人一起努力。 由於學長對棒球有著與傳統棒球觀念不同的見解，在對於棒速要求之下，不但使機械系在近年來打出非常好的成績，自己也終於到達大二時跟學長的約定，突破134公里。 我認為棒球迷人的地方，不只是當球員在場上用自己的力量與速度，打出一場刺激與緊張的比賽；更是在當觀眾能夠為比賽的每一球，竭力歡呼與尖叫的時候。所以希望這樣的一個比賽，能夠讓更多人喜歡上棒球。一起來打球吧！</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF010.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF010　林敬根／法律三</b></p>
-              <p>經歷：103學年度擔任95分男孩至今、104學年度法律系壘副隊長、104學年度擔任法律主戰游擊手至今</p>
-              <p>紀錄：<br>103學年度新生盃混壘亞軍、103學年度即以大一之姿站上大法盃先發 、103學年度大法盃季軍、104學年度開始主宰游擊防區，多次演出精彩防守、104學年度台大慢壘聯賽亞軍</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF010')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF010" class="w3-container w3-hide">
-                <p>「我相信，找不到有比你更好的人，你心裡理想情人是幾分？是否也會有我的份？好想知道你的100分，會給怎樣的人？」 在介紹敬根棒球員的一面之前，必須先跟大家說明敬根的本業其實是一個魔術師。為什麼是魔術師呢？他把什麼變不見？答案是他把「游失」變不見了。據說敬根來到法棒之後，紀錄紙上再也沒有出現過游失。究竟他是怎麼做到的？除了每天努力的磨練守備，敬根還有一個小小的秘訣—帥。每次比賽完大家拿到辛勞的球經幫大家做的紀錄的時候，大家總是會問「阿根那一球是失誤吧？」，球經們總是紅著臉的一語不發，大家就都明白了。 扣除掉球經的幫助，敬根的守備還真是滴水不露的代名詞，大一就靠著守備擠上大法盃的先發名單，大二不曉得把棒子丟到哪裡的時候，還是可以帶著守備手套上場打擊，生涯至今演出的游擊防守美技數都數不清。更在各大比賽成為各隊游擊手的眼中釘，還曾經發生賽前被對手的游擊手指名要單挑守備這種事，真是令人驚嘆怎麼會有人守備強到這種程度，也因此成為法棒「內川聖一」邱健盛異父異母的弟弟。 儘管敬根的守備一直讓人很放心，但他的守備還是有一個無法改變的缺點，就是平飛球。這也和開頭的那首歌有關，敬根大一的時候曾經有一個女同學用了不知道從哪裡來，也不知道做什麼用的評分標準幫阿根做了一次評分，最終結果是95分，扣的那5分就是因為身高。 敬根有一個號稱160的身高。所以敬根守備的死穴就是稍高的平飛球，每次他奮力一跳，然後看著球滾到後面去的時候，大家都會說「唉~要是再高5公分就好了。」 今年是敬根表現相當優異的一年，不但守備進步到了一個恐怖的境界，也找回了不曉得丟在哪裡的棒子，即將再度衝擊各大盃賽。請大家把手中的一票，交給敬根，大聲說出：「我們想看又帥又萌的敬根進入明星賽！」</p>
-              </div>
-            </div>
-          </div>
-        
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF011.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF011　蕭清元／社工三</b></p>
-              <p>經歷：建中棒球隊、台大棒球隊、三重聯盟展易棒球隊、群風棒球隊、醫學院棒球隊</p>
-              <p>紀錄：<br>2012北區高中棒球聯賽夏季聯賽 殿軍、2014北區高中棒球聯賽夏季聯賽 冠軍、2014北區高中棒球聯賽夏季聯賽 打擊獎、104學年度新生盃棒球賽 殿軍、104學年度大專盃棒球賽 季軍</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF011')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF011" class="w3-container w3-hide">
-                <p>「永遠笑臉迎人，像個開心果！」「行雲流水的守備搭配帥氣的外表，交織出了極具觀賞性的打球風格」「具備長打火力的安打型選手」隊友都是這樣形容清元的。 長期在校隊耕耘的清元，綽號小7，有著厚實的守備功力與黏人的棒子，從高中起就嶄露頭角，速度敏捷、協調性佳，多擔任三壘及游擊的位置，比賽時是一股穩定軍心的力量。 球場上的清元很會關照隊友，也一直默默為球隊付出，球場外的清元平易近人，很願意聆聽朋友的心事並提供意見，見到人總是笑得很溫暖，是許多隊友的人生導師；除此之外，清元帥氣的面貌也更讓他在出去比賽時人氣爆棚，擄獲萬千球迷的心，好人緣可見一斑。 在台大只有兩種人，一種是認識清元的，另一種是不認識清元的，但只要認識他，都會說一聲讚。 近年來清元為受傷所苦，易受傷的體質讓他的棒球之路格外艱辛，腰傷、手傷、肩傷、腳傷、腿傷、拉傷、扭傷、挫傷、擦傷，奔波於球場及醫院之間，但他仍然沒有放棄最愛的棒球，努力想戰勝傷痛，努力奪回屬於他的舞台，如果你被他的奮戰精神所感動，不要忘記到時候投票給他喔！</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF012.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF012　林資峻／機械所碩二</b></p>
-              <p>經歷：2008~2011 高雄中學棒球隊、2009~2010 雄中棒球隊副隊長、2011~2016梟雄棒球隊、機械系棒球隊</p>
-              <p>紀錄：<br>南區高中棒球聯賽－2010第18屆亞軍、2010第19屆季軍、2011第20屆季軍、2011第21屆亞軍；台大校內賽－101新生盃冠軍、101台大盃冠軍、102台大盃冠軍、103新生盃冠軍、103台大盃季軍、104新生盃亞軍、104台大盃亞軍、105新生盃冠軍</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF012')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF012" class="w3-container w3-hide">
-                <p>不斷地跌倒又不斷地站起來，用自己手中的棒子一次又一次地寫下了不凡的棒球篇章。 從高中開始就在球場打滾的資峻，早在高二就站穩了二壘大關，曾擔任雄中副隊長的他也多次為球隊打下美好江山，充滿拚勁的資峻在球員生涯中曾兩度拚戰到醫院去，大概是最令人不捨卻又欽佩的地方了。 到了台大之後，熱愛棒球的他，繼續用手中的手套與球棒寫下一場又一場的美好比賽紀錄。在台大的五年半之間，資峻擁有的冠軍戒指足以掛滿一整隻手，近年台大的校內賽中，資峻或成最大贏家！ 而最令人印象深刻的，是在101年的新生盃冠軍戰中，擔任第二棒的資峻繳出單場四之四的鐵支表現，帶領梟雄棒球隊奪下隊史首冠，此後也持續地用穩定的守備表現成為梟雄的先發常客！ 球員生涯的最後一年，千呼萬喚始出來的明星賽熱鬧出爐，這名台大的戒指王，現在最缺的就是一張明星賽參賽門票了！若是能順利當選，再次強調：「資峻或成最大贏家！」</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF006_big.jpg'><img src="/public/img/nomination/IF006_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF006　小柿喜朗／會計交換生</b></p>
+                <p>經歷：105學年度新生盃冠軍成員</p>
+                <p>紀錄：<br>105學年度新生盃打擊獎</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF006')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF006" class="w3-container w3-hide">
+                  <p>ポジションは主に外野手。レギュラーではなかったので、特に目立った成績は残していない。日本で６年間野球をやってたことや台湾の野球熱が強いことを知っていたので、台湾大学でも野球をしたいと思い、今のチームに入りました。日本では主に外野手をしていましたが、チームの事情もあり、現在は三塁手をしています。 我的棒球生涯從進入國中後開始，主要的守備位置為外野手。在日本時沒辦法當上先發選手，並沒有留下甚麼特別醒目的成績。 在日本打球的六年間就知道台灣也對棒球很瘋狂也很強，來到台大後也想要打球，所以因緣際會下就加入了現在的球隊－機械。雖然在日本時主要是外野手，但目前是三壘手。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -338,15 +242,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF013.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF013　翁義軒／物治四</b></p>
-              <p>經歷：台南一中棒球隊、地理系棒球隊、小火車棒球隊、梟雄棒球隊、竹園崗棒球隊、洋蔥君棒球隊、醫學院棒球隊、經濟系棒球隊、物治系壘球隊、台大棒球隊內野手</p>
-              <p>紀錄：<br>103新生盃冠軍、103台大盃冠軍、104台大盃季軍</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF013')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF013" class="w3-container w3-hide">
-                <p>號稱台大校內盃賽最自由的自由球員，有著大學四年每屆盃賽都穿著不同球衣的紀錄，奔走於各隊之間。同時也是103學年度當年度唯一拿下雙冠的球員，抱大腿功力無人能出其右。 大一時的義軒抱著投手夢踏入台大校園，初登場就在管社盃中七局狂失14分，也在同年度新生盃結束後遭到地理系棒解約。第二年加入竹園崗棒球隊，則投出單局被敲三支長打的成績黯然退場，從此之後，義軒以優異的控球及好打的球路獲得了「發球機」的稱號。但投手丘上的失意並沒有打敗他，而是使他成為了萬用的內野工具人。 在台大棒球隊擔任內野手，「穩」是他最佳的代名詞。無論是刁鑽的高彈跳球或是強勁的強襲球，在義軒的守備下都顯得輕鬆妥當。隨著年紀增長、經驗加深、肚子變大(?!)，各種滾地球只要打進他的防區都像打到一塊海綿，而打者也只能低頭跑壘。攻擊方面也常常揮出適時一擊為球隊建功，可說是打守兼具。校內比賽中義軒常是以捕手身分出場，想一睹他在內野防區的風采嗎？快把票投給他吧！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF007_big.jpg'><img src="/public/img/nomination/IF007_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF007　賴昶亙／機械二</b></p>
+                <p>經歷：104學年度新生盃亞軍球員</p>
+                <p>紀錄：<br>打過幾支安打、選過幾次保送、但也被三振過一些</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF007')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF007" class="w3-container w3-hide">
+                  <p>上大學後才開始打棒球，大一上在新生盃的第一場比賽，就用再見安打幫助機械系隊拿下勝利，然後，就沒有然後了。 能跟系上一群朋友一起做自己最愛的運動，真的是一件很幸福的事，也為了幫助球隊的能力有所提升而努力練球，希望能成為一個優秀的一壘手，擋下所有隊友的爆傳。 我想棒球之所以吸引人的地方，就是場上的狀況千變萬化吧，不知道什麼時候球會往自己來，不知道下一球投手會投甚麼，勝負或許就在幾秒之間，充滿力量和速度的張力。 好啦，因為才打不到兩年的球，所以也不知道要說什麼了顆顆。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -357,15 +263,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF014.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF014　陳竑瑋／工管二</b></p>
-              <p>經歷：2016年 大一即為台大盃棒球賽四強先發成員；2016年 大一即為攻城盃棒球賽冠軍先發成員；2015年 新生盃混壘季軍投手；2015年 台大工管系籃A隊後衛</p>
-              <p>紀錄：<br>2015年 投手正面反彈球不傳一壘，用跑的刺殺打者；2016年 為了專心練球，將必修微積分與會計停修退選；2016年 大企盃壘球承擔敗投後不聽學長安慰，怒摔球帽；2016年 台大盃以大一身分鎮守三遊第二棒並打進四強；2016年 攻城盃被偶像張銘哲在二壘兩步前阻殺；2017年 上禮拜台大盃大棒一揮把球打進小場</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF014')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF014" class="w3-container w3-hide">
-                <p>「有領導力、守時、認真負責、精益求精，對喜歡的事情很專情（例如我）。」－－如果要簡單介紹竑瑋，這就是最貼近與精確的用詞了。 竑瑋在工管系有生化人的美名，擁有強壯的上下半身與運動神經，除了棒球籃球，有時也被系排徵召去打台大盃，大學至今已經打過4種球類的台大盃了。 在還沒交女朋友以前，不管颳風下雨練球比賽期中期末放假，都會進健身中心重訓，近來更憑藉出色的守備能力，鎮守工管系棒游擊的大關。 但寒假時開始沉迷於魔術方塊，每天不務正業，只想著背速解的公式，連籃球都生疏了。希望大家投他一票，找回他對棒球的熱情。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF008_big.jpg'><img src="/public/img/nomination/IF008_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF008　劉晏昀／生機五</b></p>
+                <p>經歷：105學年度新生盃冠軍成員、104學年度台大盃冠軍成員、104學年度新生盃亞軍成員、103學年度新生盃亞軍成員、102學年度台大盃季軍成員</p>
+                <p>紀錄：<br>102學年度台大盃最佳投手獎</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF008')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF008" class="w3-container w3-hide">
+                  <p>102學年度開始就加入機械系棒，不離不棄，是我兄弟。甫入隊旋即憑實力（而非靠哥哥），而成為機械系棒的中流砥柱， 投內外兼修，連打棒球都擺脫不了成為超級工具人的命運。對於校內棒球有極度的熱情，十分期待台大明星賽能夠在校內帶起一股棒球熱，讓更多的觀眾賞校內所有熱愛棒球的人們的奮戰！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -375,70 +283,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF015.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF015　簡珜任／經濟四</b></p>
-              <p>經歷：103新生盃、台大盃、攻城盃亞軍成員；104新生盃冠軍成員、攻城盃冠軍成員；105-1新生盃殿軍成員</p>
-              <p>紀錄：<br>105新生盃 打了生涯唯一的場內全壘打、HBC社會聯盟滿壘一人出局登板救援無失分</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF015')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF015" class="w3-container w3-hide">
-                <p>高中打了三年的南區棒球聯賽，升大學後沒有繼續打棒球，直到轉入台大經濟系後才繼續棒球生涯，是經濟系最老的大學部學生，連碩二的都要叫珜任一聲學長。 狀況好時，可謂三壘吸塵器；狀況差則變成三壘齁哇系。經濟三壘防區有他在，猶如景氣循環般，波動幅度實在難以掌握。另外就是簡單的不會接，困難的很會接。</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF016.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF016　吳仲民／科法二</b></p>
-              <p>經歷：心理系棒副隊長（因年代久遠不可考，故不寫出詳細年份）</p>
-              <p>紀錄：<br>N年前台大盃對電機，打出直擊鳥籠的三壘安打；曾經去沖繩集訓；去年開竅擊出兩支全壘打</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF016')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF016" class="w3-container w3-hide">
-                <p>貢獻自己十幾年的棒球生涯於心理系棒，去年以職業學生身分強勢回歸心理系棒，並成為系棒專職三壘手，但最近割愛將守備位置讓與系上學弟，轉而成為隨插即用工具人（含投手）。 他在場上常有令人印象深刻的表現，例如帥半套的飛撲因為守備範圍太狹隘；或是華麗接球後以最華麗的方式跳傳，總是逼著一壘手再長高二十公分； 擔任投手一角時，好球帶再大都丟不進去，但打者再小都一定能丟中。雖然如此，他在最近的比賽仍舊後援上丘，並且有效壓制對方打線。</p>
-              </div>
-            </div>
-          </div>
-        
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF017.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF017　楊庭彰／數學四</b></p>
-              <p>經歷：攻城盃、理院盃、HBC聯盟、102學年度臺大盃冠軍隊成員</p>
-              <p>紀錄：<br>2016年曾在HBC社會聯盟單場擊出4安打打回4分打點；HBC單場策動三次雙殺；2016/10/22於新生盃擊出首轟；105學年度新生盃打擊三圍 0.778/0.800/1.222</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF017')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF017" class="w3-container w3-hide">
-                <p>上大學之後加入數學系棒才開始打棒球的生涯，大一之後休息近兩年才拿起手套重回球場，雖然是四年級但在球場上還是個菜鳥。 沒練球時腦袋裡都是棒球，等到要練球的時候又喊著好累好累，最擅長的看youtube影片增進球技。 最喜歡的球員是陳鴻文跟KingFelix，希望能有機會在台大明星賽跟來自不同系隊的球員切磋球技。</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF018.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF018　余中睿／經濟二</b></p>
-              <p>經歷：2012-2014年政大附中棒球隊王牌投手兼內野工具人兼隊長、2015年加入政治系棒球隊</p>
-              <p>紀錄：<br>高中時期－冬季聯賽單場10K完投勝強勢帶領政附晉級複賽，全國聯賽面對強敵南港高工輸一分雖敗猶榮。 大學時期－受傷，養傷；受傷，養傷。</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF018')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF018" class="w3-container w3-hide">
-                <p>跑得快、跳得高，投球霸氣、守備穩定。這，就是我所認識的阿睿 還記得高中剛認識阿睿的時候，他是場上的火爆浪子，全力飆速、猛力揮擊，場上爭執也從來不缺席，那時的他年少輕狂，對棒球有著滿腔熱血。 不過阿睿的棒球路並不是那麼順遂，多次韌帶傷勢幾乎摧毀他的手臂，但殘而不廢的阿睿並不感到絕望，靜靜的等待直到傷勢復原。 當我再次於場上見到阿睿的身影，他是沉穩的指揮官，除了守備更加的穩定，打擊也多了些技巧，我想現在的他，或許不再是那麼的狂放不羈，但絕對是一個更成熟的棒球員了。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF009_big.jpg'><img src="/public/img/nomination/IF009_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF009　劉員成／機械四</b></p>
+                <p>經歷：105學年度新生盃冠軍隊、104學年度攻城聯盟季軍隊、104學年度台大盃冠軍隊、104學年度新生盃亞軍隊、103學年度新生盃亞軍隊</p>
+                <p>紀錄：<br>目前生涯四支場外全壘打</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF009')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF009" class="w3-container w3-hide">
+                  <p>上大學後人生第一次能夠加入球隊，這是人生中第一次，有機會能跟著一群有著相同熱情與夢想的人一起努力。 由於學長對棒球有著與傳統棒球觀念不同的見解，在對於棒速要求之下，不但使機械系在近年來打出非常好的成績，自己也終於到達大二時跟學長的約定，突破134公里。 我認為棒球迷人的地方，不只是當球員在場上用自己的力量與速度，打出一場刺激與緊張的比賽；更是在當觀眾能夠為比賽的每一球，竭力歡呼與尖叫的時候。所以希望這樣的一個比賽，能夠讓更多人喜歡上棒球。一起來打球吧！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -448,15 +303,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF019.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF019　何光展／機械二</b></p>
-              <p>經歷：104學年度新生盃亞軍成員、台大機械系棒成員</p>
-              <p>紀錄：<br>2016/12/8於福和橋B球場一棒扛出左外野，為生涯首轟</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF019')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF019" class="w3-container w3-hide">
-                <p>說到機械系棒，就不能不提到b04顏值指標何光展。他連粉絲專頁都有（快去查「光展粉絲俱樂部」！），就知道他多麼的有人氣！ 打安打跟喝水一樣簡單，美技傳球跟熱力學期中拿高分一樣簡單，簡直就是他偶像Derek Jeter的化身。 這個學期升至一軍，他的目標是超機霸三連霸冠軍！各位光展的粉絲們快去投他一票並來看機械系棒的比賽吧！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF010_big.jpg'><img src="/public/img/nomination/IF010_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF010　林敬根／法律三</b></p>
+                <p>經歷：103學年度擔任95分男孩至今、104學年度法律系壘副隊長、104學年度擔任法律主戰游擊手至今</p>
+                <p>紀錄：<br>103學年度新生盃混壘亞軍、103學年度即以大一之姿站上大法盃先發 、103學年度大法盃季軍、104學年度開始主宰游擊防區，多次演出精彩防守、104學年度台大慢壘聯賽亞軍</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF010')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF010" class="w3-container w3-hide">
+                  <p>「我相信，找不到有比你更好的人，你心裡理想情人是幾分？是否也會有我的份？好想知道你的100分，會給怎樣的人？」 在介紹敬根棒球員的一面之前，必須先跟大家說明敬根的本業其實是一個魔術師。為什麼是魔術師呢？他把什麼變不見？答案是他把「游失」變不見了。據說敬根來到法棒之後，紀錄紙上再也沒有出現過游失。究竟他是怎麼做到的？除了每天努力的磨練守備，敬根還有一個小小的秘訣—帥。每次比賽完大家拿到辛勞的球經幫大家做的紀錄的時候，大家總是會問「阿根那一球是失誤吧？」，球經們總是紅著臉的一語不發，大家就都明白了。 扣除掉球經的幫助，敬根的守備還真是滴水不露的代名詞，大一就靠著守備擠上大法盃的先發名單，大二不曉得把棒子丟到哪裡的時候，還是可以帶著守備手套上場打擊，生涯至今演出的游擊防守美技數都數不清。更在各大比賽成為各隊游擊手的眼中釘，還曾經發生賽前被對手的游擊手指名要單挑守備這種事，真是令人驚嘆怎麼會有人守備強到這種程度，也因此成為法棒「內川聖一」邱健盛異父異母的弟弟。 儘管敬根的守備一直讓人很放心，但他的守備還是有一個無法改變的缺點，就是平飛球。這也和開頭的那首歌有關，敬根大一的時候曾經有一個女同學用了不知道從哪裡來，也不知道做什麼用的評分標準幫阿根做了一次評分，最終結果是95分，扣的那5分就是因為身高。 敬根有一個號稱160的身高。所以敬根守備的死穴就是稍高的平飛球，每次他奮力一跳，然後看著球滾到後面去的時候，大家都會說「唉~要是再高5公分就好了。」 今年是敬根表現相當優異的一年，不但守備進步到了一個恐怖的境界，也找回了不曉得丟在哪裡的棒子，即將再度衝擊各大盃賽。請大家把手中的一票，交給敬根，大聲說出：「我們想看又帥又萌的敬根進入明星賽！」</p>
+                </div>
               </div>
             </div>
           </div>
@@ -467,15 +324,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF020.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF020　忻振宇／生技三</b></p>
-              <p>經歷：2015擔任農化生技隊長、2016擔任農化生技副隊長</p>
-              <p>紀錄：<br>103學年度新生盃季軍、105學年度新生盃季軍</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF020')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF020" class="w3-container w3-hide">
-                <p>帥，根本不需要介紹，就散發出一種帥，髮間流露出帥，眼神流露出帥，更別提揮棒時人棒合一的帥，那種認真，那種直率，是忻振宇才有的帥。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF011_big.jpg'><img src="/public/img/nomination/IF011_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF011　蕭清元／社工三</b></p>
+                <p>經歷：建中棒球隊、台大棒球隊、三重聯盟展易棒球隊、群風棒球隊、醫學院棒球隊</p>
+                <p>紀錄：<br>2012北區高中棒球聯賽夏季聯賽 殿軍、2014北區高中棒球聯賽夏季聯賽 冠軍、2014北區高中棒球聯賽夏季聯賽 打擊獎、104學年度新生盃棒球賽 殿軍、104學年度大專盃棒球賽 季軍</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF011')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF011" class="w3-container w3-hide">
+                  <p>「永遠笑臉迎人，像個開心果！」「行雲流水的守備搭配帥氣的外表，交織出了極具觀賞性的打球風格」「具備長打火力的安打型選手」隊友都是這樣形容清元的。 長期在校隊耕耘的清元，綽號小7，有著厚實的守備功力與黏人的棒子，從高中起就嶄露頭角，速度敏捷、協調性佳，多擔任三壘及游擊的位置，比賽時是一股穩定軍心的力量。 球場上的清元很會關照隊友，也一直默默為球隊付出，球場外的清元平易近人，很願意聆聽朋友的心事並提供意見，見到人總是笑得很溫暖，是許多隊友的人生導師；除此之外，清元帥氣的面貌也更讓他在出去比賽時人氣爆棚，擄獲萬千球迷的心，好人緣可見一斑。 在台大只有兩種人，一種是認識清元的，另一種是不認識清元的，但只要認識他，都會說一聲讚。 近年來清元為受傷所苦，易受傷的體質讓他的棒球之路格外艱辛，腰傷、手傷、肩傷、腳傷、腿傷、拉傷、扭傷、挫傷、擦傷，奔波於球場及醫院之間，但他仍然沒有放棄最愛的棒球，努力想戰勝傷痛，努力奪回屬於他的舞台，如果你被他的奮戰精神所感動，不要忘記到時候投票給他喔！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -485,70 +344,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF021.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF021　葉競仁／醫學七</b></p>
-              <p>經歷：台灣大學棒球隊-隊長；台大醫學院棒球隊-隊員；台大盃竹園崗棒球隊-隊員；台南一中棒球隊-隊員</p>
-              <p>紀錄：<br>校內：104學年度 台大盃棒球賽出牆全壘打（vs洋蔥君）；103學年度 (竹園崗)台大盃棒球賽-冠軍，於冠軍賽後援登板獲得勝投；103學年度 台大盃棒球賽場內全壘打（vs物數）；102學年度 台大盃棒球賽出牆全壘打（vs三代梟雄）；102學年度 台大盃棒球賽場內全壘打（vs土木）；99學年度 新生盃棒球賽場內全壘打（vs地質）新生初登場 校外：105學年度台北市學生棒球聯賽-打擊、全壘打、打點三冠王；104學年度大專棒球聯賽全國-季軍；104學年度台北市學生棒球聯賽-冠軍；103學年度台北市學生棒球聯賽-冠軍；102學年度台北市學生棒球聯賽-冠軍</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF021')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF021" class="w3-container w3-hide">
-                <p>堅實的腹肌，強壯的臂膀。高挑的身材，帥氣的臉龐。醫學的競仁，台大的萌蔣。 從高中開始就是南一中棒球隊的中心棒次，考上台大醫科後更成為學弟每年招生拿來說嘴的傳奇人物，大二甄選校隊時將球轟出右外野綠色怪物直擊新體，宣告這位不世出的左打巨砲正式降臨大專棒壇。 勤於重訓，每週至少四次，台大棒球隊的魔鬼筋肉人，屢屢將球扛進新體三樓，成為打掃阿桑最頭痛的男人。你可能會說台大右外野那麼短不算啦，但他在正規的觀山球場仍數度開轟，這才是一代巨砲啊啊啊。 大五的台大盃與來自台南的同鄉們組成竹園崗，接連力退建中、土木等特級強隊，與雙胞胎哥哥競文以全勝之姿聯手奪下台大盃冠軍，冠軍賽臨危受命生涯首次上丘就完全壓制後援摘勝也成為台大棒壇的傳奇事蹟。 第一屆明星賽，怎麼能少了競仁的煙火秀呢？？？</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF022.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF022　廖于鈞／園藝三</b></p>
-              <p>經歷：2012年政大附中棒球社副社長、2016年政治系棒副隊長、2017年園藝系壘隊長</p>
-              <p>紀錄：<br>曾經兩次在政大附中ob賽中敲出場外全壘打</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF022')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF022" class="w3-container w3-hide">
-                <p>從高中第一次看他上場比賽後，就再也沒有掉出前五棒的陣容，穩健的繳出平飛安打，到後期更是常常尻出噢把，守備上也不遑多讓，撇開滑接不說，身為外野手的他，更是常常看他從中外野用雷射肩直直把球射進捕手手套裡面，完全不需要幫他cut-off。 上了大學之後，因為球隊需要，所以他轉任內野手，憑藉著優異的球感，沒有任何不適應的問題，一球一球好好接住後，用獨特的小碎步，把一壘手當捕手一般，繼續用那雷射肩把球射進去刺殺打者。</p>
-              </div>
-            </div>
-          </div>
-        
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF023.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF023　呂翔禾／地質四</b></p>
-              <p>經歷：以前沒有加過球隊，跟李振昌一樣滿滿的天賦（？），台大盃、攻城盃、宅男盃（？？</p>
-              <p>紀錄：<br>每場穩定輸出多次保送與多次失誤</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF023')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF023" class="w3-container w3-hide">
-                <p>身材Ortiz，打擊中島的翔禾來了，是一位將廣角與黏球點滿的人呢。守備與體重一樣穩定，雖然是個老新人但一年下來選的四壞球，快比隊上的打擊王還多呢。 現在就差幾支長打惹，需要各位喜愛熱愛棒球沒有棒球就吃不下飯，睡不著覺甚至活不下去之棒球癡迷狂將翔禾送進明星賽啊啊啊！</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF024.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF024　張朝翔／化工三</b></p>
-              <p>經歷：2011~2014在台中一中棒球隊、2014~2015在台大校棒擔任內野手、2014~2017在台大化工鎮守游擊</p>
-              <p>紀錄：<br>2012學年度高中棒球聯賽軟式組16強；2013年冬天北聯季軍；2015學年度台大新生盃季軍；曾經在台大盃賽對梟雄一戰單場兩安，並貢獻4分打點卻惜敗</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF024')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF024" class="w3-container w3-hide">
-                <p>一個讓你敬佩不已的球員—張朝翔。 就球技而言，就不得不從朝翔在台中一中時期談起。高一的朝翔憑藉極優異的協調性與令人望塵莫及的努力，在守備端撐起台中一中的游擊大關，時而展現行雲流水的守備，甚至更曾在某次練球得到國家級教練林華韋先生的讚賞呢。那時一中隊友都直呼，好險是跟朝翔當隊友~而在攻擊端......就在此略過不談，畢竟文宣說好只談優勢的..... 就態度而言，朝翔在球場上的態度是你無法質疑的，更可為所有棒球人的楷模：超高標準的反求諸己，每次賽前對球場的脫帽敬禮，以及打出軟弱滾地球的全力跑壘，都在在讓隊友對手肅然起敬，就連平常的練球，朝翔也毫不含糊，腰不好的他常常一隻手撐著腰，一隻手接滾地，硬著頭皮咬著牙撐過最難熬的時刻（話說我們的朝翔腰不好很像是家族遺傳....），這樣的朝翔你怎能不愛呢？ 還有一件軼事要和各位分享，高二的朝翔在參加高中棒球聯賽時，正身處於球技的巔峰，那時在與強恕高中一戰中，朝翔如往常鎮守游擊守位，敵隊打者打了個內野軟弱高飛球，只見朝翔喊了聲：「my ball！！」只見他早已在定點盯準了球，也揮了揮手示意二壘手不用過來了，沒想到這時悲劇發生，小白球從朝翔的手套中彈出，而隨之而來的，是強恕高中的球員大聲酸了一句：「阿姆係my ball?」（所以要奉勸化工系的各位球員，當朝翔喊出my ball時，可要到他後面補位阿～）。當然那場比賽最後也輸了，這個低級失誤也成了朝翔心中永遠的芥蒂，所以還要請看了這篇文案的各位，要替小編保密R 上了大學，朝翔短短的打了校隊一年就離開了，就去追尋自己的大學生活，聽說他過的挺好的，很享受化工系壘球的歡樂，以及化工系棒的氣氛，還時不時邀小編去他們系隊練球呢～就讓我們期待一下今年台大盃，大三的朝翔究竟會帶領化工系棒打到甚麼地方呢？ 懇請各位賜票給朝翔，你們寶貴的每一票，可是能讓身值落髮危機的朝翔，相應的長出一根頭髮呢～～</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF012_big.jpg'><img src="/public/img/nomination/IF012_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF012　林資峻／機械所碩二</b></p>
+                <p>經歷：2008~2011 高雄中學棒球隊、2009~2010 雄中棒球隊副隊長、2011~2016梟雄棒球隊、機械系棒球隊</p>
+                <p>紀錄：<br>南區高中棒球聯賽－2010第18屆亞軍、2010第19屆季軍、2011第20屆季軍、2011第21屆亞軍；台大校內賽－101新生盃冠軍、101台大盃冠軍、102台大盃冠軍、103新生盃冠軍、103台大盃季軍、104新生盃亞軍、104台大盃亞軍、105新生盃冠軍</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF012')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF012" class="w3-container w3-hide">
+                  <p>不斷地跌倒又不斷地站起來，用自己手中的棒子一次又一次地寫下了不凡的棒球篇章。 從高中開始就在球場打滾的資峻，早在高二就站穩了二壘大關，曾擔任雄中副隊長的他也多次為球隊打下美好江山，充滿拚勁的資峻在球員生涯中曾兩度拚戰到醫院去，大概是最令人不捨卻又欽佩的地方了。 到了台大之後，熱愛棒球的他，繼續用手中的手套與球棒寫下一場又一場的美好比賽紀錄。在台大的五年半之間，資峻擁有的冠軍戒指足以掛滿一整隻手，近年台大的校內賽中，資峻或成最大贏家！ 而最令人印象深刻的，是在101年的新生盃冠軍戰中，擔任第二棒的資峻繳出單場四之四的鐵支表現，帶領梟雄棒球隊奪下隊史首冠，此後也持續地用穩定的守備表現成為梟雄的先發常客！ 球員生涯的最後一年，千呼萬喚始出來的明星賽熱鬧出爐，這名台大的戒指王，現在最缺的就是一張明星賽參賽門票了！若是能順利當選，再次強調：「資峻或成最大贏家！」</p>
+                </div>
               </div>
             </div>
           </div>
@@ -558,15 +364,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF025.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF025　李彥頡／化工四</b></p>
-              <p>經歷：化工系棒近年來最短傳球距離紀錄保持人，現職為化工系棒主戰溫板凳員（因板凳區較靠近內野，故提名內野手）；化工系棒可考紀錄最瘦球員（BMI: 15.7）；沒有被冰板凳時大部分會出沒在三壘、游擊防區走動把紅土弄亂</p>
-              <p>紀錄：<br>化工系棒現役最瘦球員（177 cm / 52 kg / BMI: 16.6）、化工系棒可考紀錄最瘦球員（BMI: 15.7）；帶有失誤靈氣，時常在一場比賽中守備發生失誤，而在該場比賽也幾乎會靠著對方守備失誤而上壘。連三年蟬聯化工系棒最佳進步獎（溫板凳能力更是逐年進步呢）；2015~2016年賽季 安打王盜壘王OPS王（感覺是刷出來的）；2014/12/24 生涯首度先發，在二壘防區發生三次失誤後被換下來讓學弟上場；2015/5/29 生涯第二次單場三次失誤，人稱「3E男」 2017/X/XX，日期不詳 在連續兩打席見振後被隊長當機立斷換下場，因此有了「兩Ｋ一冰冰」的稱號 （註釋: 1. 兩K一冰冰－意為領到兩張老K後被冰板凳。兩張老Ｋ為兩次三振之意。冰冰為被換下場去溫板凳之意。）</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF025')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF025" class="w3-container w3-hide">
-                <p>李彥頡對棒球的熱情是化工系棒中最值得讚賞的，甚至不惜一切也要延畢打球，自稱棒球情人。曾經因為練球練過頭導致必修期中考直接放棄。化工系的必修是數一數二痛苦的，但他因為愛上打球，必修課比別人的多修了三倍之多，卻毫無怨言。套一句他的口頭禪：「棒球以及嘴砲是我大學四年的全部。」 為何棒球會成為他的全部，這就要從大一的他開始說起，當初只是想說找一個有趣的運動而加入化工系棒，殊不知這調皮的小圓球始終不聽使喚，怎麼丟都只是砸在地上，大概只有1/10壘距吧@@，這就是俗稱的奈米壘距吧！這讓眾多學長相當頭疼，儘管怎麼樣都揮空棒，怎麼樣都接不到球，不過他不放棄，堅持每次練球不缺席，自主都衝第一，跌跌撞撞的熬過了大一。剛上大二的他，在生涯首次成為先發，鎮守二壘防區的時候，在防守方面發生了三次失誤，到了第三次失誤時學長終於看不下去，把潛力大一內野取代他的位置不要再讓他跌股了（幫QQ）。 傳球、打擊、守備、泡瓦、臉，傳說五項全能的球員便是五拍子球員，彥頡想當然是什麼都沒有的零拍子球員（再幫QQ一次），然而心灰意冷的他到了大二寒訓的第一天，他突然發現自己從三壘傳球能夠直射一壘又快又準，堪稱是打通任督二脈的絕佳例子，絕對沒有唬爛。 傳球加成使他信心爆增，守備也逐漸趨於成熟，雖然不時會因為傳球太猛而暴傳，不過已經漸漸站穩化工系棒游擊的防區（其實是沒其他學長了QQ）。嘴砲功力也是不減反增；在大二下的某次比賽又再度達成單場三次失誤的里程碑，他自豪的說：「人家郭苔冥是三億男（詳情請搜尋call call姊與郭苔冥的恩怨情仇），我也是3E男呢！」 曾經說過自己有許多分身在世界棒壇，麗山田哲人、化工Correa，化工兔肉（Tulo），真的不知道當事人聽到會怎麼想。 至於始終跌在谷底的打擊則是在大三爆發，在大三那年打出生涯年，上壘率高，藉由精準的跑壘判斷發揮其速度破壞力，獲得MVP選票第二的殊榮。 大四更專研出另一個興趣，蒐集各式各樣的球具以及裝備，因此又有化工裝備哥的頭銜。而他的名言是：「技不如人，球具不能輸人。」 因為勤奮練球，他的必修悽悽慘慘悽悽，三修系上必修成為傳奇中的傳奇，放棄一切，只為了棒球而生的男人，懇請賜票給他，讓他在找不到自信的課業之外，找到可以被人肯定的鎂光燈。讓他在明星賽的場上發光發熱，如果想要看到單場三次失誤的話，請把神聖的一票投給他讓大家看笑話吧（？）</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF013_big.jpg'><img src="/public/img/nomination/IF013_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF013　翁義軒／物治四</b></p>
+                <p>經歷：台南一中棒球隊、地理系棒球隊、小火車棒球隊、梟雄棒球隊、竹園崗棒球隊、洋蔥君棒球隊、醫學院棒球隊、經濟系棒球隊、物治系壘球隊、台大棒球隊內野手</p>
+                <p>紀錄：<br>103新生盃冠軍、103台大盃冠軍、104台大盃季軍</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF013')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF013" class="w3-container w3-hide">
+                  <p>號稱台大校內盃賽最自由的自由球員，有著大學四年每屆盃賽都穿著不同球衣的紀錄，奔走於各隊之間。同時也是103學年度當年度唯一拿下雙冠的球員，抱大腿功力無人能出其右。 大一時的義軒抱著投手夢踏入台大校園，初登場就在管社盃中七局狂失14分，也在同年度新生盃結束後遭到地理系棒解約。第二年加入竹園崗棒球隊，則投出單局被敲三支長打的成績黯然退場，從此之後，義軒以優異的控球及好打的球路獲得了「發球機」的稱號。但投手丘上的失意並沒有打敗他，而是使他成為了萬用的內野工具人。 在台大棒球隊擔任內野手，「穩」是他最佳的代名詞。無論是刁鑽的高彈跳球或是強勁的強襲球，在義軒的守備下都顯得輕鬆妥當。隨著年紀增長、經驗加深、肚子變大(?!)，各種滾地球只要打進他的防區都像打到一塊海綿，而打者也只能低頭跑壘。攻擊方面也常常揮出適時一擊為球隊建功，可說是打守兼具。校內比賽中義軒常是以捕手身分出場，想一睹他在內野防區的風采嗎？快把票投給他吧！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -577,15 +385,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF026.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF026　李政泓／化工所碩一</b></p>
-              <p>經歷：2014~2015年 擔任化工系棒隊長；2015~2017年 擔任化工系棒隊上最黑球員（非黑金戰士）；1993~2015年 擔任野豬騎士（詳情請參照球員介紹）</p>
-              <p>紀錄：<br>化工系棒現役全壘打王（可考紀錄為4支）、化工系棒現役最黑（膚色）；2015/11/8 新生盃對地調 3AB1BB1single1HR6RBI，帶領他的快樂夥伴們贏下比賽；2016/4/10 台大盃對土木 3局上半飛撲攔下三壘強襲球 及時擋下猛烈攻勢 </p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF026')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF026" class="w3-container w3-hide">
-                <p>化工系棒有句諺語，「中有劉政鴻，南有李政泓」，顯見李政泓有著和苗栗王一樣擁有過人之處，以及在化工系棒中所奠定的不凡地位。 政泓從小在純樸的友善之都台南長大，進入台大化工系棒後在大一時還是在外野打滾的小鮮肉，後來因其優異的天賦和表現榮獲了當年化工系棒的新人王，並且移防到內野防區。 政泓在大二時便漸漸站穩了先發三壘手的地位，其優異的接曼斗球感以及技巧，再加上其醜無比的傳球姿勢以及臉上猙獰的表情，讓許多打了三壘方向滾地球的對手在跑壘時無不嚇退三步，因此而一一被刺殺在一壘前。 升上大三，政泓當選為化工系棒隊長，然而自己打擊上不但在這年遇到瓶頸，成績不甚顯眼，球隊戰績也是陷入了難堪的困境。 而到了大四這年，或許是對於前一年慘淡的成績早已看開，體會出像朱佬朱鴻森那樣開心打球der真諦，同時，也發生了一件改變政泓的事情，我們都知道政泓在大三時陷入了低潮，這故事要從政泓的坐騎開始說起。 在一開頭也說過了，政泓是在台南長大的純樸大男孩，所以騎山豬上學也是很合情合理的（理性勿戰）。姑且稱這隻山豬叫做阿泓吧，在政泓升大四的暑假，某天政泓騎著阿泓在趕集的時候，原本在最內側車道的垃圾三寶計程車，突然一瞬間切到右側車道要右轉，政泓和阿泓在斑馬線上一個閃避不及眼看就要被撞上，政泓的山豬阿泓此時一個肉身，擋在政泓和計程車前保護主人免於受傷，然而忠心護主的阿泓就這樣被撞傷了，既感動又難過的政泓趕緊將阿泓送往動物醫院，並且向他許下承諾：「我絕對不會再騎你了，以後換我背你到處走！」顯見政泓暖男的一面。 也因此，政泓之後都背著阿泓上學和跑跳，就這樣慢慢培養出政泓結實的下盤以及肥宅所擁有的肚子（你問我肥宅肚怎麼會出現，我也不知道）。進而增強他擊球的力道及長打能力，我想這就是豬的報恩吧！政泓在大四這年也挾著結實的下盤和肥宅凸肚，屢屢打下帶有打點的安打及各種長打演出，更展現一次次的三壘守備美技，而大四的政泓還具有一項奇特的能力，那就是刷打點。 舉例來說，在大四的第一場比賽，政泓三次站上打擊區都打出了滾地球，造成一次失誤一次野選，但是卻打下了三分打點，實在是很what the f*ck。好，我絕對沒有在婊他都靠滾滾刷打點，絕對沒有。而這年也因其優異的打擊成績外加0.8守備率（依舊被N4海放），被選為年度MVP。 而原本期待政泓能在碩一這年繼續寫下他的傳說，然而造化弄人，老天爺可能看政泓都長這麼醜了人生還這麼勝利，實在是很不爽。 政泓在新生盃的一戰，便在其中一次打席中，被朝著右眼直射的自打球打傷，球員生涯被迫中止。眼部受傷的政泓仍難忘棒球帶給他的感動，堪稱隊上第二（應該吧？）。 棒球情人的政泓自知無法以優異成績被選進明星賽，但地方的政泓仍須要你的選票QQ縱使無法正常打球，但好像可以守一壘?!「一人一票，救救肥宅政泓，送他進明星賽，帶領化工系棒邁向黃金十年，謝謝大家！」懇請大家賜票給肥宅政泓，謝謝QQ</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF014_big.jpg'><img src="/public/img/nomination/IF014_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF014　陳竑瑋／工管二</b></p>
+                <p>經歷：2016年 大一即為台大盃棒球賽四強先發成員；2016年 大一即為攻城盃棒球賽冠軍先發成員；2015年 新生盃混壘季軍投手；2015年 台大工管系籃A隊後衛</p>
+                <p>紀錄：<br>2015年 投手正面反彈球不傳一壘，用跑的刺殺打者；2016年 為了專心練球，將必修微積分與會計停修退選；2016年 大企盃壘球承擔敗投後不聽學長安慰，怒摔球帽；2016年 台大盃以大一身分鎮守三遊第二棒並打進四強；2016年 攻城盃被偶像張銘哲在二壘兩步前阻殺；2017年 上禮拜台大盃大棒一揮把球打進小場</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF014')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF014" class="w3-container w3-hide">
+                  <p>「有領導力、守時、認真負責、精益求精，對喜歡的事情很專情（例如我）。」－－如果要簡單介紹竑瑋，這就是最貼近與精確的用詞了。 竑瑋在工管系有生化人的美名，擁有強壯的上下半身與運動神經，除了棒球籃球，有時也被系排徵召去打台大盃，大學至今已經打過4種球類的台大盃了。 在還沒交女朋友以前，不管颳風下雨練球比賽期中期末放假，都會進健身中心重訓，近來更憑藉出色的守備能力，鎮守工管系棒游擊的大關。 但寒假時開始沉迷於魔術方塊，每天不務正業，只想著背速解的公式，連籃球都生疏了。希望大家投他一票，找回他對棒球的熱情。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -595,70 +405,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF027.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF027　鄭士淮／物治六</b></p>
-              <p>經歷：台大群風棒球隊、台大物職治系壘、台大牙醫物治職治系壘聯隊</p>
-              <p>紀錄：<br>2014慢壘全守位先發出賽達成、2016棒球全守位先發出賽達成</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF027')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF027" class="w3-container w3-hide">
-                <p>從高中開始接觸棒球，但在高三肩膀受傷後，大一加入系壘，直到大三才回到棒球圈。招牌是莫名驚人的肩力，除了守外野時可以輕鬆殺home殺三壘，更曾經在台大球場做內野守備練習時。從三壘邊線內外野交界處直射一壘不落地，強肩也讓他可以輕鬆飆出快速球，在台大主投的所有比賽之中，僅有4球被打進外野變成安打。 曾經在河濱幫忙打fly時，一個不小心就把球打進新店溪裡，（隊友表示...）另外對自己的跑壘判斷和速度有莫名信心，球場上說過最霸氣的宣言是：「我知道，我比球快！」 臂力強速度快又努力練習，讓他慢壘和棒球都達成所有守位先發出賽的特殊紀錄，還會當總A當裁判 ，更曾獨身扛系壘全隊球衣球棒球具台北花蓮來回，完全從場內全能到場外。想看他在明星賽時滿場飛嗎，快投下珍貴的一票吧！</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF028.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF028　何長庭／生工二</b></p>
-              <p>經歷：105學年度生工系棒球隊現任隊長</p>
-              <p>紀錄：<br>104學年度新生盃初場比賽先發上場擊出滿貫全壘打、104學年度新生盃16強擊出逼近鳥籠的深遠再見安打、105學年度新生盃初賽先發投手+打擊四棒</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF028')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF028" class="w3-container w3-hide">
-                <p>他真的超喜歡棒球。常常跟身邊的人說進大學之後，看到校內真的很多厲害的人們讓他有更強大的動力向前邁進，是一個有時會遊走在各個位置的工具人，上了大二之後開始專注在內野手的守備，是個台大棒球界的未來之星！</p>
-              </div>
-            </div>
-          </div>
-        
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF029.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF029　李建皜／電機所碩一</b></p>
-              <p>經歷：99學年度建國中學棒球隊文書長、101學年度電機系棒第一輪選秀、101學年度大專盃男子快速壘球亞軍、103學年度台大男子壘球隊隊長、104學年度台大電機系棒隊長</p>
-              <p>紀錄：<br>2013台大盃棒球擊出中外野一彈跳上牆三壘安打、2013青年盃快壘生涯首轟、2015桃園市長盃單場棒打高中科班投手單場兩隻三壘安打、2015攻城聯盟直射福和球場左外野草叢之三壘安打；棒球、快壘生涯累積3支全壘打、9支三壘安打</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF029')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF029" class="w3-container w3-hide">
-                <p>0.4秒，夠一顆直球從投手手指尖到捕手手套；4秒，夠一雙快腿從本壘跑到一壘；4小時，夠進行一場鑿戰12局的精彩球賽；4天，夠一次留著汗水和歡笑的寒暑訓練。那4年，夠什麼呢？4年，夠一個大學生的光陰，無怨無悔點點滴滴落在球場的紅土上。夠一個青澀靦腆的球隊新血，蛻變成球隊不可或缺的支柱；夠一個看著學長們在球場上奔馳拿下榮耀的候補球員，蛻變成指揮全場的當家四棒。 他，李建皜，出身傳統名校建中棒球隊，成為電機系棒即戰力，同時加入男壘校隊，和隊上電機系的傳奇前輩們一起捧起大專盃亞軍獎盃。 沉默寡言的他，卻有顆炙熱的心，扎扎實實地完成每一份校隊教練與系隊學長愛與關懷的菜單，練習的每一顆滾地球、飛球，都是全力以赴地完成，絕不鬆懈。建皜一戴上捕手護具，就是無聲地宣告跑者的夢魘來臨；他拿起棒子走進打擊區；就是預告著休息區迎接分數的歡呼。在前幾年各高中強權OB隊席捲新生盃、台大盃賽事，建皜亦投身建棒，和昔日的夥伴們在台大盃寫下許多經典賽事。 在大三升大四，甫卸任台大男壘隊長職務，建皜馬上眾望所歸地被選為電機系棒隊長，被寄予著讓電機系重返榮耀之重任。電機系棒，於100學年度、101學年完成台大盃二連霸壯舉後，隨即進入換血期。建皜身先士卒，沉默的他每次比賽上場以敲安打做為最有力的喊聲，讓炙熱的鬥志染上每個隊員。 俗話說：「認真的男人最帥氣」，建皜在場上專注的英姿吸引了許多女生的目光，請賽後蜂擁而至詢問建皜的迷妹「FB搜尋李建皜」已成了建皜隊友們賽後的例行公事。但建皜在學期間完全專注於棒壘球技的追求上，日高粉仍須再等等。 在電機系棒走過第五個年頭，建皜數年如一日地鍛鍊自己，比任何人都渴望著台大盃冠軍，帶領電機系棒重返榮耀。你，準備好跟上建皜的腳步，一起在紅土場上為著那無悔的青春奮鬥嗎？</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF030.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF030　吳宥靚／動科一</b></p>
-              <p>經歷：彰化高中棒球隊、彰水鷹社區棒球隊、台大男壘</p>
-              <p>紀錄：<br>105新生盃棒球進入複賽然後被機械二軍尻爆、105新生盃棒球初登場擊出中右外野三壘安打；某年某月某一場比賽反手怒擋不少內野滾地球，外野怒喊聲隊友不顧仍繼續追球成功搶贏隊友，內野精彩滑接犧牲膝蓋只可惜是在練習的時候</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF030')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF030" class="w3-container w3-hide">
-                <p>吳宥靚，音ㄨˊ ㄧㄡˋ ㄐㄧㄥ ˋ 。字宥靚，號宥靚先生。彰化縣埤頭鄉人，約略生於民國八十七年，後移居天龍，隱居台大混一舍，人不知其去向。 傳說宥靚母親懷胎九月時，天上東方夜空熒惑留於心宿二，地上濁水溪氾濫，又有強颱肆虐，疑有大難降臨，鬧得全彰化人心神不寧。母親不耐眾人咄咄相逼，故尋道士，欲解心中大惑。道士見其母，只留一符條，上有一句：「天必降奇人於斯也！」。道士哂之，乃化身紅塵逝於風中。時人不解其意。 果不其然，宥靚出生時，臉頰奇凸無比，眾人怪之而議論紛紛之時，宥靚張大了嘴，吐出兩顆棒球！在場無人不驚呼，無人不到抽十口氣，無人不跪地膜拜。宥靚含著棒球出生之事，自此便在彰化各地流傳開來。彰化後有宥靚遶境之習俗，可追溯於此事耶。 宥靚自小隨父母躬耕於埤頭，只求亂世中苟全性命，不求聞達於棒球界。但小宥靚遊玩於水稻田中，嬉戲於果樹叢中。手握家中種植之香蕉與木瓜，與出生時那兩顆棒球，練就一身好本領。十歲的小宥靚，渾身怪力，其拔山倒樹之勢，甭說傳球，就算丟一顆木瓜樹也不消幾分力！何況今日宥靚！ 近來，余聞台大棒球明星賽正在提名階段，便速速前往混一舍找尋宥靚先生。叩門跪拜後，其室友應門，曰宥靚先生不在，未果。余不死心，隔日再至混一舍，室友所言如同前日。第三日，余三顧宥靚於混一舍，正要叩門跪拜之時，宥靚先生開門而出，笑容可掬，請余入內敘茶，期間相談甚歡，並表明有意願參與台大明星賽。若參選成功，則拋棄歸隱生活，入世與男壘校隊一同練球。 時民國一零六年三月二十五日，宥靚先生囑余作此文以誌之。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF015_big.jpg'><img src="/public/img/nomination/IF015_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF015　簡珜任／經濟四</b></p>
+                <p>經歷：103新生盃、台大盃、攻城盃亞軍成員；104新生盃冠軍成員、攻城盃冠軍成員；105-1新生盃殿軍成員</p>
+                <p>紀錄：<br>105新生盃 打了生涯唯一的場內全壘打、HBC社會聯盟滿壘一人出局登板救援無失分</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF015')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF015" class="w3-container w3-hide">
+                  <p>高中打了三年的南區棒球聯賽，升大學後沒有繼續打棒球，直到轉入台大經濟系後才繼續棒球生涯，是經濟系最老的大學部學生，連碩二的都要叫珜任一聲學長。 狀況好時，可謂三壘吸塵器；狀況差則變成三壘齁哇系。經濟三壘防區有他在，猶如景氣循環般，波動幅度實在難以掌握。另外就是簡單的不會接，困難的很會接。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -668,15 +425,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF031.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF031　林華宗／食科所博一</b></p>
-              <p>經歷：2008~2009 南一中野球社社長、2015~2017年地理系棒球隊、2015台大盃竹園崗、2016~2017HBC台大地理OB</p>
-              <p>紀錄：<br>103新生盃並列季軍(地理)、103台大盃冠軍隊成員(竹園崗) 、105宅男盃冠軍隊成員(地理)</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF031')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF031" class="w3-container w3-hide">
-                <p>三年前，一個意外的驚險降落在地理系棒！帶著金手套加盟的華宗，守遍內野各角落，擔任一壘手時，總是將內野手糟糕的傳球精準接捕，任何曼斗都難不倒他。 爾後開始跨足二壘、游擊甚至擔任捕手都表現稱職，成為內野調度的活棋。當對手喊著「左打喔！」並對華宗佈陣時，我彷彿能看見華宗在內心暗自幽幽一笑；接著就以優秀的推打能力打穿三游大洞，屢試不爽。 除了球技上的表現外，更引人注目的是那酷似林俊傑的外表，成為名副其實的攻、守、跑、顏值的四拍子球星，今年明星賽，一人一票送JJ入選吧！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF016_big.jpg'><img src="/public/img/nomination/IF016_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF016　吳仲民／科法二</b></p>
+                <p>經歷：心理系棒副隊長（因年代久遠不可考，故不寫出詳細年份）</p>
+                <p>紀錄：<br>N年前台大盃對電機，打出直擊鳥籠的三壘安打；曾經去沖繩集訓；去年開竅擊出兩支全壘打</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF016')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF016" class="w3-container w3-hide">
+                  <p>貢獻自己十幾年的棒球生涯於心理系棒，去年以職業學生身分強勢回歸心理系棒，並成為系棒專職三壘手，但最近割愛將守備位置讓與系上學弟，轉而成為隨插即用工具人（含投手）。 他在場上常有令人印象深刻的表現，例如帥半套的飛撲因為守備範圍太狹隘；或是華麗接球後以最華麗的方式跳傳，總是逼著一壘手再長高二十公分； 擔任投手一角時，好球帶再大都丟不進去，但打者再小都一定能丟中。雖然如此，他在最近的比賽仍舊後援上丘，並且有效壓制對方打線。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -687,15 +446,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF032.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF032　楊仲涵／心理三</b></p>
-              <p>經歷：心理系棒創隊以來第一位女隊長 2016至今、2017年擔任大心盃主辦</p>
-              <p>紀錄：<br>2016/12/23攻城盃對上工管強投詹皓崴，成為全隊唯二擊出安打的球員，並演出兩次盜壘成功</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF032')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF032" class="w3-container w3-hide">
-                <p>小小的身軀有著不凡的志氣，氣質溫和但眼神中卻燃燒著比誰都濃厚的對棒球的熱愛。 在球隊裡擁有高人氣，風靡千萬人的yaya，卻被校棒退役的全能工具人掠取芳心。不同於以前談戀愛後總是翹練的系棒情侶，他們的約會總是在棒球場上揮灑著汗水，男友總是毫不留情地雕完投球姿勢，再打一百顆滾地球還要求移動速度然後再投球給她打，在這樣的練習量下，yaya的球技已經出神入化，每次練球的升級速度都無人能及，現已成爲心理系棒中流砥柱。 猶記得當初yaya進入心理系棒時，沒接觸過棒球的生澀以及眼神微微的遲疑，但在兩年學長姐的愛護、男友的訓練以及要帶學弟妹的歷練下，yaya已經成為棒球場上最明亮的一顆星。 無數次的眼淚與紅腫，打棒球對女生來說好辛苦，不放棄只因為有著夢想追尋，也在追尋不放棄自己的，你。 「這動作與觀念也是校隊等級的。」絕對有明星架勢，懇請惠賜一票！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF017_big.jpg'><img src="/public/img/nomination/IF017_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF017　楊庭彰／數學四</b></p>
+                <p>經歷：攻城盃、理院盃、HBC聯盟、102學年度臺大盃冠軍隊成員</p>
+                <p>紀錄：<br>2016年曾在HBC社會聯盟單場擊出4安打打回4分打點；HBC單場策動三次雙殺；2016/10/22於新生盃擊出首轟；105學年度新生盃打擊三圍 0.778/0.800/1.222</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF017')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF017" class="w3-container w3-hide">
+                  <p>上大學之後加入數學系棒才開始打棒球的生涯，大一之後休息近兩年才拿起手套重回球場，雖然是四年級但在球場上還是個菜鳥。 沒練球時腦袋裡都是棒球，等到要練球的時候又喊著好累好累，最擅長的看youtube影片增進球技。 最喜歡的球員是陳鴻文跟KingFelix，希望能有機會在台大明星賽跟來自不同系隊的球員切磋球技。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -705,15 +466,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF033.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF033　黃靖天／生機三</b></p>
-              <p>經歷：參加兄弟象棒球營6次、建國中學棒球隊社長、清華大學棒球隊、清華大學新生盃壘球冠軍隊、台大生機系棒球隊</p>
-              <p>紀錄：<br>資深象迷，兄弟有十年游擊，也有十年靖天，不離不棄。曾獲兄弟象棒球營最佳內野手，最佳外野手及打擊王；101學年度全國高中棒球聯賽 短打點出三壘安打；103學年度清華大學新生盃壘球賽 冠軍；2015北區高中棒球夏季聯賽 冠軍；大專盃生涯0.2局掉3分 1K 5BB；曾跟球星彭政閔握手合照；打過藝人澎恰恰安打</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF033')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF033" class="w3-container w3-hide">
-                <p>「哪個位子缺人 找靖天就對了」棒球生涯曾經守過123壘、游擊、左中右外野、捕手、投手以及板凳，可說是比余德龍還工具人的工具人。 但他擅長的絕對不是守備，也絕對不是打擊，而是他那腦衝式的跑壘腳程，曾在夏聯冠軍戰擔任專業代跑，一心想奔回本壘的驚人氣勢，讓守備員接連漏球，跑回關鍵的一分，也就是從6:1變成7:1。 高中時期的靖天一度打不出安打，只好採用觸擊短打，結果點出一番新天地，就算一三壘趨前守備，他就是要點，點到心裡發慌，即使不是以打擊見長，靖天仍發願要達成生涯百轟，恩...目前M100。 高三之後的靖天右手罹患高度近視，好球帶離靖天越來越遠，在清大校棒時期，專任投不進好球帶的投手，曾創下單局5BB的駭人紀錄，直到轉學到台大後，才在生機系棒游擊區找到屬於自己的小小天地。 為什麼選擇報名內野手呢？因為名額多啊。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF018_big.jpg'><img src="/public/img/nomination/IF018_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF018　余中睿／經濟二</b></p>
+                <p>經歷：2012-2014年政大附中棒球隊王牌投手兼內野工具人兼隊長、2015年加入政治系棒球隊</p>
+                <p>紀錄：<br>高中時期－冬季聯賽單場10K完投勝強勢帶領政附晉級複賽，全國聯賽面對強敵南港高工輸一分雖敗猶榮。 大學時期－受傷，養傷；受傷，養傷。</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF018')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF018" class="w3-container w3-hide">
+                  <p>跑得快、跳得高，投球霸氣、守備穩定。這，就是我所認識的阿睿 還記得高中剛認識阿睿的時候，他是場上的火爆浪子，全力飆速、猛力揮擊，場上爭執也從來不缺席，那時的他年少輕狂，對棒球有著滿腔熱血。 不過阿睿的棒球路並不是那麼順遂，多次韌帶傷勢幾乎摧毀他的手臂，但殘而不廢的阿睿並不感到絕望，靜靜的等待直到傷勢復原。 當我再次於場上見到阿睿的身影，他是沉穩的指揮官，除了守備更加的穩定，打擊也多了些技巧，我想現在的他，或許不再是那麼的狂放不羈，但絕對是一個更成熟的棒球員了。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -723,15 +486,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF034.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF034　林厚和／農藝所碩一</b></p>
-              <p>經歷：松山高中棒球隊(2010~2013)、2011北區高中棒球冬季聯賽殿軍、2012北區高中棒球冬季聯賽冠軍、2013北區高中棒球夏季聯賽季軍、工管系棒球隊(2013~)、2015台大盃亞軍、台灣大學棒球校隊(2013~)</p>
-              <p>紀錄：<br>2015/6/21 台大杯四強賽主投7局126球完投，與羅有渝學長搭配終止梟雄27連勝。2016/8/26 在新竹中正棒球場擊出出牆全壘打</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF034')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF034" class="w3-container w3-hide">
-                <p>你可曾看過他站在打擊區上的模樣？ 把球棒指向天空，伸長手臂，看著投手的他目光如炬。他以不科學的長打能力稱霸台大棒壇。他是林厚和。 鎮守三壘的他，是投手的堅強後盾；站在打擊區的他，也為打線帶來無限的希望。 你可曾看過他站在打擊區上的模樣？ 如果你見過，你會超級喜歡他。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF019_big.jpg'><img src="/public/img/nomination/IF019_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF019　何光展／機械二</b></p>
+                <p>經歷：104學年度新生盃亞軍成員、台大機械系棒成員</p>
+                <p>紀錄：<br>2016/12/8於福和橋B球場一棒扛出左外野，為生涯首轟</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF019')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF019" class="w3-container w3-hide">
+                  <p>說到機械系棒，就不能不提到b04顏值指標何光展。他連粉絲專頁都有（快去查「光展粉絲俱樂部」！），就知道他多麼的有人氣！ 打安打跟喝水一樣簡單，美技傳球跟熱力學期中拿高分一樣簡單，簡直就是他偶像Derek Jeter的化身。 這個學期升至一軍，他的目標是超機霸三連霸冠軍！各位光展的粉絲們快去投他一票並來看機械系棒的比賽吧！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -742,15 +507,322 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/IF035.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>IF035　林俊佑／物理三</b></p>
-              <p>經歷：實驗高中(非正式)棒球隊、台大化學系棒球隊現任副隊長、2015理院盃亞軍成員</p>
-              <p>紀錄：<br>實驗高中隊史首勝的先發游擊手，單場3安打1保送率領球隊16:8擊敗中科實中。</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('IF035')"><b>查看球員介紹↓</b></a><br>
-              <div id="IF035" class="w3-container w3-hide">
-                <p>內野二壘三壘游擊工具人，號稱左右手皆可傳接球。強勁的臂力使一壘手高舉雙手卻攔不住球，因此近年已被強制移防三壘管區。 多次參加日本麻將全國比賽，且受邀參加台灣國手的團練活動。深度鑽研美國職棒11年，曾探訪芬威球場並立志率領化學系棒中興。身處物理系仍對化學系棒不離不棄，化學系棒Cliff Lee的名號早已不脛而走。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF020_big.jpg'><img src="/public/img/nomination/IF020_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF020　忻振宇／生技三</b></p>
+                <p>經歷：2015擔任農化生技隊長、2016擔任農化生技副隊長</p>
+                <p>紀錄：<br>103學年度新生盃季軍、105學年度新生盃季軍</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF020')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF020" class="w3-container w3-hide">
+                  <p>帥，根本不需要介紹，就散發出一種帥，髮間流露出帥，眼神流露出帥，更別提揮棒時人棒合一的帥，那種認真，那種直率，是忻振宇才有的帥。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF021_big.jpg'><img src="/public/img/nomination/IF021_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF021　葉競仁／醫學七</b></p>
+                <p>經歷：台灣大學棒球隊-隊長；台大醫學院棒球隊-隊員；台大盃竹園崗棒球隊-隊員；台南一中棒球隊-隊員</p>
+                <p>紀錄：<br>校內：104學年度 台大盃棒球賽出牆全壘打（vs洋蔥君）；103學年度 (竹園崗)台大盃棒球賽-冠軍，於冠軍賽後援登板獲得勝投；103學年度 台大盃棒球賽場內全壘打（vs物數）；102學年度 台大盃棒球賽出牆全壘打（vs三代梟雄）；102學年度 台大盃棒球賽場內全壘打（vs土木）；99學年度 新生盃棒球賽場內全壘打（vs地質）新生初登場 校外：105學年度台北市學生棒球聯賽-打擊、全壘打、打點三冠王；104學年度大專棒球聯賽全國-季軍；104學年度台北市學生棒球聯賽-冠軍；103學年度台北市學生棒球聯賽-冠軍；102學年度台北市學生棒球聯賽-冠軍</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF021')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF021" class="w3-container w3-hide">
+                  <p>堅實的腹肌，強壯的臂膀。高挑的身材，帥氣的臉龐。醫學的競仁，台大的萌蔣。 從高中開始就是南一中棒球隊的中心棒次，考上台大醫科後更成為學弟每年招生拿來說嘴的傳奇人物，大二甄選校隊時將球轟出右外野綠色怪物直擊新體，宣告這位不世出的左打巨砲正式降臨大專棒壇。 勤於重訓，每週至少四次，台大棒球隊的魔鬼筋肉人，屢屢將球扛進新體三樓，成為打掃阿桑最頭痛的男人。你可能會說台大右外野那麼短不算啦，但他在正規的觀山球場仍數度開轟，這才是一代巨砲啊啊啊。 大五的台大盃與來自台南的同鄉們組成竹園崗，接連力退建中、土木等特級強隊，與雙胞胎哥哥競文以全勝之姿聯手奪下台大盃冠軍，冠軍賽臨危受命生涯首次上丘就完全壓制後援摘勝也成為台大棒壇的傳奇事蹟。 第一屆明星賽，怎麼能少了競仁的煙火秀呢？？？</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        <div class="w3-row-padding">
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF022_big.jpg'><img src="/public/img/nomination/IF022_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF022　廖于鈞／園藝三</b></p>
+                <p>經歷：2012年政大附中棒球社副社長、2016年政治系棒副隊長、2017年園藝系壘隊長</p>
+                <p>紀錄：<br>曾經兩次在政大附中ob賽中敲出場外全壘打</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF022')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF022" class="w3-container w3-hide">
+                  <p>從高中第一次看他上場比賽後，就再也沒有掉出前五棒的陣容，穩健的繳出平飛安打，到後期更是常常尻出噢把，守備上也不遑多讓，撇開滑接不說，身為外野手的他，更是常常看他從中外野用雷射肩直直把球射進捕手手套裡面，完全不需要幫他cut-off。 上了大學之後，因為球隊需要，所以他轉任內野手，憑藉著優異的球感，沒有任何不適應的問題，一球一球好好接住後，用獨特的小碎步，把一壘手當捕手一般，繼續用那雷射肩把球射進去刺殺打者。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF023_big.jpg'><img src="/public/img/nomination/IF023_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF023　呂翔禾／地質四</b></p>
+                <p>經歷：以前沒有加過球隊，跟李振昌一樣滿滿的天賦（？），台大盃、攻城盃、宅男盃（？？</p>
+                <p>紀錄：<br>每場穩定輸出多次保送與多次失誤</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF023')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF023" class="w3-container w3-hide">
+                  <p>身材Ortiz，打擊中島的翔禾來了，是一位將廣角與黏球點滿的人呢。守備與體重一樣穩定，雖然是個老新人但一年下來選的四壞球，快比隊上的打擊王還多呢。 現在就差幾支長打惹，需要各位喜愛熱愛棒球沒有棒球就吃不下飯，睡不著覺甚至活不下去之棒球癡迷狂將翔禾送進明星賽啊啊啊！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF024_big.jpg'><img src="/public/img/nomination/IF024_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF024　張朝翔／化工三</b></p>
+                <p>經歷：2011~2014在台中一中棒球隊、2014~2015在台大校棒擔任內野手、2014~2017在台大化工鎮守游擊</p>
+                <p>紀錄：<br>2012學年度高中棒球聯賽軟式組16強；2013年冬天北聯季軍；2015學年度台大新生盃季軍；曾經在台大盃賽對梟雄一戰單場兩安，並貢獻4分打點卻惜敗</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF024')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF024" class="w3-container w3-hide">
+                  <p>一個讓你敬佩不已的球員—張朝翔。 就球技而言，就不得不從朝翔在台中一中時期談起。高一的朝翔憑藉極優異的協調性與令人望塵莫及的努力，在守備端撐起台中一中的游擊大關，時而展現行雲流水的守備，甚至更曾在某次練球得到國家級教練林華韋先生的讚賞呢。那時一中隊友都直呼，好險是跟朝翔當隊友~而在攻擊端......就在此略過不談，畢竟文宣說好只談優勢的..... 就態度而言，朝翔在球場上的態度是你無法質疑的，更可為所有棒球人的楷模：超高標準的反求諸己，每次賽前對球場的脫帽敬禮，以及打出軟弱滾地球的全力跑壘，都在在讓隊友對手肅然起敬，就連平常的練球，朝翔也毫不含糊，腰不好的他常常一隻手撐著腰，一隻手接滾地，硬著頭皮咬著牙撐過最難熬的時刻（話說我們的朝翔腰不好很像是家族遺傳....），這樣的朝翔你怎能不愛呢？ 還有一件軼事要和各位分享，高二的朝翔在參加高中棒球聯賽時，正身處於球技的巔峰，那時在與強恕高中一戰中，朝翔如往常鎮守游擊守位，敵隊打者打了個內野軟弱高飛球，只見朝翔喊了聲：「my ball！！」只見他早已在定點盯準了球，也揮了揮手示意二壘手不用過來了，沒想到這時悲劇發生，小白球從朝翔的手套中彈出，而隨之而來的，是強恕高中的球員大聲酸了一句：「阿姆係my ball?」（所以要奉勸化工系的各位球員，當朝翔喊出my ball時，可要到他後面補位阿～）。當然那場比賽最後也輸了，這個低級失誤也成了朝翔心中永遠的芥蒂，所以還要請看了這篇文案的各位，要替小編保密R 上了大學，朝翔短短的打了校隊一年就離開了，就去追尋自己的大學生活，聽說他過的挺好的，很享受化工系壘球的歡樂，以及化工系棒的氣氛，還時不時邀小編去他們系隊練球呢～就讓我們期待一下今年台大盃，大三的朝翔究竟會帶領化工系棒打到甚麼地方呢？ 懇請各位賜票給朝翔，你們寶貴的每一票，可是能讓身值落髮危機的朝翔，相應的長出一根頭髮呢～～</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        <div class="w3-row-padding">
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF025_big.jpg'><img src="/public/img/nomination/IF025_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF025　李彥頡／化工四</b></p>
+                <p>經歷：化工系棒近年來最短傳球距離紀錄保持人，現職為化工系棒主戰溫板凳員（因板凳區較靠近內野，故提名內野手）；化工系棒可考紀錄最瘦球員（BMI: 15.7）；沒有被冰板凳時大部分會出沒在三壘、游擊防區走動把紅土弄亂</p>
+                <p>紀錄：<br>化工系棒現役最瘦球員（177 cm / 52 kg / BMI: 16.6）、化工系棒可考紀錄最瘦球員（BMI: 15.7）；帶有失誤靈氣，時常在一場比賽中守備發生失誤，而在該場比賽也幾乎會靠著對方守備失誤而上壘。連三年蟬聯化工系棒最佳進步獎（溫板凳能力更是逐年進步呢）；2015~2016年賽季 安打王盜壘王OPS王（感覺是刷出來的）；2014/12/24 生涯首度先發，在二壘防區發生三次失誤後被換下來讓學弟上場；2015/5/29 生涯第二次單場三次失誤，人稱「3E男」 2017/X/XX，日期不詳 在連續兩打席見振後被隊長當機立斷換下場，因此有了「兩Ｋ一冰冰」的稱號 （註釋: 1. 兩K一冰冰－意為領到兩張老K後被冰板凳。兩張老Ｋ為兩次三振之意。冰冰為被換下場去溫板凳之意。）</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF025')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF025" class="w3-container w3-hide">
+                  <p>李彥頡對棒球的熱情是化工系棒中最值得讚賞的，甚至不惜一切也要延畢打球，自稱棒球情人。曾經因為練球練過頭導致必修期中考直接放棄。化工系的必修是數一數二痛苦的，但他因為愛上打球，必修課比別人的多修了三倍之多，卻毫無怨言。套一句他的口頭禪：「棒球以及嘴砲是我大學四年的全部。」 為何棒球會成為他的全部，這就要從大一的他開始說起，當初只是想說找一個有趣的運動而加入化工系棒，殊不知這調皮的小圓球始終不聽使喚，怎麼丟都只是砸在地上，大概只有1/10壘距吧@@，這就是俗稱的奈米壘距吧！這讓眾多學長相當頭疼，儘管怎麼樣都揮空棒，怎麼樣都接不到球，不過他不放棄，堅持每次練球不缺席，自主都衝第一，跌跌撞撞的熬過了大一。剛上大二的他，在生涯首次成為先發，鎮守二壘防區的時候，在防守方面發生了三次失誤，到了第三次失誤時學長終於看不下去，把潛力大一內野取代他的位置不要再讓他跌股了（幫QQ）。 傳球、打擊、守備、泡瓦、臉，傳說五項全能的球員便是五拍子球員，彥頡想當然是什麼都沒有的零拍子球員（再幫QQ一次），然而心灰意冷的他到了大二寒訓的第一天，他突然發現自己從三壘傳球能夠直射一壘又快又準，堪稱是打通任督二脈的絕佳例子，絕對沒有唬爛。 傳球加成使他信心爆增，守備也逐漸趨於成熟，雖然不時會因為傳球太猛而暴傳，不過已經漸漸站穩化工系棒游擊的防區（其實是沒其他學長了QQ）。嘴砲功力也是不減反增；在大二下的某次比賽又再度達成單場三次失誤的里程碑，他自豪的說：「人家郭苔冥是三億男（詳情請搜尋call call姊與郭苔冥的恩怨情仇），我也是3E男呢！」 曾經說過自己有許多分身在世界棒壇，麗山田哲人、化工Correa，化工兔肉（Tulo），真的不知道當事人聽到會怎麼想。 至於始終跌在谷底的打擊則是在大三爆發，在大三那年打出生涯年，上壘率高，藉由精準的跑壘判斷發揮其速度破壞力，獲得MVP選票第二的殊榮。 大四更專研出另一個興趣，蒐集各式各樣的球具以及裝備，因此又有化工裝備哥的頭銜。而他的名言是：「技不如人，球具不能輸人。」 因為勤奮練球，他的必修悽悽慘慘悽悽，三修系上必修成為傳奇中的傳奇，放棄一切，只為了棒球而生的男人，懇請賜票給他，讓他在找不到自信的課業之外，找到可以被人肯定的鎂光燈。讓他在明星賽的場上發光發熱，如果想要看到單場三次失誤的話，請把神聖的一票投給他讓大家看笑話吧（？）</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF026_big.jpg'><img src="/public/img/nomination/IF026_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF026　李政泓／化工所碩一</b></p>
+                <p>經歷：2014~2015年 擔任化工系棒隊長；2015~2017年 擔任化工系棒隊上最黑球員（非黑金戰士）；1993~2015年 擔任野豬騎士（詳情請參照球員介紹）</p>
+                <p>紀錄：<br>化工系棒現役全壘打王（可考紀錄為4支）、化工系棒現役最黑（膚色）；2015/11/8 新生盃對地調 3AB1BB1single1HR6RBI，帶領他的快樂夥伴們贏下比賽；2016/4/10 台大盃對土木 3局上半飛撲攔下三壘強襲球 及時擋下猛烈攻勢 </p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF026')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF026" class="w3-container w3-hide">
+                  <p>化工系棒有句諺語，「中有劉政鴻，南有李政泓」，顯見李政泓有著和苗栗王一樣擁有過人之處，以及在化工系棒中所奠定的不凡地位。 政泓從小在純樸的友善之都台南長大，進入台大化工系棒後在大一時還是在外野打滾的小鮮肉，後來因其優異的天賦和表現榮獲了當年化工系棒的新人王，並且移防到內野防區。 政泓在大二時便漸漸站穩了先發三壘手的地位，其優異的接曼斗球感以及技巧，再加上其醜無比的傳球姿勢以及臉上猙獰的表情，讓許多打了三壘方向滾地球的對手在跑壘時無不嚇退三步，因此而一一被刺殺在一壘前。 升上大三，政泓當選為化工系棒隊長，然而自己打擊上不但在這年遇到瓶頸，成績不甚顯眼，球隊戰績也是陷入了難堪的困境。 而到了大四這年，或許是對於前一年慘淡的成績早已看開，體會出像朱佬朱鴻森那樣開心打球der真諦，同時，也發生了一件改變政泓的事情，我們都知道政泓在大三時陷入了低潮，這故事要從政泓的坐騎開始說起。 在一開頭也說過了，政泓是在台南長大的純樸大男孩，所以騎山豬上學也是很合情合理的（理性勿戰）。姑且稱這隻山豬叫做阿泓吧，在政泓升大四的暑假，某天政泓騎著阿泓在趕集的時候，原本在最內側車道的垃圾三寶計程車，突然一瞬間切到右側車道要右轉，政泓和阿泓在斑馬線上一個閃避不及眼看就要被撞上，政泓的山豬阿泓此時一個肉身，擋在政泓和計程車前保護主人免於受傷，然而忠心護主的阿泓就這樣被撞傷了，既感動又難過的政泓趕緊將阿泓送往動物醫院，並且向他許下承諾：「我絕對不會再騎你了，以後換我背你到處走！」顯見政泓暖男的一面。 也因此，政泓之後都背著阿泓上學和跑跳，就這樣慢慢培養出政泓結實的下盤以及肥宅所擁有的肚子（你問我肥宅肚怎麼會出現，我也不知道）。進而增強他擊球的力道及長打能力，我想這就是豬的報恩吧！政泓在大四這年也挾著結實的下盤和肥宅凸肚，屢屢打下帶有打點的安打及各種長打演出，更展現一次次的三壘守備美技，而大四的政泓還具有一項奇特的能力，那就是刷打點。 舉例來說，在大四的第一場比賽，政泓三次站上打擊區都打出了滾地球，造成一次失誤一次野選，但是卻打下了三分打點，實在是很what the f*ck。好，我絕對沒有在婊他都靠滾滾刷打點，絕對沒有。而這年也因其優異的打擊成績外加0.8守備率（依舊被N4海放），被選為年度MVP。 而原本期待政泓能在碩一這年繼續寫下他的傳說，然而造化弄人，老天爺可能看政泓都長這麼醜了人生還這麼勝利，實在是很不爽。 政泓在新生盃的一戰，便在其中一次打席中，被朝著右眼直射的自打球打傷，球員生涯被迫中止。眼部受傷的政泓仍難忘棒球帶給他的感動，堪稱隊上第二（應該吧？）。 棒球情人的政泓自知無法以優異成績被選進明星賽，但地方的政泓仍須要你的選票QQ縱使無法正常打球，但好像可以守一壘?!「一人一票，救救肥宅政泓，送他進明星賽，帶領化工系棒邁向黃金十年，謝謝大家！」懇請大家賜票給肥宅政泓，謝謝QQ</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF027_big.jpg'><img src="/public/img/nomination/IF027_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF027　鄭士淮／物治六</b></p>
+                <p>經歷：台大群風棒球隊、台大物職治系壘、台大牙醫物治職治系壘聯隊</p>
+                <p>紀錄：<br>2014慢壘全守位先發出賽達成、2016棒球全守位先發出賽達成</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF027')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF027" class="w3-container w3-hide">
+                  <p>從高中開始接觸棒球，但在高三肩膀受傷後，大一加入系壘，直到大三才回到棒球圈。招牌是莫名驚人的肩力，除了守外野時可以輕鬆殺home殺三壘，更曾經在台大球場做內野守備練習時。從三壘邊線內外野交界處直射一壘不落地，強肩也讓他可以輕鬆飆出快速球，在台大主投的所有比賽之中，僅有4球被打進外野變成安打。 曾經在河濱幫忙打fly時，一個不小心就把球打進新店溪裡，（隊友表示...）另外對自己的跑壘判斷和速度有莫名信心，球場上說過最霸氣的宣言是：「我知道，我比球快！」 臂力強速度快又努力練習，讓他慢壘和棒球都達成所有守位先發出賽的特殊紀錄，還會當總A當裁判 ，更曾獨身扛系壘全隊球衣球棒球具台北花蓮來回，完全從場內全能到場外。想看他在明星賽時滿場飛嗎，快投下珍貴的一票吧！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        <div class="w3-row-padding">
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF028_big.jpg'><img src="/public/img/nomination/IF028_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF028　何長庭／生工二</b></p>
+                <p>經歷：105學年度生工系棒球隊現任隊長</p>
+                <p>紀錄：<br>104學年度新生盃初場比賽先發上場擊出滿貫全壘打、104學年度新生盃16強擊出逼近鳥籠的深遠再見安打、105學年度新生盃初賽先發投手+打擊四棒</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF028')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF028" class="w3-container w3-hide">
+                  <p>他真的超喜歡棒球。常常跟身邊的人說進大學之後，看到校內真的很多厲害的人們讓他有更強大的動力向前邁進，是一個有時會遊走在各個位置的工具人，上了大二之後開始專注在內野手的守備，是個台大棒球界的未來之星！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF029_big.jpg'><img src="/public/img/nomination/IF029_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF029　李建皜／電機所碩一</b></p>
+                <p>經歷：99學年度建國中學棒球隊文書長、101學年度電機系棒第一輪選秀、101學年度大專盃男子快速壘球亞軍、103學年度台大男子壘球隊隊長、104學年度台大電機系棒隊長</p>
+                <p>紀錄：<br>2013台大盃棒球擊出中外野一彈跳上牆三壘安打、2013青年盃快壘生涯首轟、2015桃園市長盃單場棒打高中科班投手單場兩隻三壘安打、2015攻城聯盟直射福和球場左外野草叢之三壘安打；棒球、快壘生涯累積3支全壘打、9支三壘安打</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF029')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF029" class="w3-container w3-hide">
+                  <p>0.4秒，夠一顆直球從投手手指尖到捕手手套；4秒，夠一雙快腿從本壘跑到一壘；4小時，夠進行一場鑿戰12局的精彩球賽；4天，夠一次留著汗水和歡笑的寒暑訓練。那4年，夠什麼呢？4年，夠一個大學生的光陰，無怨無悔點點滴滴落在球場的紅土上。夠一個青澀靦腆的球隊新血，蛻變成球隊不可或缺的支柱；夠一個看著學長們在球場上奔馳拿下榮耀的候補球員，蛻變成指揮全場的當家四棒。 他，李建皜，出身傳統名校建中棒球隊，成為電機系棒即戰力，同時加入男壘校隊，和隊上電機系的傳奇前輩們一起捧起大專盃亞軍獎盃。 沉默寡言的他，卻有顆炙熱的心，扎扎實實地完成每一份校隊教練與系隊學長愛與關懷的菜單，練習的每一顆滾地球、飛球，都是全力以赴地完成，絕不鬆懈。建皜一戴上捕手護具，就是無聲地宣告跑者的夢魘來臨；他拿起棒子走進打擊區；就是預告著休息區迎接分數的歡呼。在前幾年各高中強權OB隊席捲新生盃、台大盃賽事，建皜亦投身建棒，和昔日的夥伴們在台大盃寫下許多經典賽事。 在大三升大四，甫卸任台大男壘隊長職務，建皜馬上眾望所歸地被選為電機系棒隊長，被寄予著讓電機系重返榮耀之重任。電機系棒，於100學年度、101學年完成台大盃二連霸壯舉後，隨即進入換血期。建皜身先士卒，沉默的他每次比賽上場以敲安打做為最有力的喊聲，讓炙熱的鬥志染上每個隊員。 俗話說：「認真的男人最帥氣」，建皜在場上專注的英姿吸引了許多女生的目光，請賽後蜂擁而至詢問建皜的迷妹「FB搜尋李建皜」已成了建皜隊友們賽後的例行公事。但建皜在學期間完全專注於棒壘球技的追求上，日高粉仍須再等等。 在電機系棒走過第五個年頭，建皜數年如一日地鍛鍊自己，比任何人都渴望著台大盃冠軍，帶領電機系棒重返榮耀。你，準備好跟上建皜的腳步，一起在紅土場上為著那無悔的青春奮鬥嗎？</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF030_big.jpg'><img src="/public/img/nomination/IF030_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF030　吳宥靚／動科一</b></p>
+                <p>經歷：彰化高中棒球隊、彰水鷹社區棒球隊、台大男壘</p>
+                <p>紀錄：<br>105新生盃棒球進入複賽然後被機械二軍尻爆、105新生盃棒球初登場擊出中右外野三壘安打；某年某月某一場比賽反手怒擋不少內野滾地球，外野怒喊聲隊友不顧仍繼續追球成功搶贏隊友，內野精彩滑接犧牲膝蓋只可惜是在練習的時候</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF030')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF030" class="w3-container w3-hide">
+                  <p>吳宥靚，音ㄨˊ ㄧㄡˋ ㄐㄧㄥ ˋ 。字宥靚，號宥靚先生。彰化縣埤頭鄉人，約略生於民國八十七年，後移居天龍，隱居台大混一舍，人不知其去向。 傳說宥靚母親懷胎九月時，天上東方夜空熒惑留於心宿二，地上濁水溪氾濫，又有強颱肆虐，疑有大難降臨，鬧得全彰化人心神不寧。母親不耐眾人咄咄相逼，故尋道士，欲解心中大惑。道士見其母，只留一符條，上有一句：「天必降奇人於斯也！」。道士哂之，乃化身紅塵逝於風中。時人不解其意。 果不其然，宥靚出生時，臉頰奇凸無比，眾人怪之而議論紛紛之時，宥靚張大了嘴，吐出兩顆棒球！在場無人不驚呼，無人不到抽十口氣，無人不跪地膜拜。宥靚含著棒球出生之事，自此便在彰化各地流傳開來。彰化後有宥靚遶境之習俗，可追溯於此事耶。 宥靚自小隨父母躬耕於埤頭，只求亂世中苟全性命，不求聞達於棒球界。但小宥靚遊玩於水稻田中，嬉戲於果樹叢中。手握家中種植之香蕉與木瓜，與出生時那兩顆棒球，練就一身好本領。十歲的小宥靚，渾身怪力，其拔山倒樹之勢，甭說傳球，就算丟一顆木瓜樹也不消幾分力！何況今日宥靚！ 近來，余聞台大棒球明星賽正在提名階段，便速速前往混一舍找尋宥靚先生。叩門跪拜後，其室友應門，曰宥靚先生不在，未果。余不死心，隔日再至混一舍，室友所言如同前日。第三日，余三顧宥靚於混一舍，正要叩門跪拜之時，宥靚先生開門而出，笑容可掬，請余入內敘茶，期間相談甚歡，並表明有意願參與台大明星賽。若參選成功，則拋棄歸隱生活，入世與男壘校隊一同練球。 時民國一零六年三月二十五日，宥靚先生囑余作此文以誌之。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        <div class="w3-row-padding">
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF031_big.jpg'><img src="/public/img/nomination/IF031_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF031　林華宗／食科所博一</b></p>
+                <p>經歷：2008~2009 南一中野球社社長、2015~2017年地理系棒球隊、2015台大盃竹園崗、2016~2017HBC台大地理OB</p>
+                <p>紀錄：<br>103新生盃並列季軍(地理)、103台大盃冠軍隊成員(竹園崗) 、105宅男盃冠軍隊成員(地理)</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF031')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF031" class="w3-container w3-hide">
+                  <p>三年前，一個意外的驚險降落在地理系棒！帶著金手套加盟的華宗，守遍內野各角落，擔任一壘手時，總是將內野手糟糕的傳球精準接捕，任何曼斗都難不倒他。 爾後開始跨足二壘、游擊甚至擔任捕手都表現稱職，成為內野調度的活棋。當對手喊著「左打喔！」並對華宗佈陣時，我彷彿能看見華宗在內心暗自幽幽一笑；接著就以優秀的推打能力打穿三游大洞，屢試不爽。 除了球技上的表現外，更引人注目的是那酷似林俊傑的外表，成為名副其實的攻、守、跑、顏值的四拍子球星，今年明星賽，一人一票送JJ入選吧！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF032_big.jpg'><img src="/public/img/nomination/IF032_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF032　楊仲涵／心理三</b></p>
+                <p>經歷：心理系棒創隊以來第一位女隊長 2016至今、2017年擔任大心盃主辦</p>
+                <p>紀錄：<br>2016/12/23攻城盃對上工管強投詹皓崴，成為全隊唯二擊出安打的球員，並演出兩次盜壘成功</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF032')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF032" class="w3-container w3-hide">
+                  <p>小小的身軀有著不凡的志氣，氣質溫和但眼神中卻燃燒著比誰都濃厚的對棒球的熱愛。 在球隊裡擁有高人氣，風靡千萬人的yaya，卻被校棒退役的全能工具人掠取芳心。不同於以前談戀愛後總是翹練的系棒情侶，他們的約會總是在棒球場上揮灑著汗水，男友總是毫不留情地雕完投球姿勢，再打一百顆滾地球還要求移動速度然後再投球給她打，在這樣的練習量下，yaya的球技已經出神入化，每次練球的升級速度都無人能及，現已成爲心理系棒中流砥柱。 猶記得當初yaya進入心理系棒時，沒接觸過棒球的生澀以及眼神微微的遲疑，但在兩年學長姐的愛護、男友的訓練以及要帶學弟妹的歷練下，yaya已經成為棒球場上最明亮的一顆星。 無數次的眼淚與紅腫，打棒球對女生來說好辛苦，不放棄只因為有著夢想追尋，也在追尋不放棄自己的，你。 「這動作與觀念也是校隊等級的。」絕對有明星架勢，懇請惠賜一票！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF033_big.jpg'><img src="/public/img/nomination/IF033_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF033　黃靖天／生機三</b></p>
+                <p>經歷：參加兄弟象棒球營6次、建國中學棒球隊社長、清華大學棒球隊、清華大學新生盃壘球冠軍隊、台大生機系棒球隊</p>
+                <p>紀錄：<br>資深象迷，兄弟有十年游擊，也有十年靖天，不離不棄。曾獲兄弟象棒球營最佳內野手，最佳外野手及打擊王；101學年度全國高中棒球聯賽 短打點出三壘安打；103學年度清華大學新生盃壘球賽 冠軍；2015北區高中棒球夏季聯賽 冠軍；大專盃生涯0.2局掉3分 1K 5BB；曾跟球星彭政閔握手合照；打過藝人澎恰恰安打</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF033')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF033" class="w3-container w3-hide">
+                  <p>「哪個位子缺人 找靖天就對了」棒球生涯曾經守過123壘、游擊、左中右外野、捕手、投手以及板凳，可說是比余德龍還工具人的工具人。 但他擅長的絕對不是守備，也絕對不是打擊，而是他那腦衝式的跑壘腳程，曾在夏聯冠軍戰擔任專業代跑，一心想奔回本壘的驚人氣勢，讓守備員接連漏球，跑回關鍵的一分，也就是從6:1變成7:1。 高中時期的靖天一度打不出安打，只好採用觸擊短打，結果點出一番新天地，就算一三壘趨前守備，他就是要點，點到心裡發慌，即使不是以打擊見長，靖天仍發願要達成生涯百轟，恩...目前M100。 高三之後的靖天右手罹患高度近視，好球帶離靖天越來越遠，在清大校棒時期，專任投不進好球帶的投手，曾創下單局5BB的駭人紀錄，直到轉學到台大後，才在生機系棒游擊區找到屬於自己的小小天地。 為什麼選擇報名內野手呢？因為名額多啊。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        <div class="w3-row-padding">
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF034_big.jpg'><img src="/public/img/nomination/IF034_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF034　林厚和／農藝所碩一</b></p>
+                <p>經歷：松山高中棒球隊(2010~2013)、2011北區高中棒球冬季聯賽殿軍、2012北區高中棒球冬季聯賽冠軍、2013北區高中棒球夏季聯賽季軍、工管系棒球隊(2013~)、2015台大盃亞軍、台灣大學棒球校隊(2013~)</p>
+                <p>紀錄：<br>2015/6/21 台大杯四強賽主投7局126球完投，與羅有渝學長搭配終止梟雄27連勝。2016/8/26 在新竹中正棒球場擊出出牆全壘打</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF034')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF034" class="w3-container w3-hide">
+                  <p>你可曾看過他站在打擊區上的模樣？ 把球棒指向天空，伸長手臂，看著投手的他目光如炬。他以不科學的長打能力稱霸台大棒壇。他是林厚和。 鎮守三壘的他，是投手的堅強後盾；站在打擊區的他，也為打線帶來無限的希望。 你可曾看過他站在打擊區上的模樣？ 如果你見過，你會超級喜歡他。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/IF035_big.jpg'><img src="/public/img/nomination/IF035_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>IF035　林俊佑／物理三</b></p>
+                <p>經歷：實驗高中(非正式)棒球隊、台大化學系棒球隊現任副隊長、2015理院盃亞軍成員</p>
+                <p>紀錄：<br>實驗高中隊史首勝的先發游擊手，單場3安打1保送率領球隊16:8擊敗中科實中。</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('IF035')"><b>查看球員介紹↓</b></a><br>
+                <div id="IF035" class="w3-container w3-hide">
+                  <p>內野二壘三壘游擊工具人，號稱左右手皆可傳接球。強勁的臂力使一壘手高舉雙手卻攔不住球，因此近年已被強制移防三壘管區。 多次參加日本麻將全國比賽，且受邀參加台灣國手的團練活動。深度鑽研美國職棒11年，曾探訪芬威球場並立志率領化學系棒中興。身處物理系仍對化學系棒不離不棄，化學系棒Cliff Lee的名號早已不脛而走。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -770,15 +842,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF001.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF001　倪英瑑／土木二</b></p>
-              <p>經歷：曾擔任建中棒球隊小隊長；曾參加第一屆黑豹旗；打過地理與土木系棒</p>
-              <p>紀錄：<br>曾與職棒投手陳韻文對決，纏鬥五球；曾在對陽明高中科班球隊時，獲得一打點的保送</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF001')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF001" class="w3-container w3-hide">
-                <p>倪英瑑，身高159.8公分，俗稱建中小巨人，參與過各式比賽，曾與職棒投手陳韻文正面對決，纏鬥多球。以極特殊的好球帶大小，困擾各方投手，並以鷹眼精準選球，又有建中選球瑑之稱。上大學後他曾參與多支隊伍，目前則效力於土木系棒，正在嶄露頭腳（長高）。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF001_big.jpg'><img src="/public/img/nomination/OF001_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF001　倪英瑑／土木二</b></p>
+                <p>經歷：曾擔任建中棒球隊小隊長；曾參加第一屆黑豹旗；打過地理與土木系棒</p>
+                <p>紀錄：<br>曾與職棒投手陳韻文對決，纏鬥五球；曾在對陽明高中科班球隊時，獲得一打點的保送</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF001')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF001" class="w3-container w3-hide">
+                  <p>倪英瑑，身高159.8公分，俗稱建中小巨人，參與過各式比賽，曾與職棒投手陳韻文正面對決，纏鬥多球。以極特殊的好球帶大小，困擾各方投手，並以鷹眼精準選球，又有建中選球瑑之稱。上大學後他曾參與多支隊伍，目前則效力於土木系棒，正在嶄露頭腳（長高）。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -789,15 +863,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF002.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF002　侯柏丞／藥學所碩二</b></p>
-              <p>經歷：2013-2017土木系棒球隊、2011-2017藥學系壘球隊</p>
-              <p>紀錄：<br>2016/12/16新生盃棒球八強戰，擊出中外野深遠三壘安、直射右外野二壘安。2017/01/02新生盃棒球冠軍賽，面對校隊王牌敲出深遠二壘及三壘安打。2016/10/30慢壘聯盟賽，擊出Back-to-Back Homeruns個人連兩打席開轟</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF002')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF002" class="w3-container w3-hide">
-                <p>「一出局，滿壘，兩好兩壞，投手球投出，打者猛力一揮！這個球~~~~中外野方向，很深很遠，就像張泰山的頭髮，回~不~……欸，等等，中外野手向後狂奔到全壘打牆邊，奮力一跳！接到了！接到了！OUT斗！三壘上跑者啟動，中外野手同時拿出球直傳本壘！來不來得及呢? 跑者離本壘還有兩步距離，球一個彈跳進捕手手套，主審~~~ OUT斗！OUT斗！雙殺！雙殺守備！中外野手侯柏丞策動一個8傳2的雙殺守備，化解這個半局的失分危機！」 擁有媲美職業選手迅速的判斷飛球能力，與能直傳本壘的雷射肩，以及一棒擊沉投手的火力，他是號稱「台大林哲瑄」的「侯柏丞」，在研究所苦悶的寫論文之餘，柏丞最愛在棒球場上揮灑青春的汗水，享受團隊合作的默契，還手把手地提攜學弟妹前進。 想在明星賽看柏丞在中外野開釣蝦場嗎？將你們寶貴的一票投給侯柏丞就對了！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF002_big.jpg'><img src="/public/img/nomination/OF002_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF002　侯柏丞／藥學所碩二</b></p>
+                <p>經歷：2013-2017土木系棒球隊、2011-2017藥學系壘球隊</p>
+                <p>紀錄：<br>2016/12/16新生盃棒球八強戰，擊出中外野深遠三壘安、直射右外野二壘安。2017/01/02新生盃棒球冠軍賽，面對校隊王牌敲出深遠二壘及三壘安打。2016/10/30慢壘聯盟賽，擊出Back-to-Back Homeruns個人連兩打席開轟</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF002')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF002" class="w3-container w3-hide">
+                  <p>「一出局，滿壘，兩好兩壞，投手球投出，打者猛力一揮！這個球~~~~中外野方向，很深很遠，就像張泰山的頭髮，回~不~……欸，等等，中外野手向後狂奔到全壘打牆邊，奮力一跳！接到了！接到了！OUT斗！三壘上跑者啟動，中外野手同時拿出球直傳本壘！來不來得及呢? 跑者離本壘還有兩步距離，球一個彈跳進捕手手套，主審~~~ OUT斗！OUT斗！雙殺！雙殺守備！中外野手侯柏丞策動一個8傳2的雙殺守備，化解這個半局的失分危機！」 擁有媲美職業選手迅速的判斷飛球能力，與能直傳本壘的雷射肩，以及一棒擊沉投手的火力，他是號稱「台大林哲瑄」的「侯柏丞」，在研究所苦悶的寫論文之餘，柏丞最愛在棒球場上揮灑青春的汗水，享受團隊合作的默契，還手把手地提攜學弟妹前進。 想在明星賽看柏丞在中外野開釣蝦場嗎？將你們寶貴的一票投給侯柏丞就對了！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -807,70 +883,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF003.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF003　張元齊／應力所碩一</b></p>
-              <p>經歷：105學年度新生盃冠軍成員、104學年度台大盃冠軍成員、104學年度新生盃亞軍成員、103學年度新生盃亞軍成員 （擔任隊長）、102學年度台大盃季軍成員、2016年HBC 8強成員（尚在進行季後賽中）、2015年HBC亞軍成員</p>
-              <p>紀錄：<br>2016 HBC整季三圍 0.508/0.508/1.169 （打擊率為聯盟第六 ）、由中外野8傳3至一壘完成刺殺、多個外野diving catch以及runnung catch</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF003')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF003" class="w3-container w3-hide">
-                <p>從大一便始終如一待在機械系棒，歷經了積弱不振的時代，靠著與隊友們的信念，如今成為一隻堅不可摧的球隊。 我總是常駐中外野，無論是投手、還是左右外野，我皆能讓他們安心，無疑是機械系棒外野最大的強心針。頻頻有令人驚嘆之滑接，但對我而言只是幫助球隊守下一球，降低最大傷害，僅此而已。 一日機械，終日機械。絕對沒轉隊抱大腿，永遠的機械中外野。其他好懶得說，想看外野各種美技，選我就對了!!!!!!</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF004.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF004　林聖凱／地理一</b></p>
-              <p>經歷：薇閣高中棒球校隊</p>
-              <p>紀錄：<br>夏聯32強、冬聯32強、攻城盃、理院盃</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF004')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF004" class="w3-container w3-hide">
-                <p>雙棲捕手跟外野手，沉著的指導投手配球，讓敵方完全不敢盜壘。 好啦，不管你們是想要看我精采的守備，還是只是想當迷弟迷妹來場上看帥哥，就把票都投給我吧～保證你們一定不會後悔的～～</p>
-              </div>
-            </div>
-          </div>
-        
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF005.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF005　林瑩潔／土木所碩一</b></p>
-              <p>經歷：台大女子壘球隊副隊長、台大土木系棒球隊隊員</p>
-              <p>紀錄：<br>2014全國女子棒球賽對上台灣體大跑回唯一一分，並漂亮接殺國手李秋靜擊出淺中外方向之球；2014總統盃壘球賽冠軍隊員，並獲得打擊獎；2015總統盃壘球賽預賽擊出三分全壘打，被譽為「最強三番」；2016陳河東盃壘球對上強敵盈祺關鍵時刻擊出追平分全壘打；2016大專盃棒球女子組主戰捕手，並蹲滿所有局數；2017與土木系棒於屏東麟洛棒球場與當地球隊友誼賽，因一記後退漂亮接殺，被一旁三位Lamigo球員稱讚並擊掌。</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF005')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF005" class="w3-container w3-hide">
-                <p>說林瑩潔一定沒人知道，但大家一定都知道Umav！無人不知無人不曉的烏瑪芙三棲棒、壘、籃，大一新生盃混壘就被校隊盯上，不料Umav早已被土木系籃挖角。 經過一年的沉潛，大二的她終於加入女壘校隊，開啟了稱霸外野之路，在校外比賽更是小有名氣，要說是慢壘界的天后也不為過！進入研究所後，Umav開始衝擊土木系棒外野的先發陣容，硬生生地搶走學弟們的上場機會，表現也相當亮眼。 Umav不僅稱霸外野，更在短短不到一學期的時間扛起校隊捕手位置，在2016大專盃棒球女子組蹲滿兩場比賽後，被裁判大力讚揚。</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF006.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF006　楊景鈞／電機三</b></p>
-              <p>經歷：2016年擔任電機系棒球隊副隊長</p>
-              <p>紀錄：<br>單場5盜壘（含2次盜三壘、2次盜本壘）；曾以鋁棒擊出反方向過牆全壘打；單一球季留有8-2、8-4、8-5外野助殺紀錄；攻城聯盟準完全打擊（缺一壘安打）；曾以木棒擊出中外野315ft.全壘打（新生公園棒球場）</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF006')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF006" class="w3-container w3-hide">
-                <p>穿楊百步，一棒擊潰敵軍，觸景生情，打擊敵方信心。 千鈞一髮，飛撲沒收希望，掣電馳風，肉眼豈能看清。 神機妙算，戰術了然於心。 創巨痛仍，對手身陷囹圄。 鷸蚌相爭，誰知漁翁得利？ 懇請賜票，錯過後悔莫及。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF003_big.jpg'><img src="/public/img/nomination/OF003_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF003　張元齊／應力所碩一</b></p>
+                <p>經歷：105學年度新生盃冠軍成員、104學年度台大盃冠軍成員、104學年度新生盃亞軍成員、103學年度新生盃亞軍成員 （擔任隊長）、102學年度台大盃季軍成員、2016年HBC 8強成員（尚在進行季後賽中）、2015年HBC亞軍成員</p>
+                <p>紀錄：<br>2016 HBC整季三圍 0.508/0.508/1.169 （打擊率為聯盟第六 ）、由中外野8傳3至一壘完成刺殺、多個外野diving catch以及runnung catch</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF003')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF003" class="w3-container w3-hide">
+                  <p>從大一便始終如一待在機械系棒，歷經了積弱不振的時代，靠著與隊友們的信念，如今成為一隻堅不可摧的球隊。 我總是常駐中外野，無論是投手、還是左右外野，我皆能讓他們安心，無疑是機械系棒外野最大的強心針。頻頻有令人驚嘆之滑接，但對我而言只是幫助球隊守下一球，降低最大傷害，僅此而已。 一日機械，終日機械。絕對沒轉隊抱大腿，永遠的機械中外野。其他好懶得說，想看外野各種美技，選我就對了!!!!!!</p>
+                </div>
               </div>
             </div>
           </div>
@@ -880,15 +903,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF007.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF007　劉威辰／社工所碩二</b></p>
-              <p>經歷：2008~2011 高雄中學棒球隊、2011~2016 梟雄棒球隊、2011~至今 台大棒球隊外野手</p>
-              <p>紀錄：<br>南區高中棒球聯賽－2010第18屆亞軍、2010第19屆季軍、2011第20屆季軍、2011第21屆亞軍、兩度獲得打擊王獎項、第18屆功勞獎 台大校內賽－101新生盃冠軍、101台大盃冠軍、102台大盃冠軍、103新生盃冠軍、103台大盃季軍、104台大盃亞軍 台大大專杯－2016大專盃全國季軍</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF007')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF007" class="w3-container w3-hide">
-                <p>從雄中到台大，劉威辰三個字總是穩穩地站在先發名單的8號位置，有著絕佳天分的他早在高中時期就打響名號，兩度獲得打擊王的殊榮也讓威辰成了各隊最畏懼的打者之一，曾經有過對手外野看到12號的背號登場，自動退到牆邊待命，正是一代打擊天才的寫照。 威辰效力於梟雄棒球隊時期，繳出了.545/.660/.697的好成績，更可怕的大專杯的成績與校內成績實是不分軒輊！ 面對他校頂級菁英投手的威辰，在台大棒球隊的比賽中繳出了.512/.636/.731，屢屢用手中的棒子帶給對手痛擊，可說是台大棒球隊不可或缺的「fire man」！ 而守備的表現更是威辰令人津津樂道的一部份，整個外野都是威辰的守備範圍－這句話是一點也不為過，只要飛向中外野的飛球，99.87%會被威辰收進手套，同時留下打者難以置信的表情。 心地善良的威辰在場下依舊人氣旺盛。認識威辰的人，大多都以尊敬崇拜的眼光看著這位在台大打球六年的前輩！優異表現的他更曾受大專學生運動網採訪，可說是真‧明星呢！ 第一屆的台大盃明星賽，怎麼可以沒有「外野魔術師」劉威辰呢？</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF004_big.jpg'><img src="/public/img/nomination/OF004_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF004　林聖凱／地理一</b></p>
+                <p>經歷：薇閣高中棒球校隊</p>
+                <p>紀錄：<br>夏聯32強、冬聯32強、攻城盃、理院盃</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF004')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF004" class="w3-container w3-hide">
+                  <p>雙棲捕手跟外野手，沉著的指導投手配球，讓敵方完全不敢盜壘。 好啦，不管你們是想要看我精采的守備，還是只是想當迷弟迷妹來場上看帥哥，就把票都投給我吧～保證你們一定不會後悔的～～</p>
+                </div>
               </div>
             </div>
           </div>
@@ -899,15 +924,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF008.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF008　黃靖／農經四</b></p>
-              <p>經歷：成功高中棒球隊最強王牌投手（只論左投的話啦）、2015台大盃冠軍戰工管系最強（左）投手、2015政大棒球明星賽入選球員 的弟弟、2014排球全明星賽被提名人、2015&2016農經系排隊長&手球校隊成員</p>
-              <p>紀錄：<br>2016攻城盃 領先2分時退場去上課，等他上完課球隊已經輸10分了 QQ；2016台大盃 先發完投完封1保送無安打比賽，對了，他投無安打比賽時穿的釘鞋壞掉，沒有鞋底。2016台大盃，把1分差的比賽投到2出局滿壘2好3壞，又自己頂住壓力三振對手前進台大盃四強，一樣沒有鞋底。2016台大盃 一壘手正面彈跳球沒失誤沒漏球，跑出內野安打，As usual，沒有鞋底。2016攻城盃 中外野手正面安打沒失誤沒漏球，黃靖跑出二壘安打，你猜有沒有鞋底。2015攻城盃 捕手牽制三壘暴傳，黃靖鎮守左外野無彈跳回傳阻殺跑者，彷彿在比賽中跟捕手Catch Ball。2017年3月 買了新的釘鞋。</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF008')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF008" class="w3-container w3-hide">
-                <p>「黃靖傳說」古有一朗3打數5安打，今有黃靖中外野手正面二壘安打，古有大谷投打二刀流，今有黃靖投打守排手籃六刀流。有人說他是外野版鈴木一朗，也有人說他是左打大谷、左手大王，我也會不小心把黃靖叫成「內湖成功路金城武」（範圍縮那麼小 大家就別嫌棄了） 但在這大家都自稱「台大谷翔平」的年代，他不是一朗、不是大谷、不是大王，他就是黃靖，工管系棒的黃靖，農經崇高的黃靖，連買釘鞋都能當球員紀錄的真明星，黃靖。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF005_big.jpg'><img src="/public/img/nomination/OF005_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF005　林瑩潔／土木所碩一</b></p>
+                <p>經歷：台大女子壘球隊副隊長、台大土木系棒球隊隊員</p>
+                <p>紀錄：<br>2014全國女子棒球賽對上台灣體大跑回唯一一分，並漂亮接殺國手李秋靜擊出淺中外方向之球；2014總統盃壘球賽冠軍隊員，並獲得打擊獎；2015總統盃壘球賽預賽擊出三分全壘打，被譽為「最強三番」；2016陳河東盃壘球對上強敵盈祺關鍵時刻擊出追平分全壘打；2016大專盃棒球女子組主戰捕手，並蹲滿所有局數；2017與土木系棒於屏東麟洛棒球場與當地球隊友誼賽，因一記後退漂亮接殺，被一旁三位Lamigo球員稱讚並擊掌。</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF005')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF005" class="w3-container w3-hide">
+                  <p>說林瑩潔一定沒人知道，但大家一定都知道Umav！無人不知無人不曉的烏瑪芙三棲棒、壘、籃，大一新生盃混壘就被校隊盯上，不料Umav早已被土木系籃挖角。 經過一年的沉潛，大二的她終於加入女壘校隊，開啟了稱霸外野之路，在校外比賽更是小有名氣，要說是慢壘界的天后也不為過！進入研究所後，Umav開始衝擊土木系棒外野的先發陣容，硬生生地搶走學弟們的上場機會，表現也相當亮眼。 Umav不僅稱霸外野，更在短短不到一學期的時間扛起校隊捕手位置，在2016大專盃棒球女子組蹲滿兩場比賽後，被裁判大力讚揚。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -917,70 +944,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF009.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF009　蔡渝斐／機械所碩二</b></p>
-              <p>經歷：105學年度新生盃冠軍成員、台大機械系棒成員</p>
-              <p>紀錄：<br>HBC社會聯盟 2016/11/19中外野出牆全壘打；2016年曾在HBC社會聯盟打出3-3單場猛打賞；資深猿迷，2015台灣大賽Lamigo1:3落後中信兄弟時發下宏願，若Lamigo逆轉成功則吃素一個月，猿隊全體上下受到鼓舞，逆轉成功一舉拿下當季冠軍。</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF009')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF009" class="w3-container w3-hide">
-                <p>國中畢業考上高中時有考慮加入棒球隊，但因為需要台北基隆通勤而放棄。而大四時在系辦送出研究所申請表那天，渝斐突然察覺到：「假如沒上，那我的學生生涯就結束了。」 於是從系辦離開後直接跑到球場跟當時的隊長張元齊說「學弟好，我可以加入棒球隊嗎？」雖身為大學長，但練球從不馬虎，比別人晚開始打球，就要付出更多努力，終於在升上碩二時站穩一軍外野，並且拿下冠軍。 除了打擊逐漸進步，守備也是他的招牌之一，只要有他在外野，投手總是可以安心投球，如果打向他所在的外野，通常都能進到手套，最重要的是他也是球隊開心果，讓機械系棒一直充滿歡笑，請投即將畢業的渝斐一票吧！</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF010.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF010　張育寧／法研所碩一</b></p>
-              <p>經歷：2016年擔任法壘副隊長、2016HBC聯盟楚奧特副隊長</p>
-              <p>紀錄：<br>101學年度新生盃棒球初登板勝投完投4局6k；101學年度大法盃快壘亞軍、四強賽單場mvp；102學年度（法律）台大盃慢壘亞軍；103學年度大法盃快壘季軍；104學年度大法盃快壘殿軍、最佳外野手；104學年度（法律）台大慢壘聯賽亞軍</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF010')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF010" class="w3-container w3-hide">
-                <p>《世說新語》中的《容止》篇，有下列一段對於潘安的描繪：「潘岳妙有姿容，好神情。少時挾彈出洛陽道，婦人遇者，莫不連手共縈之。」中國古代有潘安再世的典故，沒想到回到現實世界中，才發現原來真的有這麼帥氣又迷人的男神存在！他，就是「法壘之臉」育寧。 育寧有媲美模特兒的外型，其身材比例完美無瑕，肌肉線條勻稱分明，完美的臉蛋，搭配精緻的五官，尤其是深邃的雙眼更是讓人不敢直視，舉手投足之間總是散發出王子的氣息。說到此，不禁感嘆上天實在是不公平呀！ 球場上的育寧男女老少通吃，總能吸引無數少女少年的目光，甚至是騎腳踏車經過的阿公阿嬤，也忍不住佇足欣賞育寧的英姿，除了有球經學妹特別選跟育寧一樣的背號，也有學弟跟育寧K球後心中小鹿亂撞，靦腆害臊的吐露心聲：「育寧K球總是笑笑的，我都要戀愛了」。某年大法盃時，亦有外校球經主動搭訕育寧、向前示好攀談，更差點因為他亮麗的外表被招攬到其他系隊。 不過最津津樂道的一事，便是去年育寧初次探班新生盃混壘練球情況時，育寧僅僅在場邊閒話家常，但他出眾的外型立刻引起大一大二學弟妹的注意，晚上回家後發現FB好友暴增20多位，使得其他人只能默默的看著育寧加學弟妹好友，時不時點個讚，有時間也留個兩句，這樣好像可以假裝和育寧很熟。 然而大學時期的育寧飽受傷痛之苦，一度以為肩傷使他無法繼續球員生涯，但他對於練球及比賽的態度總是令人敬佩，不屈的精神總能使讓隊友求勝的意志更為堅定，韌性十足、絕不輕易放棄的心態常常能激勵隊友。這也就是育寧對於棒球的熱情所在吧！</p>
-              </div>
-            </div>
-          </div>
-        
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF011.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF011　何宜鴻／經濟二</b></p>
-              <p>經歷：104新生盃冠軍、104攻城盃亞軍、105新生盃殿軍、2017經濟系棒球隊隊長</p>
-              <p>紀錄：<br>高二參加新竹市校際聯賽擊出一隻三壘安打，主投四局狂失30分，最終球隊以0比30落敗。</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF011')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF011" class="w3-container w3-hide">
-                <p>喜歡棒球熱愛棒球沒有棒球就吃不下飯睡不著覺，於是高中時在學校創立一支棒球隊報名比賽，此為我棒球生涯的起點。 上大學加入了強權經濟系棒，隨即跟著球隊拿下新生盃冠軍。現在接下隊長職務希望能帶領球隊邁向下一個巔峰。</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF012.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF012　鄭宇博／心理所碩一</b></p>
-              <p>經歷：建中棒球隊 三年；北區高中棒球聯會會長 第十三屆；心理系棒黃金年代Ace；台大棒球隊 四+N年</p>
-              <p>紀錄：<br>2014大心盃全壘打；2016大專盃全國季軍；2016.12.06大專盃在社子島對上亞東技術學院，一局上擊出出牆的滿貫全壘打，讓台大在首局就拉開比數，奠定勝局</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF012')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF012" class="w3-container w3-hide">
-                <p>台大棒球隊外野三本柱之一，走攻守臉J缺一不可。 飛快的腳程，廣大的守備範圍，加上神也似的雷射肩下造就無數亡魂，看他在外野傳球只會見到一束光「啪！」 外貌神似日本職棒增井浩俊的UBO，對投球也小有鑽研，更是帶領心理系棒力抗梟雄、土木等好手的心理王牌。 陽光的笑容、黝黑皮膚、強壯的臂肌，博博的強肩不能只有我看到，還能不投他一票嗎＞／／／＜</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF006_big.jpg'><img src="/public/img/nomination/OF006_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF006　楊景鈞／電機三</b></p>
+                <p>經歷：2016年擔任電機系棒球隊副隊長</p>
+                <p>紀錄：<br>單場5盜壘（含2次盜三壘、2次盜本壘）；曾以鋁棒擊出反方向過牆全壘打；單一球季留有8-2、8-4、8-5外野助殺紀錄；攻城聯盟準完全打擊（缺一壘安打）；曾以木棒擊出中外野315ft.全壘打（新生公園棒球場）</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF006')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF006" class="w3-container w3-hide">
+                  <p>穿楊百步，一棒擊潰敵軍，觸景生情，打擊敵方信心。 千鈞一髮，飛撲沒收希望，掣電馳風，肉眼豈能看清。 神機妙算，戰術了然於心。 創巨痛仍，對手身陷囹圄。 鷸蚌相爭，誰知漁翁得利？ 懇請賜票，錯過後悔莫及。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -990,15 +964,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF013.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF013　黃政睿／生技三</b></p>
-              <p>經歷：大二擔任農化生技隊長，現任農化生技隊長</p>
-              <p>紀錄：<br>103學年度新生盃季軍</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF013')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF013" class="w3-container w3-hide">
-                <p>黃政睿，台中人，是個隨時都能想出屁話的男人。大一的時候在新生盃混壘賽敲出滿貫砲，從此對棒球充滿興趣。 大一時主要負責搬球具跟加油跟練球，大二時有了一年的經驗和棒球初級的洗禮，以還算過得去的打擊漸漸站上先發外野手的位置，也在薰風國樂社擔任幹部。 現正修習棒球中級，正在努力更上一層樓中。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF007_big.jpg'><img src="/public/img/nomination/OF007_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF007　劉威辰／社工所碩二</b></p>
+                <p>經歷：2008~2011 高雄中學棒球隊、2011~2016 梟雄棒球隊、2011~至今 台大棒球隊外野手</p>
+                <p>紀錄：<br>南區高中棒球聯賽－2010第18屆亞軍、2010第19屆季軍、2011第20屆季軍、2011第21屆亞軍、兩度獲得打擊王獎項、第18屆功勞獎 台大校內賽－101新生盃冠軍、101台大盃冠軍、102台大盃冠軍、103新生盃冠軍、103台大盃季軍、104台大盃亞軍 台大大專杯－2016大專盃全國季軍</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF007')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF007" class="w3-container w3-hide">
+                  <p>從雄中到台大，劉威辰三個字總是穩穩地站在先發名單的8號位置，有著絕佳天分的他早在高中時期就打響名號，兩度獲得打擊王的殊榮也讓威辰成了各隊最畏懼的打者之一，曾經有過對手外野看到12號的背號登場，自動退到牆邊待命，正是一代打擊天才的寫照。 威辰效力於梟雄棒球隊時期，繳出了.545/.660/.697的好成績，更可怕的大專杯的成績與校內成績實是不分軒輊！ 面對他校頂級菁英投手的威辰，在台大棒球隊的比賽中繳出了.512/.636/.731，屢屢用手中的棒子帶給對手痛擊，可說是台大棒球隊不可或缺的「fire man」！ 而守備的表現更是威辰令人津津樂道的一部份，整個外野都是威辰的守備範圍－這句話是一點也不為過，只要飛向中外野的飛球，99.87%會被威辰收進手套，同時留下打者難以置信的表情。 心地善良的威辰在場下依舊人氣旺盛。認識威辰的人，大多都以尊敬崇拜的眼光看著這位在台大打球六年的前輩！優異表現的他更曾受大專學生運動網採訪，可說是真‧明星呢！ 第一屆的台大盃明星賽，怎麼可以沒有「外野魔術師」劉威辰呢？</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1009,15 +985,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF014.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF014　王子升／經濟二</b></p>
-              <p>經歷：104-1新生盃：經濟霸、104-2台大盃：洋蔥君、105-1新生盃：經濟霸</p>
-              <p>紀錄：<br>無</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF014')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF014" class="w3-container w3-hide">
-                <p>王子升，綽號經濟大王，強悍的爆發力讓系隊都以我來命名。身上隨時帶著一隻球棒，全世界都是我的揮棒練習場。球再快，都一定猛力的全揮擊；吊再高，都一定豪邁的扛出去。 生活有七成的時間都花在棒球上，雖然現在還是經濟小銘哲， 總有一天會成為大王子升。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF008_big.jpg'><img src="/public/img/nomination/OF008_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF008　黃靖／農經四</b></p>
+                <p>經歷：成功高中棒球隊最強王牌投手（只論左投的話啦）、2015台大盃冠軍戰工管系最強（左）投手、2015政大棒球明星賽入選球員 的弟弟、2014排球全明星賽被提名人、2015&2016農經系排隊長&手球校隊成員</p>
+                <p>紀錄：<br>2016攻城盃 領先2分時退場去上課，等他上完課球隊已經輸10分了 QQ；2016台大盃 先發完投完封1保送無安打比賽，對了，他投無安打比賽時穿的釘鞋壞掉，沒有鞋底。2016台大盃，把1分差的比賽投到2出局滿壘2好3壞，又自己頂住壓力三振對手前進台大盃四強，一樣沒有鞋底。2016台大盃 一壘手正面彈跳球沒失誤沒漏球，跑出內野安打，As usual，沒有鞋底。2016攻城盃 中外野手正面安打沒失誤沒漏球，黃靖跑出二壘安打，你猜有沒有鞋底。2015攻城盃 捕手牽制三壘暴傳，黃靖鎮守左外野無彈跳回傳阻殺跑者，彷彿在比賽中跟捕手Catch Ball。2017年3月 買了新的釘鞋。</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF008')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF008" class="w3-container w3-hide">
+                  <p>「黃靖傳說」古有一朗3打數5安打，今有黃靖中外野手正面二壘安打，古有大谷投打二刀流，今有黃靖投打守排手籃六刀流。有人說他是外野版鈴木一朗，也有人說他是左打大谷、左手大王，我也會不小心把黃靖叫成「內湖成功路金城武」（範圍縮那麼小 大家就別嫌棄了） 但在這大家都自稱「台大谷翔平」的年代，他不是一朗、不是大谷、不是大王，他就是黃靖，工管系棒的黃靖，農經崇高的黃靖，連買釘鞋都能當球員紀錄的真明星，黃靖。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1027,70 +1005,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF015.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF015　邱健盛／法律三</b></p>
-              <p>經歷：台中一中棒球隊副隊長、台大校隊撿過三個月的球</p>
-              <p>紀錄：<br>101學年度高中棒球聯賽軟式組16強；曾經在高中聯賽16強對強恕高中一戰中，單場三支安打；2013年冬天北聯季軍；103學年度台大盃亞軍；104年大法盃季軍；104學年度台大新生盃季軍；累積在台大盃賽4隻場外全壘打</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF015')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF015" class="w3-container w3-hide">
-                <p>如果你還不知道健盛，沒關係，以下一卡車的軼事讓你馬上愛上這位法壘開心果！ 健盛天生麗質，其驚為天人的外表特徵，搭配完美勻稱的身材比例，獲得不少使人印象深刻、永遠忘不了的綽號。他的頭看起來異常的大，站上打擊區、戴上頭盔後更是嶄露的一覽無遺，因此被大家稱作「大頭」。下巴比一般人長了點，與日職選手內川聖一的下巴有87%像，你可以叫他「台大內川聖一」、「法壘鄧志偉」。另外，他還深愛著小孩子，在球場邊見到小學生也能上前搭訕攀談，有「孩子王」的美稱。 如果你進一步想知道健盛一二件小趣事，首先，你一定要知道「慢情書事件」，前幾日健盛在出清台大上出賣《慢情書》這本書，按讚人數直逼3000人，讓我們一同見證新一代網紅及網帥誕生！ 另外，健盛在法壘認了許多異父異母的親弟弟與親妹妹，雖然弟妹們百般不情願，但終究逃不過健盛的魔掌，使得法壘J家族的勢力越來越大。 在法壘打球邁入第三年，從他口中說出的名言佳句可謂千秋萬世永留名「把球撿起來！」「打擊爛才打反方向！」「被保送對我來說就是失敗！」 不過最經典的一句話，出自某年大法盃。某年大法盃一役輸了球，賽後法壘國父有渝指責健盛傳球選擇錯誤，應該阻止壘上跑者藉由高飛犧牲打推進壘包，而非直傳本壘嘗試阻殺三壘跑者，此時健盛靜默許久，終究按捺不住男兒淚，並大聲咆哮「我唯一做的錯，就是沒有把球傳到捕手手套裡！！」這一句話道盡多少悔恨啊！此一場景著實令人動容。 他是健盛，敢愛敢恨的健盛你一定得愛健盛這個人。</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF016.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF016　黃楷文／化工四</b></p>
-              <p>經歷：2013年入學即成為化工系棒主戰外野手至今；2013~2014年 化工系棒新人王；2014年 在大二新生盃時因其優異的能力，被放進A隊名單裡，成為當時A隊唯一一位大三以下的球員</p>
-              <p>紀錄：<br>大一新人前六場比賽皆敲出安打，榮登當年化工系棒新人王；生涯打擊三圍4/4/5，一直是化工最穩定的火力輸出；2017/1/2攻城聯盟對上法律生涯初登板，完成從小到大的投手夢；2016~2017球季至今超過30個打席還未吞過一次三振（楷文表示：等你來三振！）</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF016')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF016" class="w3-container w3-hide">
-                <p>喜劇演員有凱文哈特，NBA有凱文肚爛特和假奶特，MLB有凱文由基里斯，中華職棒有凱文和鎧文。所以，叫凱文的的沒有一個是肉腳，當然，化工楷文也不會讓你失望！ 從小就擁有許多粉絲的楷文，在大一那年懵懵懂懂，誤入歧途進到了化工系棒。同時，舞技精湛的他在熱舞社闖出了一片天，但他仍無法拋棄他那心中正在燃燒的棒球魂，那LOCKING一般的守備，POPPING一般的打擊，是化工系棒不可或缺的中心人物，也幫助化工系棒創下了許多佳績。 現在，楷文大四了，自從升上大四後都不曾被三振過，聽說明星賽時會有很多強投，希望大家能用手中神聖的一票把楷文送進明星賽，讓楷文在畢業前能再嚐一次被三振的滋味，不然他就要去DMF虐對手了，在此附上楷文在一年多前DMF的精采表現！</p>
-              </div>
-            </div>
-          </div>
-        
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF017.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF017　李英仁／生工四</b></p>
-              <p>經歷：100~101學年度地理系棒球隊球員、102~105學年度生工系棒球隊球員、104學年度生工系棒球隊隊長、第七屆攻城盃 - 生工地理聯隊負責人、HBC棒球聯盟 - 台大地理OB隊球員</p>
-              <p>紀錄：<br>103學年度新生盃冠軍成員；2016年HBC例行賽 單場5PA 2H 3BB 3RBI，其中包含一支射牆的二壘安打；2016年HBC例行賽 單場4.2IP 1ER 0BB，好球率並高達6成79；2016年HBC例行賽上場後援主投2局，第二局在輕鬆拿下兩個出局數以後突然失神開始投不進好球帶，接連投了3個保送丟1分形成滿壘的2分差比賽，讓隊友捏一把冷汗；最後幸由中外野手美技接殺，順利拿下救援成功</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF017')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF017" class="w3-container w3-hide">
-                <p>在和英仁打棒球的這一段很長的時間，看見了他在球場上的專注讓我都快戀愛了～擔任生工系棒隊長的期間，也是以英勇的表現帶領系棒闖進前八強，不愧是生工的台柱！沒甚麼好說的，就是英仁，帥。</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF018.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF018　林士榮／地理六</b></p>
-              <p>經歷：2015年地理系棒副隊長、2011~2017年地理系棒球隊</p>
-              <p>紀錄：<br>101管社盃打點王；101管社盃對上生工，單場七分打點；103新生盃並列季軍；105宅男盃冠軍隊成員</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF018')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF018" class="w3-container w3-hide">
-                <p>準確的判斷，飛快的移位，Tony是地理系棒最穩定的外野手。沉穩的表現，靦腆的笑容，簡直是棒球場上的平匡。 除了鎮守外野，擔任內野和捕手也不是件難事，號稱地理Zobrist；擔任捕手一職時，曾創下生涯顛峰阻殺率0.333的紀錄，強壓隊上校隊捕手。 守備上有著全能表現的他，打擊也相當優異，有著左投殺手的稱號，生涯面對左投13打席有著超過七成的打擊率；也曾在寒訓與隊上投手對決時，（幾乎）將小白球擊出全壘打牆之外！ 在其球員生涯中，最令人（他自己）津津樂道的，是在某一年新生盃賽場上，對決前甲子園強投，並從其手中敲出一支深遠的左外野……（結果什麼的我不能說）。每當提起這段往事，Tony的嘴角竟不自覺上揚，眼神透露出其尊爵不凡的打擊實力。點開明星賽網站投票給他吧～啊……Tony的本名是？</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF009_big.jpg'><img src="/public/img/nomination/OF009_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF009　蔡渝斐／機械所碩二</b></p>
+                <p>經歷：105學年度新生盃冠軍成員、台大機械系棒成員</p>
+                <p>紀錄：<br>HBC社會聯盟 2016/11/19中外野出牆全壘打；2016年曾在HBC社會聯盟打出3-3單場猛打賞；資深猿迷，2015台灣大賽Lamigo1:3落後中信兄弟時發下宏願，若Lamigo逆轉成功則吃素一個月，猿隊全體上下受到鼓舞，逆轉成功一舉拿下當季冠軍。</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF009')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF009" class="w3-container w3-hide">
+                  <p>國中畢業考上高中時有考慮加入棒球隊，但因為需要台北基隆通勤而放棄。而大四時在系辦送出研究所申請表那天，渝斐突然察覺到：「假如沒上，那我的學生生涯就結束了。」 於是從系辦離開後直接跑到球場跟當時的隊長張元齊說「學弟好，我可以加入棒球隊嗎？」雖身為大學長，但練球從不馬虎，比別人晚開始打球，就要付出更多努力，終於在升上碩二時站穩一軍外野，並且拿下冠軍。 除了打擊逐漸進步，守備也是他的招牌之一，只要有他在外野，投手總是可以安心投球，如果打向他所在的外野，通常都能進到手套，最重要的是他也是球隊開心果，讓機械系棒一直充滿歡笑，請投即將畢業的渝斐一票吧！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1100,15 +1025,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF019.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF019　謝秉融／數學五</b></p>
-              <p>經歷：數學系棒球隊隊員、2014數學系棒隊長、2015戊戍本一家棒球隊隊長、戊戍本一家棒球隊隊員</p>
-              <p>紀錄：<br>2016暑假在日本遊學期間體驗過日本草野球的外野手；2016新生盃，打擊成績10支7，打擊三圍.7/.727/0.8</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF019')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF019" class="w3-container w3-hide">
-                <p>自從轉學進入臺大之後才開始接觸棒球，回憶起當時還是個完全不會丟球的「超級新手」，別說一個壘包，連二壘手傳到一壘都有問題的人，練了一年之後打free batting連內野紅土都打不穿，竟然就被推上當隊長了（！？ 為了增強各項能力，他到處拜師學藝，只要抓到時間就會找人練習，系隊練球也幾乎不曾缺席，因此，經過一年，慢慢的站穩隊上先發一棒，但因為球隊人數因素，變成小型工具人，截至目前只剩游擊和三壘沒有守備過，但並沒有因此荒廢外野的守備練習哦！總是在別人休息的時候呼叫前隊長多打個幾十顆，經常讓前隊長打到不要不要的XD 時至今日，雖然沒有太顯眼的長打能力，但仍然有穩定的安打輸出，畢竟他是一個棒球狂熱者，幾乎把大量的時間都花在棒球上，因此才有可能有2016年新生盃的成績！希望看倌們能賞賜他一票，讓他有機會在場上證明自己的努力成果！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF010_big.jpg'><img src="/public/img/nomination/OF010_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF010　張育寧／法研所碩一</b></p>
+                <p>經歷：2016年擔任法壘副隊長、2016HBC聯盟楚奧特副隊長</p>
+                <p>紀錄：<br>101學年度新生盃棒球初登板勝投完投4局6k；101學年度大法盃快壘亞軍、四強賽單場mvp；102學年度（法律）台大盃慢壘亞軍；103學年度大法盃快壘季軍；104學年度大法盃快壘殿軍、最佳外野手；104學年度（法律）台大慢壘聯賽亞軍</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF010')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF010" class="w3-container w3-hide">
+                  <p>《世說新語》中的《容止》篇，有下列一段對於潘安的描繪：「潘岳妙有姿容，好神情。少時挾彈出洛陽道，婦人遇者，莫不連手共縈之。」中國古代有潘安再世的典故，沒想到回到現實世界中，才發現原來真的有這麼帥氣又迷人的男神存在！他，就是「法壘之臉」育寧。 育寧有媲美模特兒的外型，其身材比例完美無瑕，肌肉線條勻稱分明，完美的臉蛋，搭配精緻的五官，尤其是深邃的雙眼更是讓人不敢直視，舉手投足之間總是散發出王子的氣息。說到此，不禁感嘆上天實在是不公平呀！ 球場上的育寧男女老少通吃，總能吸引無數少女少年的目光，甚至是騎腳踏車經過的阿公阿嬤，也忍不住佇足欣賞育寧的英姿，除了有球經學妹特別選跟育寧一樣的背號，也有學弟跟育寧K球後心中小鹿亂撞，靦腆害臊的吐露心聲：「育寧K球總是笑笑的，我都要戀愛了」。某年大法盃時，亦有外校球經主動搭訕育寧、向前示好攀談，更差點因為他亮麗的外表被招攬到其他系隊。 不過最津津樂道的一事，便是去年育寧初次探班新生盃混壘練球情況時，育寧僅僅在場邊閒話家常，但他出眾的外型立刻引起大一大二學弟妹的注意，晚上回家後發現FB好友暴增20多位，使得其他人只能默默的看著育寧加學弟妹好友，時不時點個讚，有時間也留個兩句，這樣好像可以假裝和育寧很熟。 然而大學時期的育寧飽受傷痛之苦，一度以為肩傷使他無法繼續球員生涯，但他對於練球及比賽的態度總是令人敬佩，不屈的精神總能使讓隊友求勝的意志更為堅定，韌性十足、絕不輕易放棄的心態常常能激勵隊友。這也就是育寧對於棒球的熱情所在吧！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1119,15 +1046,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF020.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF020　張維凱／工管三</b></p>
-              <p>經歷：2017 工管系棒球隊隊長；2017 攻城盃主辦；2016 攻城盃冠軍、台大盃四強隊伍先發球員</p>
-              <p>紀錄：<br>大學前2年，在台大盃&攻城盃已成功搜集冠亞季殿各1座；2014 生涯第1打席首局首打席全壘打，好啦是壘球新生盃；2016 大三上半季上壘率6成（打擊率1成）；2015 大二新生盃前3天在宿舍滑倒差點骨折，整個盃賽休養被隊員笑一學期；2015 台大盃冠軍戰有被寫在order單上</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF020')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF020" class="w3-container w3-hide">
-                <p>「要辦好攻城盃跟照顧好學弟喔。」那年夏天，學長們紛紛旅美、旅西、旅荷、旅波羅的海三小國，臨走前學長們還一起拿了個冠軍，便各奔東西，只留下了一句「要辦好攻城盃跟照顧好學弟ㄛ」，維凱只好扛起隊長的職責帶領10餘名快樂夥伴學弟們，有的學弟很玻璃，有的長得太黑，又有的長駐高雄每天請假。但維凱依然領著這些不受控的學弟，忍辱負重繼續向前。 「每當站上打擊區，總給投手帶來極大麻煩。」仰仗著身材優勢，維凱的好球帶比其他人都小，造就了半年來都不揮棒也能有上壘率6成的表現，站上打擊區總是令投手相當困擾，因此自大二以來，不需要球棒就站穩了工管系的不動第一棒。 「工管轉運手」在維凱進入工管系前，工管系在台大盃連年一輪遊，在維凱加入系棒後，球隊近年成績突飛猛進勝率突破8成，一躍成為盃賽四強常客。你說這是實力也好運氣也罷，但運氣也是一種實力，歐當然，蔣乾樺也是。 要成為Elite很不容易，要在Elite中成為Elite，更加的不容易。雖然叫維凱的滿滿都是，但這個維凱，絕對值得你的選票注意。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF011_big.jpg'><img src="/public/img/nomination/OF011_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF011　何宜鴻／經濟二</b></p>
+                <p>經歷：104新生盃冠軍、104攻城盃亞軍、105新生盃殿軍、2017經濟系棒球隊隊長</p>
+                <p>紀錄：<br>高二參加新竹市校際聯賽擊出一隻三壘安打，主投四局狂失30分，最終球隊以0比30落敗。</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF011')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF011" class="w3-container w3-hide">
+                  <p>喜歡棒球熱愛棒球沒有棒球就吃不下飯睡不著覺，於是高中時在學校創立一支棒球隊報名比賽，此為我棒球生涯的起點。 上大學加入了強權經濟系棒，隨即跟著球隊拿下新生盃冠軍。現在接下隊長職務希望能帶領球隊邁向下一個巔峰。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1137,15 +1066,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF021.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF021　張若瑜／政治四</b></p>
-              <p>經歷：臺大女子壘球代表隊球員、政治系棒球隊球隊經理、103學年度攻城盃紀錄組組員、104學年度臺大女子壘球代表隊副隊長</p>
-              <p>紀錄：<br>2016/12/16棒球大專盃對上國體上壘率100%、盜壘成功兩次；吃後門咖喱廚房加飯3次；輔大花園夜市棒球九宮格丟中4格</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF021')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF021" class="w3-container w3-hide">
-                <p>若瑜雖然叫做若瑜，但是我們都叫他大智，大學四年的時光裡都在女壘接受紮實的訓練。起初，她打的是壘球，就是球比較大的那顆，且是名厲害的投手。 但是後來呢，因為忘不了對棒球的熱愛（？），開始打起棒球，就是球比較小的那顆，轉職當起外野手了～擁有飛毛腿的大智當起外野手，真的是一拍即合呢！想看大智可愛的身影在紅土上奔馳嗎？那就一定要投她一票噢＞／／／＜</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF012_big.jpg'><img src="/public/img/nomination/OF012_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF012　鄭宇博／心理所碩一</b></p>
+                <p>經歷：建中棒球隊 三年；北區高中棒球聯會會長 第十三屆；心理系棒黃金年代Ace；台大棒球隊 四+N年</p>
+                <p>紀錄：<br>2014大心盃全壘打；2016大專盃全國季軍；2016.12.06大專盃在社子島對上亞東技術學院，一局上擊出出牆的滿貫全壘打，讓台大在首局就拉開比數，奠定勝局</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF012')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF012" class="w3-container w3-hide">
+                  <p>台大棒球隊外野三本柱之一，走攻守臉J缺一不可。 飛快的腳程，廣大的守備範圍，加上神也似的雷射肩下造就無數亡魂，看他在外野傳球只會見到一束光「啪！」 外貌神似日本職棒增井浩俊的UBO，對投球也小有鑽研，更是帶領心理系棒力抗梟雄、土木等好手的心理王牌。 陽光的笑容、黝黑皮膚、強壯的臂肌，博博的強肩不能只有我看到，還能不投他一票嗎＞／／／＜</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1155,15 +1086,200 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/OF022.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>OF022　林書秀／外文五</b></p>
-              <p>經歷：台大女子壘球隊副隊長、台大外文系壘副隊長、現任中職工讀生、土木系棒球隊球員、2016/8 考取C級棒球裁判證、2016/10 考取棒球紀錄員證</p>
-              <p>紀錄：<br>棒球：2016/04/08 台大盃首次先發就首安首盜首打點； 慢壘：2015/03/20 美國學校 場內滿貫全壘打、2016/10/30 慢壘聯盟單場兩支二壘安打</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('OF022')"><b>查看球員介紹↓</b></a><br>
-              <div id="OF022" class="w3-container w3-hide">
-                <p>書秀以她優秀的運動神經、協調性以及柔軟度，活躍於棒、壘、網、籃項目中，她亦能綜合其他運動項目技巧發揮在棒球上，打、跑、接、投、判斷，樣樣得心應手！ 在女壘隊人稱「小肥皂」，靈活的書秀在外野，不管是難纏的正手、反手，向後躍起來的高球、向前的腳邊球都能漂亮接殺，猶如肥皂左滑右滑，前滾後翻，草地就是她的伸展台！ 雖然書秀活躍於外野，但其實她是慢壘投手起家，她以犀利的倒旋球出名，後來更是被指派到各種守位，可說是名符其實的工具人，整個球場都成了小肥皂的遊樂場！ 不可小看的是不亞於守備的打擊，書秀以多年的網球經驗，應用在棒球打擊上，以精準的打擊能力，在與美國學校的友誼賽時擊出場內滿貫全壘打，更在台大盃初次先發亮相就繳出首安首盜首打點的成績，令人印象深刻！ 你們怎麼能不支持這樣優秀的女性球員呢？投書秀！投書秀！小肥皂會讓妳眼睛為之一亮！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF013_big.jpg'><img src="/public/img/nomination/OF013_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF013　黃政睿／生技三</b></p>
+                <p>經歷：大二擔任農化生技隊長，現任農化生技隊長</p>
+                <p>紀錄：<br>103學年度新生盃季軍</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF013')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF013" class="w3-container w3-hide">
+                  <p>黃政睿，台中人，是個隨時都能想出屁話的男人。大一的時候在新生盃混壘賽敲出滿貫砲，從此對棒球充滿興趣。 大一時主要負責搬球具跟加油跟練球，大二時有了一年的經驗和棒球初級的洗禮，以還算過得去的打擊漸漸站上先發外野手的位置，也在薰風國樂社擔任幹部。 現正修習棒球中級，正在努力更上一層樓中。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF014_big.jpg'><img src="/public/img/nomination/OF014_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF014　王子升／經濟二</b></p>
+                <p>經歷：104-1新生盃：經濟霸、104-2台大盃：洋蔥君、105-1新生盃：經濟霸</p>
+                <p>紀錄：<br>無</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF014')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF014" class="w3-container w3-hide">
+                  <p>王子升，綽號經濟大王，強悍的爆發力讓系隊都以我來命名。身上隨時帶著一隻球棒，全世界都是我的揮棒練習場。球再快，都一定猛力的全揮擊；吊再高，都一定豪邁的扛出去。 生活有七成的時間都花在棒球上，雖然現在還是經濟小銘哲， 總有一天會成為大王子升。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF015_big.jpg'><img src="/public/img/nomination/OF015_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF015　邱健盛／法律三</b></p>
+                <p>經歷：台中一中棒球隊副隊長、台大校隊撿過三個月的球</p>
+                <p>紀錄：<br>101學年度高中棒球聯賽軟式組16強；曾經在高中聯賽16強對強恕高中一戰中，單場三支安打；2013年冬天北聯季軍；103學年度台大盃亞軍；104年大法盃季軍；104學年度台大新生盃季軍；累積在台大盃賽4隻場外全壘打</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF015')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF015" class="w3-container w3-hide">
+                  <p>如果你還不知道健盛，沒關係，以下一卡車的軼事讓你馬上愛上這位法壘開心果！ 健盛天生麗質，其驚為天人的外表特徵，搭配完美勻稱的身材比例，獲得不少使人印象深刻、永遠忘不了的綽號。他的頭看起來異常的大，站上打擊區、戴上頭盔後更是嶄露的一覽無遺，因此被大家稱作「大頭」。下巴比一般人長了點，與日職選手內川聖一的下巴有87%像，你可以叫他「台大內川聖一」、「法壘鄧志偉」。另外，他還深愛著小孩子，在球場邊見到小學生也能上前搭訕攀談，有「孩子王」的美稱。 如果你進一步想知道健盛一二件小趣事，首先，你一定要知道「慢情書事件」，前幾日健盛在出清台大上出賣《慢情書》這本書，按讚人數直逼3000人，讓我們一同見證新一代網紅及網帥誕生！ 另外，健盛在法壘認了許多異父異母的親弟弟與親妹妹，雖然弟妹們百般不情願，但終究逃不過健盛的魔掌，使得法壘J家族的勢力越來越大。 在法壘打球邁入第三年，從他口中說出的名言佳句可謂千秋萬世永留名「把球撿起來！」「打擊爛才打反方向！」「被保送對我來說就是失敗！」 不過最經典的一句話，出自某年大法盃。某年大法盃一役輸了球，賽後法壘國父有渝指責健盛傳球選擇錯誤，應該阻止壘上跑者藉由高飛犧牲打推進壘包，而非直傳本壘嘗試阻殺三壘跑者，此時健盛靜默許久，終究按捺不住男兒淚，並大聲咆哮「我唯一做的錯，就是沒有把球傳到捕手手套裡！！」這一句話道盡多少悔恨啊！此一場景著實令人動容。 他是健盛，敢愛敢恨的健盛你一定得愛健盛這個人。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        <div class="w3-row-padding">
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF016_big.jpg'><img src="/public/img/nomination/OF016_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF016　黃楷文／化工四</b></p>
+                <p>經歷：2013年入學即成為化工系棒主戰外野手至今；2013~2014年 化工系棒新人王；2014年 在大二新生盃時因其優異的能力，被放進A隊名單裡，成為當時A隊唯一一位大三以下的球員</p>
+                <p>紀錄：<br>大一新人前六場比賽皆敲出安打，榮登當年化工系棒新人王；生涯打擊三圍4/4/5，一直是化工最穩定的火力輸出；2017/1/2攻城聯盟對上法律生涯初登板，完成從小到大的投手夢；2016~2017球季至今超過30個打席還未吞過一次三振（楷文表示：等你來三振！）</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF016')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF016" class="w3-container w3-hide">
+                  <p>喜劇演員有凱文哈特，NBA有凱文肚爛特和假奶特，MLB有凱文由基里斯，中華職棒有凱文和鎧文。所以，叫凱文的的沒有一個是肉腳，當然，化工楷文也不會讓你失望！ 從小就擁有許多粉絲的楷文，在大一那年懵懵懂懂，誤入歧途進到了化工系棒。同時，舞技精湛的他在熱舞社闖出了一片天，但他仍無法拋棄他那心中正在燃燒的棒球魂，那LOCKING一般的守備，POPPING一般的打擊，是化工系棒不可或缺的中心人物，也幫助化工系棒創下了許多佳績。 現在，楷文大四了，自從升上大四後都不曾被三振過，聽說明星賽時會有很多強投，希望大家能用手中神聖的一票把楷文送進明星賽，讓楷文在畢業前能再嚐一次被三振的滋味，不然他就要去DMF虐對手了，在此附上楷文在一年多前DMF的精采表現！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF017_big.jpg'><img src="/public/img/nomination/OF017_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF017　李英仁／生工四</b></p>
+                <p>經歷：100~101學年度地理系棒球隊球員、102~105學年度生工系棒球隊球員、104學年度生工系棒球隊隊長、第七屆攻城盃 - 生工地理聯隊負責人、HBC棒球聯盟 - 台大地理OB隊球員</p>
+                <p>紀錄：<br>103學年度新生盃冠軍成員；2016年HBC例行賽 單場5PA 2H 3BB 3RBI，其中包含一支射牆的二壘安打；2016年HBC例行賽 單場4.2IP 1ER 0BB，好球率並高達6成79；2016年HBC例行賽上場後援主投2局，第二局在輕鬆拿下兩個出局數以後突然失神開始投不進好球帶，接連投了3個保送丟1分形成滿壘的2分差比賽，讓隊友捏一把冷汗；最後幸由中外野手美技接殺，順利拿下救援成功</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF017')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF017" class="w3-container w3-hide">
+                  <p>在和英仁打棒球的這一段很長的時間，看見了他在球場上的專注讓我都快戀愛了～擔任生工系棒隊長的期間，也是以英勇的表現帶領系棒闖進前八強，不愧是生工的台柱！沒甚麼好說的，就是英仁，帥。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF018_big.jpg'><img src="/public/img/nomination/OF018_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF018　林士榮／地理六</b></p>
+                <p>經歷：2015年地理系棒副隊長、2011~2017年地理系棒球隊</p>
+                <p>紀錄：<br>101管社盃打點王；101管社盃對上生工，單場七分打點；103新生盃並列季軍；105宅男盃冠軍隊成員</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF018')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF018" class="w3-container w3-hide">
+                  <p>準確的判斷，飛快的移位，Tony是地理系棒最穩定的外野手。沉穩的表現，靦腆的笑容，簡直是棒球場上的平匡。 除了鎮守外野，擔任內野和捕手也不是件難事，號稱地理Zobrist；擔任捕手一職時，曾創下生涯顛峰阻殺率0.333的紀錄，強壓隊上校隊捕手。 守備上有著全能表現的他，打擊也相當優異，有著左投殺手的稱號，生涯面對左投13打席有著超過七成的打擊率；也曾在寒訓與隊上投手對決時，（幾乎）將小白球擊出全壘打牆之外！ 在其球員生涯中，最令人（他自己）津津樂道的，是在某一年新生盃賽場上，對決前甲子園強投，並從其手中敲出一支深遠的左外野……（結果什麼的我不能說）。每當提起這段往事，Tony的嘴角竟不自覺上揚，眼神透露出其尊爵不凡的打擊實力。點開明星賽網站投票給他吧～啊……Tony的本名是？</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        <div class="w3-row-padding">
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF019_big.jpg'><img src="/public/img/nomination/OF019_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF019　謝秉融／數學五</b></p>
+                <p>經歷：數學系棒球隊隊員、2014數學系棒隊長、2015戊戍本一家棒球隊隊長、戊戍本一家棒球隊隊員</p>
+                <p>紀錄：<br>2016暑假在日本遊學期間體驗過日本草野球的外野手；2016新生盃，打擊成績10支7，打擊三圍.7/.727/0.8</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF019')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF019" class="w3-container w3-hide">
+                  <p>自從轉學進入臺大之後才開始接觸棒球，回憶起當時還是個完全不會丟球的「超級新手」，別說一個壘包，連二壘手傳到一壘都有問題的人，練了一年之後打free batting連內野紅土都打不穿，竟然就被推上當隊長了（！？ 為了增強各項能力，他到處拜師學藝，只要抓到時間就會找人練習，系隊練球也幾乎不曾缺席，因此，經過一年，慢慢的站穩隊上先發一棒，但因為球隊人數因素，變成小型工具人，截至目前只剩游擊和三壘沒有守備過，但並沒有因此荒廢外野的守備練習哦！總是在別人休息的時候呼叫前隊長多打個幾十顆，經常讓前隊長打到不要不要的XD 時至今日，雖然沒有太顯眼的長打能力，但仍然有穩定的安打輸出，畢竟他是一個棒球狂熱者，幾乎把大量的時間都花在棒球上，因此才有可能有2016年新生盃的成績！希望看倌們能賞賜他一票，讓他有機會在場上證明自己的努力成果！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF020_big.jpg'><img src="/public/img/nomination/OF020_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF020　張維凱／工管三</b></p>
+                <p>經歷：2017 工管系棒球隊隊長；2017 攻城盃主辦；2016 攻城盃冠軍、台大盃四強隊伍先發球員</p>
+                <p>紀錄：<br>大學前2年，在台大盃&攻城盃已成功搜集冠亞季殿各1座；2014 生涯第1打席首局首打席全壘打，好啦是壘球新生盃；2016 大三上半季上壘率6成（打擊率1成）；2015 大二新生盃前3天在宿舍滑倒差點骨折，整個盃賽休養被隊員笑一學期；2015 台大盃冠軍戰有被寫在order單上</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF020')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF020" class="w3-container w3-hide">
+                  <p>「要辦好攻城盃跟照顧好學弟喔。」那年夏天，學長們紛紛旅美、旅西、旅荷、旅波羅的海三小國，臨走前學長們還一起拿了個冠軍，便各奔東西，只留下了一句「要辦好攻城盃跟照顧好學弟ㄛ」，維凱只好扛起隊長的職責帶領10餘名快樂夥伴學弟們，有的學弟很玻璃，有的長得太黑，又有的長駐高雄每天請假。但維凱依然領著這些不受控的學弟，忍辱負重繼續向前。 「每當站上打擊區，總給投手帶來極大麻煩。」仰仗著身材優勢，維凱的好球帶比其他人都小，造就了半年來都不揮棒也能有上壘率6成的表現，站上打擊區總是令投手相當困擾，因此自大二以來，不需要球棒就站穩了工管系的不動第一棒。 「工管轉運手」在維凱進入工管系前，工管系在台大盃連年一輪遊，在維凱加入系棒後，球隊近年成績突飛猛進勝率突破8成，一躍成為盃賽四強常客。你說這是實力也好運氣也罷，但運氣也是一種實力，歐當然，蔣乾樺也是。 要成為Elite很不容易，要在Elite中成為Elite，更加的不容易。雖然叫維凱的滿滿都是，但這個維凱，絕對值得你的選票注意。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF021_big.jpg'><img src="/public/img/nomination/OF021_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF021　張若瑜／政治四</b></p>
+                <p>經歷：臺大女子壘球代表隊球員、政治系棒球隊球隊經理、103學年度攻城盃紀錄組組員、104學年度臺大女子壘球代表隊副隊長</p>
+                <p>紀錄：<br>2016/12/16棒球大專盃對上國體上壘率100%、盜壘成功兩次；吃後門咖喱廚房加飯3次；輔大花園夜市棒球九宮格丟中4格</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF021')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF021" class="w3-container w3-hide">
+                  <p>若瑜雖然叫做若瑜，但是我們都叫他大智，大學四年的時光裡都在女壘接受紮實的訓練。起初，她打的是壘球，就是球比較大的那顆，且是名厲害的投手。 但是後來呢，因為忘不了對棒球的熱愛（？），開始打起棒球，就是球比較小的那顆，轉職當起外野手了～擁有飛毛腿的大智當起外野手，真的是一拍即合呢！想看大智可愛的身影在紅土上奔馳嗎？那就一定要投她一票噢＞／／／＜</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        <div class="w3-row-padding">
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/OF022_big.jpg'><img src="/public/img/nomination/OF022_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>OF022　林書秀／外文五</b></p>
+                <p>經歷：台大女子壘球隊副隊長、台大外文系壘副隊長、現任中職工讀生、土木系棒球隊球員、2016/8 考取C級棒球裁判證、2016/10 考取棒球紀錄員證</p>
+                <p>紀錄：<br>棒球：2016/04/08 台大盃首次先發就首安首盜首打點； 慢壘：2015/03/20 美國學校 場內滿貫全壘打、2016/10/30 慢壘聯盟單場兩支二壘安打</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('OF022')"><b>查看球員介紹↓</b></a><br>
+                <div id="OF022" class="w3-container w3-hide">
+                  <p>書秀以她優秀的運動神經、協調性以及柔軟度，活躍於棒、壘、網、籃項目中，她亦能綜合其他運動項目技巧發揮在棒球上，打、跑、接、投、判斷，樣樣得心應手！ 在女壘隊人稱「小肥皂」，靈活的書秀在外野，不管是難纏的正手、反手，向後躍起來的高球、向前的腳邊球都能漂亮接殺，猶如肥皂左滑右滑，前滾後翻，草地就是她的伸展台！ 雖然書秀活躍於外野，但其實她是慢壘投手起家，她以犀利的倒旋球出名，後來更是被指派到各種守位，可說是名符其實的工具人，整個球場都成了小肥皂的遊樂場！ 不可小看的是不亞於守備的打擊，書秀以多年的網球經驗，應用在棒球打擊上，以精準的打擊能力，在與美國學校的友誼賽時擊出場內滿貫全壘打，更在台大盃初次先發亮相就繳出首安首盜首打點的成績，令人印象深刻！ 你們怎麼能不支持這樣優秀的女性球員呢？投書秀！投書秀！小肥皂會讓妳眼睛為之一亮！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1184,15 +1300,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI001.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI001　簡辰宇／工管三</b></p>
-              <p>經歷：工管系棒球隊副隊長、台大攻城盃主辦人</p>
-              <p>紀錄：<br>2012北聯奮起杯單局失九分；2015台大杯冠軍賽單局四失誤；先發單場平均1.87顆觸身球；生涯第五局防禦率超過100（這是他本人提供的哈哈</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI001')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI001" class="w3-container w3-hide">
-                <p>我從進大學以來 最崇拜的就是辰宇了 不但人帥、coding跟神一樣 還是從高壓丟到下勾的史詩級單馬尾 還有你聽過三大側投嗎，三大天王一定有四個，第四個是誰我不能說 各位惠請賜票，辰宇感謝您</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI001_big.jpg'><img src="/public/img/nomination/PI001_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI001　簡辰宇／工管三</b></p>
+                <p>經歷：工管系棒球隊副隊長、台大攻城盃主辦人</p>
+                <p>紀錄：<br>2012北聯奮起杯單局失九分；2015台大杯冠軍賽單局四失誤；先發單場平均1.87顆觸身球；生涯第五局防禦率超過100（這是他本人提供的哈哈</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI001')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI001" class="w3-container w3-hide">
+                  <p>我從進大學以來 最崇拜的就是辰宇了 不但人帥、coding跟神一樣 還是從高壓丟到下勾的史詩級單馬尾 還有你聽過三大側投嗎，三大天王一定有四個，第四個是誰我不能說 各位惠請賜票，辰宇感謝您</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1203,15 +1321,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI002.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI002　林劼佑／生機碩二</b></p>
-              <p>經歷：2009年擔任建國中學棒球隊教學長；2013年擔任生機系棒球隊副隊長；2014年擔任生機系棒球隊隊長</p>
-              <p>紀錄：<br>2012/12/24台大首勝，五局無安打無保送無責失 最終比數12:1；2014/4/12台大盃生機vs群風完投完封勝（IP:5 K:10 H:2）；2014/4/24台大球場首轟（2RBI）；第五屆攻城聯盟防禦率王暨最佳投手獎；2016/4/6 台大盃生機vs化學 完全比賽（IP:3 K:5 H:0）</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI002')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI002" class="w3-container w3-hide">
-                <p>高中三年參加建國中學棒球隊開始接觸棒球，由於是少數的左投因此也開始接受投手的相關訓練，曾在高中時期的比賽奪下防禦率王。大一加入生機系棒球隊，並於大一下學期即開始正式擔任主戰投手，並身兼球隊中外野守備工作。大二擔任球隊副隊長並成為系隊一號投手，大三接任球隊隊長工作並同時身兼投手與開路先鋒的角色。大四下學期由於之前累積出賽數過多，被診斷出軟骨磨損的情況被迫停止投球，在努力復健後於碩一再次回到投手丘至今。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI002_big.jpg'><img src="/public/img/nomination/PI002_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI002　林劼佑／生機碩二</b></p>
+                <p>經歷：2009年擔任建國中學棒球隊教學長；2013年擔任生機系棒球隊副隊長；2014年擔任生機系棒球隊隊長</p>
+                <p>紀錄：<br>2012/12/24台大首勝，五局無安打無保送無責失 最終比數12:1；2014/4/12台大盃生機vs群風完投完封勝（IP:5 K:10 H:2）；2014/4/24台大球場首轟（2RBI）；第五屆攻城聯盟防禦率王暨最佳投手獎；2016/4/6 台大盃生機vs化學 完全比賽（IP:3 K:5 H:0）</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI002')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI002" class="w3-container w3-hide">
+                  <p>高中三年參加建國中學棒球隊開始接觸棒球，由於是少數的左投因此也開始接受投手的相關訓練，曾在高中時期的比賽奪下防禦率王。大一加入生機系棒球隊，並於大一下學期即開始正式擔任主戰投手，並身兼球隊中外野守備工作。大二擔任球隊副隊長並成為系隊一號投手，大三接任球隊隊長工作並同時身兼投手與開路先鋒的角色。大四下學期由於之前累積出賽數過多，被診斷出軟骨磨損的情況被迫停止投球，在努力復健後於碩一再次回到投手丘至今。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1221,70 +1341,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI003.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI003　黃柏超／生科三</b></p>
-              <p>經歷：材料系棒主戰投手；在健身房跟王勝偉say high；和陳偉殷一起重訓、Kgb</p>
-              <p>紀錄：<br>2016工院盃中繼奪下勝投，為材料系棒中止七連敗</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI003')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI003" class="w3-container w3-hide">
-                <p>我從大學打棒球以來，最崇拜的94柏超惹，他的胸肌在台大沒有第一也有第二。重訓室沒有一個人不認識他，曾經在重訓室與盧彥勳、王勝偉一起重訓，也曾經邀請陳偉殷和他一起重訓，甚至和偉殷傳過球，因此投出來的球難以捉摸，使人屢屢揮棒落空。根據英國研究，每10人中就有一個認識柏超，在健身房，柏超要花一個小時重訓，兩個小時跟朋友打招呼，曾經在寒訓時一天加到兩個阿北的line，把妹子帶出場逛街，可謂世界的柏超大黃</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI004.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI004　施創譯／政研碩一</b></p>
-              <p>經歷：2010年擔任第五屆管社盃主辦</p>
-              <p>紀錄：<br>第五屆管社盃勝投王第二名</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI004')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI004" class="w3-container w3-hide">
-                <p>我最不能忘記的是他的背影。 那年夏天，我出了車禍，主辦管社盃的差使也交卸了，正是禍不單行的日子。我從醫院到宿舍，打算跟著父親回家養傷。到徐州路見著創譯，看見滿室狼籍的球具，又想起球賽，不禁簌簌地流下眼淚。創譯說，「事已如此，不必難過，好在天無絕人之路！」後面我掰不下去了。 總之，等我這個原先的主力投手腳傷好了回台北，施創譯已經臨危受命上丘，還獨拿三勝位居該屆盃賽勝投數第二名，更協助該屆賽事順利舉辦完成。我想，當年如果能為他開個實況的話，聊天室應該會7起來吧。</p>
-              </div>
-            </div>
-          </div>
-        
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI005.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI005　詹皓崴／電信工程所碩一</b></p>
-              <p>經歷：2015台大盃冠軍戰先發投手；2012壘球新生盃先發主力</p>
-              <p>紀錄：<br>2016攻城盃冠軍戰大棒一揮將球送進新店溪，一棒擊沉對手；2016攻城盃四強賽7局下半面對土木攻佔滿壘危機0失分救援成功；曾用125的速球單場砸了2人並道歉3次，堪稱溫和有禮的強投豪打！</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI005')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI005" class="w3-container w3-hide">
-                <p>擁有125的速球以及角度犀利的滑球、曲球，並具有一棒將球送進新店溪的power，更獨創「冥想練球法」，每週日下午練球時間固定坐在電腦前觀看大谷翔平投球影片來冥想自己的不足，下雨天也不停練，如此勤奮著實為各系隊榜樣，此外，還擁有一張與大家的情敵－平匡先生相似的明星臉，堪稱台大真明星。</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI006.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI006　陳柏安／機械碩一</b></p>
-              <p>經歷：104學年度台大盃冠軍戰勝利投手、投手獎；105學年度新生盃冠軍戰勝利投手</p>
-              <p>紀錄：<br>104學年度台大盃投手獎戰績：2勝0敗、9局、被安打數9、防禦率2.33、奪三振16次</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI006')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI006" class="w3-container w3-hide">
-                <p>自稱是台大谷翔平。本格派速球投手，擁有極速130公里的球速以及銳利的曲球。低調又內斂的他靠著頂尖的投球能力統御台大棒壇。經歷過多次的傷痛，卻又屢屢浴火重生。期待他在明星賽的表現！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI003_big.jpg'><img src="/public/img/nomination/PI003_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI003　黃柏超／生科三</b></p>
+                <p>經歷：材料系棒主戰投手；在健身房跟王勝偉say high；和陳偉殷一起重訓、Kgb</p>
+                <p>紀錄：<br>2016工院盃中繼奪下勝投，為材料系棒中止七連敗</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI003')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI003" class="w3-container w3-hide">
+                  <p>我從大學打棒球以來，最崇拜的94柏超惹，他的胸肌在台大沒有第一也有第二。重訓室沒有一個人不認識他，曾經在重訓室與盧彥勳、王勝偉一起重訓，也曾經邀請陳偉殷和他一起重訓，甚至和偉殷傳過球，因此投出來的球難以捉摸，使人屢屢揮棒落空。根據英國研究，每10人中就有一個認識柏超，在健身房，柏超要花一個小時重訓，兩個小時跟朋友打招呼，曾經在寒訓時一天加到兩個阿北的line，把妹子帶出場逛街，可謂世界的柏超大黃</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1294,15 +1361,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI007.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI007　張鈞濡／材料四</b></p>
-              <p>經歷：材料系棒王牌投手；2013-2014年擔任材料系棒隊副隊長；2014-2015年擔任材料系棒隊隊長；曾經接受傳奇國手江泰權親自指導，並受到甲組球員稱讚為控球派投手。吃吃到飽燒烤可以全部點海鮮</p>
-              <p>紀錄：<br>平均球速120km/hr、拿下材料隊史首勝勝投、單季平均打擊率高達0.556、單季最高單場11K、場均9.33K、被打擊率0.197</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI007')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI007" class="w3-container w3-hide">
-                <p>我從大學以來最崇拜的投手就是張鈞濡了。他號稱為材料大谷翔平，強投豪打，只是有點懼高。從系棒草創之初他就是我們的王牌火球男，舉例而言，他的球曾經快到讓打者不敢站進打擊區；捕手接他的球總是既興奮又怕手受傷。 上次因緣際會受到江泰權指導後，功力不僅更上一層樓，還學會了另一種吃飯的方式。區區文字不足以形容他的成就，盼各位惠請賜票，一票一世情，懼高愛上您，謝謝啦！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI004_big.jpg'><img src="/public/img/nomination/PI004_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI004　施創譯／政研碩一</b></p>
+                <p>經歷：2010年擔任第五屆管社盃主辦</p>
+                <p>紀錄：<br>第五屆管社盃勝投王第二名</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI004')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI004" class="w3-container w3-hide">
+                  <p>我最不能忘記的是他的背影。 那年夏天，我出了車禍，主辦管社盃的差使也交卸了，正是禍不單行的日子。我從醫院到宿舍，打算跟著父親回家養傷。到徐州路見著創譯，看見滿室狼籍的球具，又想起球賽，不禁簌簌地流下眼淚。創譯說，「事已如此，不必難過，好在天無絕人之路！」後面我掰不下去了。 總之，等我這個原先的主力投手腳傷好了回台北，施創譯已經臨危受命上丘，還獨拿三勝位居該屆盃賽勝投數第二名，更協助該屆賽事順利舉辦完成。我想，當年如果能為他開個實況的話，聊天室應該會7起來吧。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1313,15 +1382,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI008.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI008　柯劭珩／電機所碩二</b></p>
-              <p>經歷：曾效力高雄中學棒球隊、梟雄棒球隊及群風棒球隊；校內二大盃賽合計四冠一亞一季一殿。</p>
-              <p>紀錄：<br>梟雄棒球隊隊史（投手）最多出賽、最多三振、最多四壞、最多勝投(並列)；校內二大盃賽生涯合計12勝2負3救援，有紀錄可考之三振超過100次；2013/12/2新生盃八強 群風vs經濟 一安打完投勝；2014/5/25台大盃複賽 梟雄vs機械 完封勝；2015/3/1新生盃複賽 梟雄vs化工 無安打完封勝；2016/11/28新生盃預賽 群風vs生機 完封勝</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI008')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI008" class="w3-container w3-hide">
-                <p>綽號「柯P」的柯劭珩，球員生涯從游擊、一壘流浪到外野，最後終於在投手丘上找到歸宿。 擁有125km/h的直球、95km/h的滑球和65km/h的小便球，傳說中每場先發賽前都會丟骰子，而且只有6跟1兩面。（亦即表現不是大好就是大壞。） 投球特色為全部自己玩，曾經兩度完成單局4K的壯舉，也曾兩度演出單局4BB的爆炸秀。由於柯P不投球時身分是個工具人，因此他深知野手的辛苦，在投手丘上總是想節省隊友的體力，常常一整個半局投了快30球卻沒有讓球打進到場內。 身為把真。骰子奧義發揮到極致的男人，在即將告別台大棒球圈之際，讓我們一起來期待明星賽這天，柯P的最後一擲，會骰到幾？</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI005_big.jpg'><img src="/public/img/nomination/PI005_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI005　詹皓崴／電信工程所碩一</b></p>
+                <p>經歷：2015台大盃冠軍戰先發投手；2012壘球新生盃先發主力</p>
+                <p>紀錄：<br>2016攻城盃冠軍戰大棒一揮將球送進新店溪，一棒擊沉對手；2016攻城盃四強賽7局下半面對土木攻佔滿壘危機0失分救援成功；曾用125的速球單場砸了2人並道歉3次，堪稱溫和有禮的強投豪打！</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI005')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI005" class="w3-container w3-hide">
+                  <p>擁有125的速球以及角度犀利的滑球、曲球，並具有一棒將球送進新店溪的power，更獨創「冥想練球法」，每週日下午練球時間固定坐在電腦前觀看大谷翔平投球影片來冥想自己的不足，下雨天也不停練，如此勤奮著實為各系隊榜樣，此外，還擁有一張與大家的情敵－平匡先生相似的明星臉，堪稱台大真明星。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1331,70 +1402,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI009.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI009　黃品維／土木四</b></p>
-              <p>經歷：2015年土木系棒球隊隊長、2015年工院盃主辦</p>
-              <p>紀錄：<br>102-1新生盃以大一新生之姿，幫助土木一路殺進冠軍賽並勇奪亞軍，不僅初登板就以無安打比賽壓制對手，更奪下當年度的新人王，堪稱B02級的大物新秀。</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI009')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI009" class="w3-container w3-hide">
-                <p>品維大一時投球威力驚人，其低保送與高三振能力，讓土木補進了一名重要的投手戰力。 在系隊練習時，常常半個壘距就催到120km，沒什麼隊友敢跟他傳接球。而此般不懂得保護手臂的行為，使得品維在大二時陷入了疲勞與受傷的循環，不僅投球威力不復當年，更常常掛傷兵名單，一度考慮轉職打者。所幸在最近一兩年，品維在重訓與正確的運動觀念下，慢慢找回了當年的身手，大四這年更兼職打者，以選球及推打能力幫助土木重返榮耀，更以成為二刀流為目標。 球場上的品維霸氣外露，私底下的品維溫柔親切。因笑起來很像柴犬，他本人也對狗有種迷戀，獲得土木系犬的美名。 套一句他的座右銘：「投球要像柴犬，大敵當前而不改笑顏；守備要像柯基，腿超級短但很會追球。」 喜歡品維的話，就把他送進明星賽吧！</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI010.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI010　張祐齊／土木二</b></p>
-              <p>經歷：台大大同校友會會長、2017年土木投手教練</p>
-              <p>紀錄：<br>2016/12/16新生盃八強賽投出四局11K表現</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI010')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI010" class="w3-container w3-hide">
-                <p>那年剛滿十八歲的祐齊進到台大，磨刀霍霍地準備在投手丘上大展身手。不料初登板的那天，面對素有「李大浩」美名的機械強打即遭狙擊，一顆失投球「砰」的一聲，球一路飛入新店溪裡。 從那一天起，祐齊陷入了「投不好被打，投得好隊友雷，後援又砸鍋」的悲慘循環，使他在投手丘上的自信心一天天地，隨著新店溪的河水一起流逝。 一天，他沿著新店溪騎著他的野狼，終於在景美水岸找到了他被李大浩狙擊的那顆全壘打球。（和他的自信心）也許是天性使然，三重出身的他，骨子裡那8+9般的灑脫個性此時終於爆發－「有輸過，沒怕過啦！」祐齊對著河堤這麼吼著。 從那一天起，他逐步站穩主戰投手的位置，在105-1新生盃比賽主投逾20局並奪下三勝，儼然是土木新生代巨投代表。 想在5/21看到「景美水岸第一排」的勵志故事嗎？票投祐齊，缺你不行。</p>
-              </div>
-            </div>
-          </div>
-        
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI011.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI011　蔡宜霖／機械二</b></p>
-              <p>經歷：104學年度新生盃亞軍球員</p>
-              <p>紀錄：<br>105學年度新生盃單場10K無安打</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI011')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI011" class="w3-container w3-hide">
-                <p>上大學後才開始打棒球，大一上在學長們的帶領之下拿到新生盃亞軍，第一次打球就能和一群熱血的學長打到冠軍賽，也在過程中對棒球更加嚮往。 在一次因緣際會之下開始練投，之後越練越有心得，在比賽中也偶有佳作。 棒球是個團隊運動，需要每一位隊友的努力才能贏得比賽，每一個play都需要靠隊友們的默契和實力。 棒球是如此的熱血，你怎麼能不愛棒球呢？</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI012.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI012　任傳中／機械四</b></p>
-              <p>經歷：105學年度新生盃冠軍成員、104學年度攻城聯盟季軍隊長、104學年度台大盃冠軍隊長、104學年度新生盃亞軍隊長</p>
-              <p>紀錄：<br>2016年曾在HBC社會聯盟投出7局16K無安打比賽、105學年度新生盃最佳投手獎</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI012')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI012" class="w3-container w3-hide">
-                <p>人稱機械偉殷，卻沒有偉殷的外表。2014年開始在機械系隊展露頭角，更成為系隊的中流砥柱；接任隊長後更是扛下了重擔，只為了讓系隊更好更強。 對於棒球的熱情無可言喻，有了棒球就忘了女朋友。雖然他現在只有左右手。不過棒球的路上不孤獨，有一群棒球痴的陪伴，一起精進球藝，一起切磋球技，雖然打擊還是跟陳偉殷一樣。 喔沒有啦，他還是有打過全壘打，真是人不可貌相呢！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI006_big.jpg'><img src="/public/img/nomination/PI006_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI006　陳柏安／機械碩一</b></p>
+                <p>經歷：104學年度台大盃冠軍戰勝利投手、投手獎；105學年度新生盃冠軍戰勝利投手</p>
+                <p>紀錄：<br>104學年度台大盃投手獎戰績：2勝0敗、9局、被安打數9、防禦率2.33、奪三振16次</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI006')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI006" class="w3-container w3-hide">
+                  <p>自稱是台大谷翔平。本格派速球投手，擁有極速130公里的球速以及銳利的曲球。低調又內斂的他靠著頂尖的投球能力統御台大棒壇。經歷過多次的傷痛，卻又屢屢浴火重生。期待他在明星賽的表現！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1404,15 +1422,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI013.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI013　鄭杰騏／農經五</b></p>
-              <p>經歷：群風、農經蟲球員</p>
-              <p>紀錄：<br>2013/8/26管社盃vs農化 生涯首打席安打、2013新生盃上壘率100%、2014台大盃上壘率100%</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI013')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI013" class="w3-container w3-hide">
-                <p>鄭杰騏是「台大谷翔平」陳柏安的高中同學，雖然在升大二的暑假才加入群風棒球隊，開始真正接觸棒球。不過他在棒球生涯的第一個打席，就敲出了一支帶有一分打點的安打，之後打擊和外野守備都偶有佳作。但投手才是他最喜愛的位置，身為前兄弟象「黃金潛水艇」廖于誠的球迷，鄭杰騏一直以成為台大最強下勾投手為目標，然而礙於能給予指導的人太少，因此進步的幅度相當有限，不過對一個到國小五年級還不會做仰臥起坐的體育白痴來說，這已經是很不容易的表現了。 想看到台大現役唯一下勾投手投球的英姿，感受從地表3公分處出手的魅力嗎，那就一定要把票投給他唷！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI007_big.jpg'><img src="/public/img/nomination/PI007_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI007　張鈞濡／材料四</b></p>
+                <p>經歷：材料系棒王牌投手；2013-2014年擔任材料系棒隊副隊長；2014-2015年擔任材料系棒隊隊長；曾經接受傳奇國手江泰權親自指導，並受到甲組球員稱讚為控球派投手。吃吃到飽燒烤可以全部點海鮮</p>
+                <p>紀錄：<br>平均球速120km/hr、拿下材料隊史首勝勝投、單季平均打擊率高達0.556、單季最高單場11K、場均9.33K、被打擊率0.197</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI007')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI007" class="w3-container w3-hide">
+                  <p>我從大學以來最崇拜的投手就是張鈞濡了。他號稱為材料大谷翔平，強投豪打，只是有點懼高。從系棒草創之初他就是我們的王牌火球男，舉例而言，他的球曾經快到讓打者不敢站進打擊區；捕手接他的球總是既興奮又怕手受傷。 上次因緣際會受到江泰權指導後，功力不僅更上一層樓，還學會了另一種吃飯的方式。區區文字不足以形容他的成就，盼各位惠請賜票，一票一世情，懼高愛上您，謝謝啦！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1423,15 +1443,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI014.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI014　梁書哲／電機二</b></p>
-              <p>經歷：傳統棒球名校華興中學普通班、電機系棒球員</p>
-              <p>紀錄：<br>2016攻城聯盟對工管六局完投8K、2017工院盃對機械擊出滿貫砲</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI014')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI014" class="w3-container w3-hide">
-                <p>WBC啊，也許在某個平行時空裡，我們是在一起的。 「面對左打，就該換左投，開牌吧。 我的ACE就是電機左手王牌梁書哲。」 「可是總仔，這個是紐約洋雞的帝帝， 對左投打擊率0.320，右投只有0.258啊…」 「你懂什麼？這可不是一般的左投。」鍋太方總教練微笑著 「他打code苦練出來的堅毅肝臟不怕任何的壓力測試」 一好球 「像開車躲避三寶一樣避開打者的熱區」 兩好球 「和背號一樣擁有87種尾勁的直球作為決勝」 好球，三振出局，書哲手下再一次無人能夠生還！ 中華隊再一次讓對手吃鍋貼！ 我們可以聽到荷蘭主播泣不成聲高喊我好想贏台灣！ 「我最喜歡年輕左投了，請問你可以加入我們流浪貓隊嗎？」 鍋太方教練哀求著，看來有些事情到了平行時空也一樣 「不好意思，此刻我只想登上明星賽的投手丘！ 把你那一票交出來吧！」</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI008_big.jpg'><img src="/public/img/nomination/PI008_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI008　柯劭珩／電機所碩二</b></p>
+                <p>經歷：曾效力高雄中學棒球隊、梟雄棒球隊及群風棒球隊；校內二大盃賽合計四冠一亞一季一殿。</p>
+                <p>紀錄：<br>梟雄棒球隊隊史（投手）最多出賽、最多三振、最多四壞、最多勝投(並列)；校內二大盃賽生涯合計12勝2負3救援，有紀錄可考之三振超過100次；2013/12/2新生盃八強 群風vs經濟 一安打完投勝；2014/5/25台大盃複賽 梟雄vs機械 完封勝；2015/3/1新生盃複賽 梟雄vs化工 無安打完封勝；2016/11/28新生盃預賽 群風vs生機 完封勝</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI008')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI008" class="w3-container w3-hide">
+                  <p>綽號「柯P」的柯劭珩，球員生涯從游擊、一壘流浪到外野，最後終於在投手丘上找到歸宿。 擁有125km/h的直球、95km/h的滑球和65km/h的小便球，傳說中每場先發賽前都會丟骰子，而且只有6跟1兩面。（亦即表現不是大好就是大壞。） 投球特色為全部自己玩，曾經兩度完成單局4K的壯舉，也曾兩度演出單局4BB的爆炸秀。由於柯P不投球時身分是個工具人，因此他深知野手的辛苦，在投手丘上總是想節省隊友的體力，常常一整個半局投了快30球卻沒有讓球打進到場內。 身為把真。骰子奧義發揮到極致的男人，在即將告別台大棒球圈之際，讓我們一起來期待明星賽這天，柯P的最後一擲，會骰到幾？</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1441,70 +1463,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI015.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI015　洪偉哲／醫學六</b></p>
-              <p>經歷：台大醫學院棒球隊主力先發，六年如一日；台大棒球校隊</p>
-              <p>紀錄：<br>2011台大醫學院棒球隊以大一新人之姿站穩先發、2012台大棒球隊校隊指名入團、曾與台大醫學院院長楊泮池於鳥籠KGB、曾率領台大醫學院棒球隊進入台大盃四強、曾在東京與千賀滉大進行投打對決，擊出平飛安打</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI015')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI015" class="w3-container w3-hide">
-                <p>小時候在大魯閣測速測出125km/h，以為自己天賦異稟，進大學之後才知道全部都是豪洨。從此臥薪嘗膽，以達比修為目標進行「肉体改造」，把重訓當做呼吸，把雞蛋、肉、高蛋白當白飯吃，五年間如一日。現在已進化為輕鬆120km/h連發的本格派豪腕。</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI016.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI016　張繼剛／數研所碩二</b></p>
-              <p>經歷：高中雖有打過棒球，但因高三下學期時肩膀和膝蓋都受了非常重的傷（三個月無法運動的程度）因此大學棒球也等於實質從0開始。100學年度入學時加入數學系棒，自大三(102上學期)起成為數學系主戰投手，並在103學年下學期數學物理聯隊後繼續擔任主戰投手。103學年度理院盃奪三振王(含預賽11.1局20K 複賽7.1局15K) 104學年度上學期以大五延畢生之姿接任數學物理聯隊隊長，並在推甄考上數研所後於104學年下學期寒假入學並繼續帶隊成為「研究生隊長」</p>
-              <p>紀錄：<br>數學物理聯隊：16登板14先發9勝5敗56.2局92K；研究所入學後：9登板7先發5勝2敗27.2局53K；105學年度目前5登板4先發4勝0敗17.2局35K</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI016')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI016" class="w3-container w3-hide">
-                <p>雖然從小一直很沒有運動天分，又胖又不靈活，肢體也超級不協調，甚至從小還同時是氣喘兒+扁平足+青蛙肢。但因為對棒球非常有熱情，幾乎是把唸書以外80%以上的時間都給了棒球，也許老天爺因此才讓我的氣喘與青蛙肢都在升上大學以後逐漸治好做為回報（現在這兩項已治癒，但扁平足沒有好）也讓單以先天條件來說，恐怕是「萬中選一」的超級運動白痴的自己，在投手丘上多少投出了一些成績。 球風上投球姿勢類似龍捲風投法，主要武器為球速不算很快但後旋良好的速球，因而有著高奪三振率的優勢。立志憑著自己的努力「來完成」證明就算沒有運動天分的人，憑著努力也可以成為好投手的這道證明題。</p>
-              </div>
-            </div>
-          </div>
-        
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI017.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI017　許良亦／地質三</b></p>
-              <p>經歷：武陵高中棒球隊、北桃中南四聯明星賽第一屆成員、台大地質系棒球隊</p>
-              <p>紀錄：<br>2014/12/26攻城盃面對土木投出5局10K接近無安打的表現！幾乎每一場比賽都將對手跑者牽制出局</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI017')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI017" class="w3-container w3-hide">
-                <p>良亦是「機械偉殷」任傳中嫡傳學弟，就讀武陵高中時期時便以當家曲球投出名氣。某年，曾有人指稱其曲球軌跡與「左鄭」鄭錡鴻十分相似，奇蹟似地，隔年鄭錡鴻即上演大復活。 想看台大三大球員農場之一「武陵農場」出產，有品質保證的左投們對決嗎？請務必票投許良亦，保證打者聞風喪膽心中滿是涼意。</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI018.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI018　鄧福勝／生化所博二</b></p>
-              <p>經歷：曾任興農牛隊球僮、前中興大學王牌投手</p>
-              <p>紀錄：<br>105學年度新生盃季軍</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI018')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI018" class="w3-container w3-hide">
-                <p>我的棒球經歷從國小開始，從少棒之後有中斷一陣子，升到高中後才又在社團中碰到棒球。由於社團關係，我們每周都會到當時的兄弟象訓練基地練球，能直接吸收職業球員的訓練方式、球技與觀念。升上大學後幸運地進入校隊當投手，以棒球作為生活的中心。 也因為朋友介紹，偶爾到當時興農牛的主場－台中球場作球僮或陪練員，可以繼續就近瞭解職業球員或是體育大學國手訓練強度與方法。大學這段時間點算是自己球技高峰及成熟的時候。打過大專盃、興農盃、聯合盃以及外面的業餘聯盟。 但在大三下學期，肩膀、手肘韌帶及膝蓋依續受傷或開刀，雖然極力復健希望重回球場，甚至有幸運受邀參加職業球團測試，但最後還是失敗作收。 目前已經沒在碰球，將以研究作為生活的重心。很多人感覺棒球與研究兩者之間差異很大，但我認為並無太大不同，始終都是需要熱情及不斷努力才能夠闖出自己一片天！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI009_big.jpg'><img src="/public/img/nomination/PI009_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI009　黃品維／土木四</b></p>
+                <p>經歷：2015年土木系棒球隊隊長、2015年工院盃主辦</p>
+                <p>紀錄：<br>102-1新生盃以大一新生之姿，幫助土木一路殺進冠軍賽並勇奪亞軍，不僅初登板就以無安打比賽壓制對手，更奪下當年度的新人王，堪稱B02級的大物新秀。</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI009')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI009" class="w3-container w3-hide">
+                  <p>品維大一時投球威力驚人，其低保送與高三振能力，讓土木補進了一名重要的投手戰力。 在系隊練習時，常常半個壘距就催到120km，沒什麼隊友敢跟他傳接球。而此般不懂得保護手臂的行為，使得品維在大二時陷入了疲勞與受傷的循環，不僅投球威力不復當年，更常常掛傷兵名單，一度考慮轉職打者。所幸在最近一兩年，品維在重訓與正確的運動觀念下，慢慢找回了當年的身手，大四這年更兼職打者，以選球及推打能力幫助土木重返榮耀，更以成為二刀流為目標。 球場上的品維霸氣外露，私底下的品維溫柔親切。因笑起來很像柴犬，他本人也對狗有種迷戀，獲得土木系犬的美名。 套一句他的座右銘：「投球要像柴犬，大敵當前而不改笑顏；守備要像柯基，腿超級短但很會追球。」 喜歡品維的話，就把他送進明星賽吧！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1514,15 +1483,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI019.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI019　黃晉毅／社會五</b></p>
-              <p>經歷：2010~2011高雄中學棒球隊隊長；2012~ 台大棒球隊投手；2013~2016 梟雄棒球隊隊長</p>
-              <p>紀錄：<br>南區高中棒球聯賽－2010第18屆亞軍、2010第19屆季軍、2011第20屆季軍、2011第21屆亞軍、2012第23屆季軍、兩度獲得最佳捕手獎；台大校內賽－101新生盃冠軍、101台大盃冠軍、102台大盃冠軍、103新生盃冠軍、103台大盃季軍、104台大盃亞軍；台大大專盃－2016大專盃全國季軍、兩度獲得秋季聯賽最佳投手獎</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI019')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI019" class="w3-container w3-hide">
-                <p>高中時身為雄中棒球隊隊長的晉毅，在高中三年的比賽中為雄中打下了無數江山。在投手板與本壘板之間奔走的他絲毫不見疲態，晉毅在雄中棒球隊拚戰的日子中，三度在季軍戰銜命先發主投皆獲勝投，帶領球隊奪下季軍；同時也獲得了兩次的捕手獎，戰功彪炳！並在高三那年的暑假獲選為南聯明星隊成員之一，與北聯、桃聯、中聯等菁英球隊交戰。 上了大學後，在校內兩大杯賽中，晉毅效力於群風、梟雄兩支球隊，在校內賽累積了8勝1敗、防禦率2.51的優秀成績，也帶領梟雄棒球隊拿下四冠一亞一季的輝煌戰果。 更重要的是，身為台大棒球隊主戰投手的晉毅，至今更是在大專盃賽場上留下了11勝1敗的鬼神表現；屢屢用精準的控球遏止對手強取豪奪的功夫，讓晉毅在大專盃的校際間也留下了不少盛名！擅長數學的他，更擅長在比賽中精算壘包及用球數，人生巔峰是2014年的大專杯出戰德明科大，只用了69球就完投七局的比賽，如今仍為人津津樂道！ 想在棒球場上看到充滿精算的細膩棒球嗎？台大強投晉毅準備好獻技囉！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI010_big.jpg'><img src="/public/img/nomination/PI010_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI010　張祐齊／土木二</b></p>
+                <p>經歷：台大大同校友會會長、2017年土木投手教練</p>
+                <p>紀錄：<br>2016/12/16新生盃八強賽投出四局11K表現</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI010')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI010" class="w3-container w3-hide">
+                  <p>那年剛滿十八歲的祐齊進到台大，磨刀霍霍地準備在投手丘上大展身手。不料初登板的那天，面對素有「李大浩」美名的機械強打即遭狙擊，一顆失投球「砰」的一聲，球一路飛入新店溪裡。 從那一天起，祐齊陷入了「投不好被打，投得好隊友雷，後援又砸鍋」的悲慘循環，使他在投手丘上的自信心一天天地，隨著新店溪的河水一起流逝。 一天，他沿著新店溪騎著他的野狼，終於在景美水岸找到了他被李大浩狙擊的那顆全壘打球。（和他的自信心）也許是天性使然，三重出身的他，骨子裡那8+9般的灑脫個性此時終於爆發－「有輸過，沒怕過啦！」祐齊對著河堤這麼吼著。 從那一天起，他逐步站穩主戰投手的位置，在105-1新生盃比賽主投逾20局並奪下三勝，儼然是土木新生代巨投代表。 想在5/21看到「景美水岸第一排」的勵志故事嗎？票投祐齊，缺你不行。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1533,15 +1504,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI020.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI020　陳卓／國企二</b></p>
-              <p>經歷：台中一中棒球隊第九屆隊長、台灣大學棒球隊、校內隸屬明明就很少去支援的農化生技系棒</p>
-              <p>紀錄：<br>102學年度高中棒球聯賽軟式組全國十六強，預賽面對科班育民工家最後一局9顆速球連3K；104學年度台大學測申請五冠王；104學年度大專棒球聯賽一般組季軍；104學年度新生盃棒球賽季軍；104學年度台大盃棒球賽季軍；重訓狂熱者，硬舉140kg*3下；獲陳偉殷指導投球，心得被陳偉殷本人粉專分享。</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI020')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI020" class="w3-container w3-hide">
-                <p>紅襪隊的神之右手佩卓。馬丁尼茲眾所皆知，今天要介紹的是他甘比亞的遠親－陳卓。馬J尼茲。 他從小立志打擊犯罪，長老告訴他：「墨西哥毒梟、義大利黑手黨都不夠看，最強的對手是台中8+9。」 於是，陳卓來到台中一中當交換學生，深夜靠保護色隱身，並用動輒120km/h的火球連發打爆8+9保衛街頭。到了白天，他便回歸一中棒球隊長的身分，帶領球隊立威，也讓他感悟：「原來這就是兄弟的感覺。」從此一中棒球隊開始了連亞之路。 然而，來到大學的陳卓，為了兼顧球速與控球苦惱不已，直到有一天來到了旅美左投訓練營 「前輩，請問要怎麼增加投球的穩定性呢？」「這個嗎，首先你要…不好意思我接個電話。鍋總啊，拍謝捏這次WBC我又要抱小孩了，可能無法參賽了喔。」聽到此處，陳卓突然頓悟，原來前輩休賽期是靠著抱小孩鍛鍊肌肉的穩定性啊！ 「兩歲的小孩大概重14公斤，那我就用十倍的努力，健身房140kg直接舉起來，我會努力成為強投的，讓我登上明星賽的投手丘吧！」</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI011_big.jpg'><img src="/public/img/nomination/PI011_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI011　蔡宜霖／機械二</b></p>
+                <p>經歷：104學年度新生盃亞軍球員</p>
+                <p>紀錄：<br>105學年度新生盃單場10K無安打</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI011')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI011" class="w3-container w3-hide">
+                  <p>上大學後才開始打棒球，大一上在學長們的帶領之下拿到新生盃亞軍，第一次打球就能和一群熱血的學長打到冠軍賽，也在過程中對棒球更加嚮往。 在一次因緣際會之下開始練投，之後越練越有心得，在比賽中也偶有佳作。 棒球是個團隊運動，需要每一位隊友的努力才能贏得比賽，每一個play都需要靠隊友們的默契和實力。 棒球是如此的熱血，你怎麼能不愛棒球呢？</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1551,15 +1524,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI021.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI021　翁新然／化工四</b></p>
-              <p>經歷：2015~2016年 擔任化工系棒隊長，目前為化工系棒主戰投手和跑力F重炮手</p>
-              <p>紀錄：<br>大一第一次練習free batting就把球打出右外野高牆；2014/5/15台大盃對地調，在三局下半2:2平手時上場後援，3局無失分，6K/3BB/1H，拿下生涯首勝，還附帶四上打出帶有勝利打點的高飛犧牲打；2015/12/30工院盃冠軍賽對機械，主投3.2局無安打無失分帶領化工拿下工院盃冠軍；2017/3/20台大盃對彰化人，生涯百K達成</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI021')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI021" class="w3-container w3-hide">
-                <p>說到化工系棒，有誰不認識笑起來最令人感到溫暖的強投豪打二刀流「然神」呢? 大學加入化工系棒圓小時候打棒球的夢想。憑藉著對棒球的熱忱、執著與一顆喜愛棒球的心，站在投手丘上壓制各路好手，打擊區上的他也令人聞風喪膽。 曾擔任化工隊長的阿然，號稱化工Verlander，快速直球的對決從不落於下風。在三壘也號稱化工Arenado，攻守兼具給隊友們無限的安定感。但他從不眷戀各種封號，因為他只是純粹喜歡打棒球。 如今，戰功彪炳的新然已經大四，這可能是新然在學校打球的最後一年，拜託大家利用手中神聖的票，把新然送進明星賽，讓他的學生棒球生涯留下一個沒有遺憾的結尾吧！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI012_big.jpg'><img src="/public/img/nomination/PI012_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI012　任傳中／機械四</b></p>
+                <p>經歷：105學年度新生盃冠軍成員、104學年度攻城聯盟季軍隊長、104學年度台大盃冠軍隊長、104學年度新生盃亞軍隊長</p>
+                <p>紀錄：<br>2016年曾在HBC社會聯盟投出7局16K無安打比賽、105學年度新生盃最佳投手獎</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI012')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI012" class="w3-container w3-hide">
+                  <p>人稱機械偉殷，卻沒有偉殷的外表。2014年開始在機械系隊展露頭角，更成為系隊的中流砥柱；接任隊長後更是扛下了重擔，只為了讓系隊更好更強。 對於棒球的熱情無可言喻，有了棒球就忘了女朋友。雖然他現在只有左右手。不過棒球的路上不孤獨，有一群棒球痴的陪伴，一起精進球藝，一起切磋球技，雖然打擊還是跟陳偉殷一樣。 喔沒有啦，他還是有打過全壘打，真是人不可貌相呢！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1569,15 +1544,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI022.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI022　手塚唯／政治交換生</b></p>
-              <p>經歷：從國小開始接觸棒球，而在上大學期間，球隊的氣氛較為嚴肅而短暫停止練習約三年。在臺大留學期間，想透過運動方式認識更多其他台大學生，所以又重拾棒球。</p>
-              <p>紀錄：<br>無</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI022')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI022" class="w3-container w3-hide">
-                <p>無投手的實績，從小到現在，都擔任內野手（擅長三壘手）。自從加入群風球隊的練習之後，有時會接任投手，才發現投手這個位置的魅力，越來越羨慕這個很特別的位置，雖然我的球威和球速都普通，對於控球和變化球還有一點點的自信，主要曲球威力不是很大，但控球比較穩定，非常想透過明星賽認識更多更多熱愛棒球的同學，請多多指教！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI013_big.jpg'><img src="/public/img/nomination/PI013_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI013　鄭杰騏／農經五</b></p>
+                <p>經歷：群風、農經蟲球員</p>
+                <p>紀錄：<br>2013/8/26管社盃vs農化 生涯首打席安打、2013新生盃上壘率100%、2014台大盃上壘率100%</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI013')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI013" class="w3-container w3-hide">
+                  <p>鄭杰騏是「台大谷翔平」陳柏安的高中同學，雖然在升大二的暑假才加入群風棒球隊，開始真正接觸棒球。不過他在棒球生涯的第一個打席，就敲出了一支帶有一分打點的安打，之後打擊和外野守備都偶有佳作。但投手才是他最喜愛的位置，身為前兄弟象「黃金潛水艇」廖于誠的球迷，鄭杰騏一直以成為台大最強下勾投手為目標，然而礙於能給予指導的人太少，因此進步的幅度相當有限，不過對一個到國小五年級還不會做仰臥起坐的體育白痴來說，這已經是很不容易的表現了。 想看到台大現役唯一下勾投手投球的英姿，感受從地表3公分處出手的魅力嗎，那就一定要把票投給他唷！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1588,15 +1565,200 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/PI023.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>PI023　王羿璁／數學二</b></p>
-              <p>經歷：宜蘭高中棒球隊、台大棒球隊成員</p>
-              <p>紀錄：<br>105學年度新生盃季軍；2016/12/23大專盃對上世新大學，單場兩隻三壘安打一隻二壘安打</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('PI023')"><b>查看球員介紹↓</b></a><br>
-              <div id="PI023" class="w3-container w3-hide">
-                <p>俗話說左投勊左打，面對左打者的時候通常派上左投手對付，然而這時如果能一人分飾兩角該有多好？對右打時用右手丟，對左打時用左手丟。 大聯盟有因「左右開投」而有不小知名度的投手溫迪特，但你有在學生棒球看過左右開投的嗎？ 將投打習慣更改，本身需要相當好的協調性才能做到，數學系二年級有一練武奇材，同學、隊友們都稱呼他「小藍璁」。 不只全腦開發榮獲數奧銅牌，在棒球場上更是全能，投手能、捕手能、左打能、右打能，守備功力更是台大棒球隊的中流砥柱，大二的他逐漸站穩台大棒球隊先發游擊手，堪稱後昱賢銘哲時代游擊霸。 這次他要競爭票選的是投手丘上華麗舞台，對於綜合各能力值於一身的他可說是再適合不過了！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI014_big.jpg'><img src="/public/img/nomination/PI014_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI014　梁書哲／電機二</b></p>
+                <p>經歷：傳統棒球名校華興中學普通班、電機系棒球員</p>
+                <p>紀錄：<br>2016攻城聯盟對工管六局完投8K、2017工院盃對機械擊出滿貫砲</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI014')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI014" class="w3-container w3-hide">
+                  <p>WBC啊，也許在某個平行時空裡，我們是在一起的。 「面對左打，就該換左投，開牌吧。 我的ACE就是電機左手王牌梁書哲。」 「可是總仔，這個是紐約洋雞的帝帝， 對左投打擊率0.320，右投只有0.258啊…」 「你懂什麼？這可不是一般的左投。」鍋太方總教練微笑著 「他打code苦練出來的堅毅肝臟不怕任何的壓力測試」 一好球 「像開車躲避三寶一樣避開打者的熱區」 兩好球 「和背號一樣擁有87種尾勁的直球作為決勝」 好球，三振出局，書哲手下再一次無人能夠生還！ 中華隊再一次讓對手吃鍋貼！ 我們可以聽到荷蘭主播泣不成聲高喊我好想贏台灣！ 「我最喜歡年輕左投了，請問你可以加入我們流浪貓隊嗎？」 鍋太方教練哀求著，看來有些事情到了平行時空也一樣 「不好意思，此刻我只想登上明星賽的投手丘！ 把你那一票交出來吧！」</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI015_big.jpg'><img src="/public/img/nomination/PI015_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI015　洪偉哲／醫學六</b></p>
+                <p>經歷：台大醫學院棒球隊主力先發，六年如一日；台大棒球校隊</p>
+                <p>紀錄：<br>2011台大醫學院棒球隊以大一新人之姿站穩先發、2012台大棒球隊校隊指名入團、曾與台大醫學院院長楊泮池於鳥籠KGB、曾率領台大醫學院棒球隊進入台大盃四強、曾在東京與千賀滉大進行投打對決，擊出平飛安打</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI015')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI015" class="w3-container w3-hide">
+                  <p>小時候在大魯閣測速測出125km/h，以為自己天賦異稟，進大學之後才知道全部都是豪洨。從此臥薪嘗膽，以達比修為目標進行「肉体改造」，把重訓當做呼吸，把雞蛋、肉、高蛋白當白飯吃，五年間如一日。現在已進化為輕鬆120km/h連發的本格派豪腕。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        <div class="w3-row-padding">
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI016_big.jpg'><img src="/public/img/nomination/PI016_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI016　張繼剛／數研所碩二</b></p>
+                <p>經歷：高中雖有打過棒球，但因高三下學期時肩膀和膝蓋都受了非常重的傷（三個月無法運動的程度）因此大學棒球也等於實質從0開始。100學年度入學時加入數學系棒，自大三(102上學期)起成為數學系主戰投手，並在103學年下學期數學物理聯隊後繼續擔任主戰投手。103學年度理院盃奪三振王(含預賽11.1局20K 複賽7.1局15K) 104學年度上學期以大五延畢生之姿接任數學物理聯隊隊長，並在推甄考上數研所後於104學年下學期寒假入學並繼續帶隊成為「研究生隊長」</p>
+                <p>紀錄：<br>數學物理聯隊：16登板14先發9勝5敗56.2局92K；研究所入學後：9登板7先發5勝2敗27.2局53K；105學年度目前5登板4先發4勝0敗17.2局35K</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI016')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI016" class="w3-container w3-hide">
+                  <p>雖然從小一直很沒有運動天分，又胖又不靈活，肢體也超級不協調，甚至從小還同時是氣喘兒+扁平足+青蛙肢。但因為對棒球非常有熱情，幾乎是把唸書以外80%以上的時間都給了棒球，也許老天爺因此才讓我的氣喘與青蛙肢都在升上大學以後逐漸治好做為回報（現在這兩項已治癒，但扁平足沒有好）也讓單以先天條件來說，恐怕是「萬中選一」的超級運動白痴的自己，在投手丘上多少投出了一些成績。 球風上投球姿勢類似龍捲風投法，主要武器為球速不算很快但後旋良好的速球，因而有著高奪三振率的優勢。立志憑著自己的努力「來完成」證明就算沒有運動天分的人，憑著努力也可以成為好投手的這道證明題。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI017_big.jpg'><img src="/public/img/nomination/PI017_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI017　許良亦／地質三</b></p>
+                <p>經歷：武陵高中棒球隊、北桃中南四聯明星賽第一屆成員、台大地質系棒球隊</p>
+                <p>紀錄：<br>2014/12/26攻城盃面對土木投出5局10K接近無安打的表現！幾乎每一場比賽都將對手跑者牽制出局</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI017')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI017" class="w3-container w3-hide">
+                  <p>良亦是「機械偉殷」任傳中嫡傳學弟，就讀武陵高中時期時便以當家曲球投出名氣。某年，曾有人指稱其曲球軌跡與「左鄭」鄭錡鴻十分相似，奇蹟似地，隔年鄭錡鴻即上演大復活。 想看台大三大球員農場之一「武陵農場」出產，有品質保證的左投們對決嗎？請務必票投許良亦，保證打者聞風喪膽心中滿是涼意。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI018_big.jpg'><img src="/public/img/nomination/PI018_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI018　鄧福勝／生化所博二</b></p>
+                <p>經歷：曾任興農牛隊球僮、前中興大學王牌投手</p>
+                <p>紀錄：<br>105學年度新生盃季軍</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI018')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI018" class="w3-container w3-hide">
+                  <p>我的棒球經歷從國小開始，從少棒之後有中斷一陣子，升到高中後才又在社團中碰到棒球。由於社團關係，我們每周都會到當時的兄弟象訓練基地練球，能直接吸收職業球員的訓練方式、球技與觀念。升上大學後幸運地進入校隊當投手，以棒球作為生活的中心。 也因為朋友介紹，偶爾到當時興農牛的主場－台中球場作球僮或陪練員，可以繼續就近瞭解職業球員或是體育大學國手訓練強度與方法。大學這段時間點算是自己球技高峰及成熟的時候。打過大專盃、興農盃、聯合盃以及外面的業餘聯盟。 但在大三下學期，肩膀、手肘韌帶及膝蓋依續受傷或開刀，雖然極力復健希望重回球場，甚至有幸運受邀參加職業球團測試，但最後還是失敗作收。 目前已經沒在碰球，將以研究作為生活的重心。很多人感覺棒球與研究兩者之間差異很大，但我認為並無太大不同，始終都是需要熱情及不斷努力才能夠闖出自己一片天！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        <div class="w3-row-padding">
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI019_big.jpg'><img src="/public/img/nomination/PI019_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI019　黃晉毅／社會五</b></p>
+                <p>經歷：2010~2011高雄中學棒球隊隊長；2012~ 台大棒球隊投手；2013~2016 梟雄棒球隊隊長</p>
+                <p>紀錄：<br>南區高中棒球聯賽－2010第18屆亞軍、2010第19屆季軍、2011第20屆季軍、2011第21屆亞軍、2012第23屆季軍、兩度獲得最佳捕手獎；台大校內賽－101新生盃冠軍、101台大盃冠軍、102台大盃冠軍、103新生盃冠軍、103台大盃季軍、104台大盃亞軍；台大大專盃－2016大專盃全國季軍、兩度獲得秋季聯賽最佳投手獎</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI019')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI019" class="w3-container w3-hide">
+                  <p>高中時身為雄中棒球隊隊長的晉毅，在高中三年的比賽中為雄中打下了無數江山。在投手板與本壘板之間奔走的他絲毫不見疲態，晉毅在雄中棒球隊拚戰的日子中，三度在季軍戰銜命先發主投皆獲勝投，帶領球隊奪下季軍；同時也獲得了兩次的捕手獎，戰功彪炳！並在高三那年的暑假獲選為南聯明星隊成員之一，與北聯、桃聯、中聯等菁英球隊交戰。 上了大學後，在校內兩大杯賽中，晉毅效力於群風、梟雄兩支球隊，在校內賽累積了8勝1敗、防禦率2.51的優秀成績，也帶領梟雄棒球隊拿下四冠一亞一季的輝煌戰果。 更重要的是，身為台大棒球隊主戰投手的晉毅，至今更是在大專盃賽場上留下了11勝1敗的鬼神表現；屢屢用精準的控球遏止對手強取豪奪的功夫，讓晉毅在大專盃的校際間也留下了不少盛名！擅長數學的他，更擅長在比賽中精算壘包及用球數，人生巔峰是2014年的大專杯出戰德明科大，只用了69球就完投七局的比賽，如今仍為人津津樂道！ 想在棒球場上看到充滿精算的細膩棒球嗎？台大強投晉毅準備好獻技囉！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI020_big.jpg'><img src="/public/img/nomination/PI020_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI020　陳卓／國企二</b></p>
+                <p>經歷：台中一中棒球隊第九屆隊長、台灣大學棒球隊、校內隸屬明明就很少去支援的農化生技系棒</p>
+                <p>紀錄：<br>102學年度高中棒球聯賽軟式組全國十六強，預賽面對科班育民工家最後一局9顆速球連3K；104學年度台大學測申請五冠王；104學年度大專棒球聯賽一般組季軍；104學年度新生盃棒球賽季軍；104學年度台大盃棒球賽季軍；重訓狂熱者，硬舉140kg*3下；獲陳偉殷指導投球，心得被陳偉殷本人粉專分享。</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI020')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI020" class="w3-container w3-hide">
+                  <p>紅襪隊的神之右手佩卓。馬丁尼茲眾所皆知，今天要介紹的是他甘比亞的遠親－陳卓。馬J尼茲。 他從小立志打擊犯罪，長老告訴他：「墨西哥毒梟、義大利黑手黨都不夠看，最強的對手是台中8+9。」 於是，陳卓來到台中一中當交換學生，深夜靠保護色隱身，並用動輒120km/h的火球連發打爆8+9保衛街頭。到了白天，他便回歸一中棒球隊長的身分，帶領球隊立威，也讓他感悟：「原來這就是兄弟的感覺。」從此一中棒球隊開始了連亞之路。 然而，來到大學的陳卓，為了兼顧球速與控球苦惱不已，直到有一天來到了旅美左投訓練營 「前輩，請問要怎麼增加投球的穩定性呢？」「這個嗎，首先你要…不好意思我接個電話。鍋總啊，拍謝捏這次WBC我又要抱小孩了，可能無法參賽了喔。」聽到此處，陳卓突然頓悟，原來前輩休賽期是靠著抱小孩鍛鍊肌肉的穩定性啊！ 「兩歲的小孩大概重14公斤，那我就用十倍的努力，健身房140kg直接舉起來，我會努力成為強投的，讓我登上明星賽的投手丘吧！」</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI021_big.jpg'><img src="/public/img/nomination/PI021_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI021　翁新然／化工四</b></p>
+                <p>經歷：2015~2016年 擔任化工系棒隊長，目前為化工系棒主戰投手和跑力F重炮手</p>
+                <p>紀錄：<br>大一第一次練習free batting就把球打出右外野高牆；2014/5/15台大盃對地調，在三局下半2:2平手時上場後援，3局無失分，6K/3BB/1H，拿下生涯首勝，還附帶四上打出帶有勝利打點的高飛犧牲打；2015/12/30工院盃冠軍賽對機械，主投3.2局無安打無失分帶領化工拿下工院盃冠軍；2017/3/20台大盃對彰化人，生涯百K達成</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI021')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI021" class="w3-container w3-hide">
+                  <p>說到化工系棒，有誰不認識笑起來最令人感到溫暖的強投豪打二刀流「然神」呢? 大學加入化工系棒圓小時候打棒球的夢想。憑藉著對棒球的熱忱、執著與一顆喜愛棒球的心，站在投手丘上壓制各路好手，打擊區上的他也令人聞風喪膽。 曾擔任化工隊長的阿然，號稱化工Verlander，快速直球的對決從不落於下風。在三壘也號稱化工Arenado，攻守兼具給隊友們無限的安定感。但他從不眷戀各種封號，因為他只是純粹喜歡打棒球。 如今，戰功彪炳的新然已經大四，這可能是新然在學校打球的最後一年，拜託大家利用手中神聖的票，把新然送進明星賽，讓他的學生棒球生涯留下一個沒有遺憾的結尾吧！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        <div class="w3-row-padding">
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI022_big.jpg'><img src="/public/img/nomination/PI022_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI022　手塚唯／政治交換生</b></p>
+                <p>經歷：從國小開始接觸棒球，而在上大學期間，球隊的氣氛較為嚴肅而短暫停止練習約三年。在臺大留學期間，想透過運動方式認識更多其他台大學生，所以又重拾棒球。</p>
+                <p>紀錄：<br>無</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI022')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI022" class="w3-container w3-hide">
+                  <p>無投手的實績，從小到現在，都擔任內野手（擅長三壘手）。自從加入群風球隊的練習之後，有時會接任投手，才發現投手這個位置的魅力，越來越羨慕這個很特別的位置，雖然我的球威和球速都普通，對於控球和變化球還有一點點的自信，主要曲球威力不是很大，但控球比較穩定，非常想透過明星賽認識更多更多熱愛棒球的同學，請多多指教！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/PI023_big.jpg'><img src="/public/img/nomination/PI023_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>PI023　王羿璁／數學二</b></p>
+                <p>經歷：宜蘭高中棒球隊、台大棒球隊成員</p>
+                <p>紀錄：<br>105學年度新生盃季軍；2016/12/23大專盃對上世新大學，單場兩隻三壘安打一隻二壘安打</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('PI023')"><b>查看球員介紹↓</b></a><br>
+                <div id="PI023" class="w3-container w3-hide">
+                  <p>俗話說左投勊左打，面對左打者的時候通常派上左投手對付，然而這時如果能一人分飾兩角該有多好？對右打時用右手丟，對左打時用左手丟。 大聯盟有因「左右開投」而有不小知名度的投手溫迪特，但你有在學生棒球看過左右開投的嗎？ 將投打習慣更改，本身需要相當好的協調性才能做到，數學系二年級有一練武奇材，同學、隊友們都稱呼他「小藍璁」。 不只全腦開發榮獲數奧銅牌，在棒球場上更是全能，投手能、捕手能、左打能、右打能，守備功力更是台大棒球隊的中流砥柱，大二的他逐漸站穩台大棒球隊先發游擊手，堪稱後昱賢銘哲時代游擊霸。 這次他要競爭票選的是投手丘上華麗舞台，對於綜合各能力值於一身的他可說是再適合不過了！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1616,15 +1778,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/CA001.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>CA001　林鴻揚／地理碩一</b></p>
-              <p>經歷：台大棒球隊捕手、新生盃主辦人、台大最強捕蛇王</p>
-              <p>紀錄：<br>曾經和一名台大分子醫學研究所的學長聯手和地理系打進新生盃四強，創造隊史最佳紀錄。</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('CA001')"><b>查看球員介紹↓</b></a><br>
-              <div id="CA001" class="w3-container w3-hide">
-                <p>這位捕蛇王，是我的好搭檔，他和我在校內比賽時常搭配，雖然他阻殺偶爾有失常表現能抓到跑者，但是他真的很會catch，各種挖地瓜的球都接得很好，也很會配球。 他幫我接捕，讓我能夠安心的投球，釋放身為投手的靈魂，林鴻揚，愛你，以後有機會我們再從跌倒的地方站起來。 那場比賽很對不起你，如果我投到第七局還能控好我的滑球的話，說不定就不會被打逆轉的三分出牆的全壘打了，我永遠記得那球你配外角直球，我也投得很到位，但是真的因為已經投了100球以上，球威下降，肛~的一聲，一球逆轉了戰局，還差兩個出局數就能攜手進軍冠軍戰。 因為轟天一擊，賽後我們都濕了（眼眶），有緣的話我們再一起投捕扳回一城！！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/CA001_big.jpg'><img src="/public/img/nomination/CA001_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>CA001　林鴻揚／地理碩一</b></p>
+                <p>經歷：台大棒球隊捕手、新生盃主辦人、台大最強捕蛇王</p>
+                <p>紀錄：<br>曾經和一名台大分子醫學研究所的學長聯手和地理系打進新生盃四強，創造隊史最佳紀錄。</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('CA001')"><b>查看球員介紹↓</b></a><br>
+                <div id="CA001" class="w3-container w3-hide">
+                  <p>這位捕蛇王，是我的好搭檔，他和我在校內比賽時常搭配，雖然他阻殺偶爾有失常表現能抓到跑者，但是他真的很會catch，各種挖地瓜的球都接得很好，也很會配球。 他幫我接捕，讓我能夠安心的投球，釋放身為投手的靈魂，林鴻揚，愛你，以後有機會我們再從跌倒的地方站起來。 那場比賽很對不起你，如果我投到第七局還能控好我的滑球的話，說不定就不會被打逆轉的三分出牆的全壘打了，我永遠記得那球你配外角直球，我也投得很到位，但是真的因為已經投了100球以上，球威下降，肛~的一聲，一球逆轉了戰局，還差兩個出局數就能攜手進軍冠軍戰。 因為轟天一擊，賽後我們都濕了（眼眶），有緣的話我們再一起投捕扳回一城！！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1635,15 +1799,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/CA002.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>CA002　杜泰儀／心理碩一</b></p>
-              <p>經歷：2014年擔任心理系棒隊長</p>
-              <p>紀錄：<br>2015/10/18秋聯冠軍賽單場三支三壘安打；2016/10/24新生盃對土木單場三阻殺</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('CA002')"><b>查看球員介紹↓</b></a><br>
-              <div id="CA002" class="w3-container w3-hide">
-                <p>我從上大學打棒球以來，最崇拜最尊敬的就是杜杜了＞＼＼＼＜每次只要他站上打擊區，我們就知道這即將是一支深遠的安打。他也用實力帶領球隊，讓心理系棒從積弱不振的球隊進化成能夠與梟雄、土木等強隊抗衡的隊伍。懇請大家，惠賜一票OUO!!</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/CA002_big.jpg'><img src="/public/img/nomination/CA002_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>CA002　杜泰儀／心理碩一</b></p>
+                <p>經歷：2014年擔任心理系棒隊長</p>
+                <p>紀錄：<br>2015/10/18秋聯冠軍賽單場三支三壘安打；2016/10/24新生盃對土木單場三阻殺</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('CA002')"><b>查看球員介紹↓</b></a><br>
+                <div id="CA002" class="w3-container w3-hide">
+                  <p>我從上大學打棒球以來，最崇拜最尊敬的就是杜杜了＞＼＼＼＜每次只要他站上打擊區，我們就知道這即將是一支深遠的安打。他也用實力帶領球隊，讓心理系棒從積弱不振的球隊進化成能夠與梟雄、土木等強隊抗衡的隊伍。懇請大家，惠賜一票OUO!!</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1653,70 +1819,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/CA003.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>CA003　劉庭安／政治四</b></p>
-              <p>經歷：台南一中棒球隊、政治系棒主戰捕手</p>
-              <p>紀錄：<br>全國高中棒球聯賽複賽對高苑單場被7盜；一場比賽就是兩安不能再多了；曾在台大盃擊出滿貫全壘打；曾救火0.1局後連丟保送再被送回去蹲捕</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('CA003')"><b>查看球員介紹↓</b></a><br>
-              <div id="CA003" class="w3-container w3-hide">
-                <p>殘而不廢的庭安，帶著在韌帶重傷下進入了政治系棒，即便如此，他依然熱情的對待著每一個來球。雖然KGB常常丟不到20球就哇哇叫，練習時卻又能精神奕奕地奮力揮棒和傳球，是球場上最吵雜但又最熱血的人。公務員般的穩定攻守是球隊最重要的指揮塔，對學弟的指導不但盡心盡力還有點黏人。讓如此熱愛棒球的他站上明星賽的打擊區吧！</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/CA004.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>CA004　羅有渝／科法所碩五</b></p>
-              <p>經歷：財金系棒隊長、政研領隊、法律系壘隊長</p>
-              <p>紀錄：<br>98學年度（財金）新生盃棒球季軍；98學年度（財金）台大盃棒球季軍；100學年度（政研）台大盃棒球冠軍；101學年度大法盃快壘亞軍；102學年度（法律）台大盃慢壘亞軍；103學年度（工管）台大盃棒球亞軍；103學年度台大盃棒球vs梟雄，蹲捕單場3-2、2RBI、2阻殺中斷雄棒27連勝；103學年度（工管）攻城盃棒球季軍；103學年度大法盃快壘季軍；103年大法盃單屆成績：14AB、12PA、9H、2HR、2Double、1Triple、7RBI、5R、BB、HBP、7阻殺、兩場MVP及最佳捕手、三圍.750 / .786 / 1.583；103學年度大專盃慢壘先發成員；104學年度（工管）攻城盃棒球冠軍；104學年度（法律）台大慢壘聯賽亞軍；105學年度攻城盃三場比賽兩度將球打進新店溪</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('CA004')"><b>查看球員介紹↓</b></a><br>
-              <div id="CA004" class="w3-container w3-hide">
-                <p>「名次收集專門」 從預賽淘汰到冠、亞、季、殿軍無一遺漏。 「大小不拘」 大學開始接觸棒球，玩啊玩的最後慢壘、快壘都略懂略懂；只是碩一加入法律，新生盃混壘之際被法律二學弟詢問「學長你會打慢壘嗎？」 「我要守十個」 在財金系時沒守位偏好被學長丟到外野；碩班後在法律覺得內野有趣開始守游擊；碩四被不肖隊長學弟逼著練捕手；加上沒事亂玩的慢壘投手，應該很對西瓜Joe Maddon的味。 「神鵰俠侶」 女友同為熱愛棒壘運動的一員，在場上共同鎮守二游大關，那畫面太美我不敢看。 「梟雄殺手」 雄棒在101學年度開始席捲台大校內棒球賽事，拉出一波27連勝4冠的成績；中斷其連勝的正是有渝在陣的工管系棒。巧的是，雄棒此番連勝的上場敗績，正也是有渝在陣的政研所賜。 「有渝，鳳雛，二者得一，可安天下」 不論是在財金還是法律，都帶領球隊晉升強隊之林；在法律更被尊稱「國父」。 「以球會友」 慣於四處與不同系棒、系壘練球或組隊打比賽，認識球友甚多。江湖傳言，某天下午原欲在台大場進行友誼賽，結果遭放鳥而即將開天窗，有渝當場號召台大場各處活動的球友，立馬組成一隊順利完賽，足可見其交友之廣闊。 「我姆斯啦」 不是轉隊抱腿，就是拉別人來抱。</p>
-              </div>
-            </div>
-          </div>
-        
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/CA005.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>CA005　呂少驊／土木所碩一</b></p>
-              <p>經歷：校內比賽守過所有守位</p>
-              <p>紀錄：<br>2016/05/30 台大盃八強賽擊出逆轉場內全壘打</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('CA005')"><b>查看球員介紹↓</b></a><br>
-              <div id="CA005" class="w3-container w3-hide">
-                <p>自從在攻城盃中擊出第一支全壘打後，打擊能力激升，開始扛起土木中心棒次的重擔，經常在比賽中擊出深遠安打，且因腳程飛快，故有腿砲之稱。 送少驊進明星賽吧！讓我們在明星賽一起唱：「安打～少驊～盜壘～少驊；土木腿砲～呂少驊！安打～少驊～盜壘～少驊；重擊敵人～呂少驊！」</p>
-              </div>
-            </div>
-          </div>
-        
-      
-      
-        
-        
-        
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/CA006.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>CA006　陳沿徽／機械所碩一</b></p>
-              <p>經歷：103學年度機械系棒副隊長、105學年度新生盃冠軍全職捕手、104學年度台大盃冠軍成員、104學年度新生盃亞軍成員</p>
-              <p>紀錄：<br>HBC社會聯盟單場兩次阻殺、工院盃打出直擊景美球場大樹的再見安打</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('CA006')"><b>查看球員介紹↓</b></a><br>
-              <div id="CA006" class="w3-container w3-hide">
-                <p>陳金鋒說：「球來就打。」 而我說：「球來就擋。」 有人說：「世界上最遙遠的距離，不是生與死。」 我想說：「而是你離二壘還很遠，我卻殺不到你。」 從大二加入機械系棒不久就決定苦練捕手，也因為高中沒有任何基礎，接球傳球打擊都要從頭來。捕手是棒球場上最累最痛的位子，球具亦是最麻煩的。別人可以一個手套去球場，捕手卻要帶一大包護具，偶爾還要多帶一個手套臨時練或守其他位置用，還有護擋（這超重要）。 從一開始上場蹲的各種漏接，手榴彈式亂傳二壘，沒接到柏安的速球被主審罵。到第一次帶著機械二軍進複賽，這兩年的台大盃新生盃冠軍。雖然辛苦，但是如果能重新選擇，我還是會選擇好好地練捕手吧。</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/CA003_big.jpg'><img src="/public/img/nomination/CA003_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>CA003　劉庭安／政治四</b></p>
+                <p>經歷：台南一中棒球隊、政治系棒主戰捕手</p>
+                <p>紀錄：<br>全國高中棒球聯賽複賽對高苑單場被7盜；一場比賽就是兩安不能再多了；曾在台大盃擊出滿貫全壘打；曾救火0.1局後連丟保送再被送回去蹲捕</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('CA003')"><b>查看球員介紹↓</b></a><br>
+                <div id="CA003" class="w3-container w3-hide">
+                  <p>殘而不廢的庭安，帶著在韌帶重傷下進入了政治系棒，即便如此，他依然熱情的對待著每一個來球。雖然KGB常常丟不到20球就哇哇叫，練習時卻又能精神奕奕地奮力揮棒和傳球，是球場上最吵雜但又最熱血的人。公務員般的穩定攻守是球隊最重要的指揮塔，對學弟的指導不但盡心盡力還有點黏人。讓如此熱愛棒球的他站上明星賽的打擊區吧！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1726,15 +1839,17 @@ function smallNav() {
         
         
         <div class="w3-row-padding">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/CA007.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>CA007　蔡仲閔／工海二</b></p>
-              <p>經歷：台中一中棒球隊第七屆隊長、交通大學公開二級棒球隊（體育資優考取）、台大工海系棒</p>
-              <p>紀錄：<br>101學年度北區冬季棒球聯賽並列全壘打王；102學年度參加北中南桃四聯高中棒球明星賽；104學年度新生盃棒球賽季軍，挾帶打擊率6成36、上壘率7成05、長打率1.63、OPS2.38的超不科學成績拿下了新人王獎</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('CA007')"><b>查看球員介紹↓</b></a><br>
-              <div id="CA007" class="w3-container w3-hide">
-                <p>來自南投草屯的巧人，從高中開始便是一股席捲乙組棒球的強力黑旋風，打擊的破壞力、守備的穩定性，以及永遠比投手投過去還快的強肩回傳球，讓他成了場上最安定的力量。 高中畢業時巧人更是考取了甲二級的交大棒球隊，無奈新竹實為美食沙漠，餓了一年肚子的他決定來到公館112，在美食與幸福肥的孕育之下巧人完全釋放長打炮管，開始在校內各比賽虐菜，繳出上述那種除以二都還是很可怕的打擊數據。他還曾經在新生盃時擊出一發台大場中外野出牆全壘打（google map測量保守115公尺，即377呎），震驚台大球界。台大盃對上法律時更是敲出罕見的右打反方向全壘打，證明自己全面而細膩的無死角打擊，絕非一般只會出蠻力猛揮的盲炮能比擬。工海系棒也在他的帶領下闖進了已經絕緣四年的校內盃賽複賽。 想看巧人仲閔的重砲揮擊再次挑戰新體三樓無辜的窗戶嗎？還是想看他拿著護國神捕高志綱的手套演出一個個霸氣阻殺？快投下你的一票吧！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/CA004_big.jpg'><img src="/public/img/nomination/CA004_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>CA004　羅有渝／科法所碩五</b></p>
+                <p>經歷：財金系棒隊長、政研領隊、法律系壘隊長</p>
+                <p>紀錄：<br>98學年度（財金）新生盃棒球季軍；98學年度（財金）台大盃棒球季軍；100學年度（政研）台大盃棒球冠軍；101學年度大法盃快壘亞軍；102學年度（法律）台大盃慢壘亞軍；103學年度（工管）台大盃棒球亞軍；103學年度台大盃棒球vs梟雄，蹲捕單場3-2、2RBI、2阻殺中斷雄棒27連勝；103學年度（工管）攻城盃棒球季軍；103學年度大法盃快壘季軍；103年大法盃單屆成績：14AB、12PA、9H、2HR、2Double、1Triple、7RBI、5R、BB、HBP、7阻殺、兩場MVP及最佳捕手、三圍.750 / .786 / 1.583；103學年度大專盃慢壘先發成員；104學年度（工管）攻城盃棒球冠軍；104學年度（法律）台大慢壘聯賽亞軍；105學年度攻城盃三場比賽兩度將球打進新店溪</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('CA004')"><b>查看球員介紹↓</b></a><br>
+                <div id="CA004" class="w3-container w3-hide">
+                  <p>「名次收集專門」 從預賽淘汰到冠、亞、季、殿軍無一遺漏。 「大小不拘」 大學開始接觸棒球，玩啊玩的最後慢壘、快壘都略懂略懂；只是碩一加入法律，新生盃混壘之際被法律二學弟詢問「學長你會打慢壘嗎？」 「我要守十個」 在財金系時沒守位偏好被學長丟到外野；碩班後在法律覺得內野有趣開始守游擊；碩四被不肖隊長學弟逼著練捕手；加上沒事亂玩的慢壘投手，應該很對西瓜Joe Maddon的味。 「神鵰俠侶」 女友同為熱愛棒壘運動的一員，在場上共同鎮守二游大關，那畫面太美我不敢看。 「梟雄殺手」 雄棒在101學年度開始席捲台大校內棒球賽事，拉出一波27連勝4冠的成績；中斷其連勝的正是有渝在陣的工管系棒。巧的是，雄棒此番連勝的上場敗績，正也是有渝在陣的政研所賜。 「有渝，鳳雛，二者得一，可安天下」 不論是在財金還是法律，都帶領球隊晉升強隊之林；在法律更被尊稱「國父」。 「以球會友」 慣於四處與不同系棒、系壘練球或組隊打比賽，認識球友甚多。江湖傳言，某天下午原欲在台大場進行友誼賽，結果遭放鳥而即將開天窗，有渝當場號召台大場各處活動的球友，立馬組成一隊順利完賽，足可見其交友之廣闊。 「我姆斯啦」 不是轉隊抱腿，就是拉別人來抱。</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1745,15 +1860,17 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/CA008.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>CA008　賴拏雲／生工三</b></p>
-              <p>經歷：台南一中棒球隊、104(竹園崗)台大盃冠軍板凳中的板凳球員、系棒隊長的落選人</p>
-              <p>紀錄：<br>105新生盃單場三阻殺；讓生工王牌投手造就單局4K的紀錄；全高聯不管怎麼配球都被轟出去自己走下來；攻城盃轉戰投手莫名其妙被記錄成單局失九分；大學以來皮卡丘排球從未輸過！發下豪語輸了請吃雞排！</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('CA008')"><b>查看球員介紹↓</b></a><br>
-              <div id="CA008" class="w3-container w3-hide">
-                <p>在籃球界，號稱Chris paul gasol，用Chris paul的身高打Gasol的位置，在棒球界，號稱生工肥刀、生工沙胖。沒錯，其實就是一個字，胖！ 他能在接到球的一瞬間，以0.001秒的速度將體內的脂肪，轉換成脂肪酸，再轉換成能量，以飛快的速度傳向二壘，完成完美的阻殺。因此有人問，這樣怎麼瘦不下來，他笑而回答，要是瘦下來了，我要怎麼阻殺？能投能捕，生工二刀流，只差沒能跑得比自己投的球快，不能幫自己接球是人生中的一大憾事。球場上的胖子，盜壘時能激勵球隊，觸身時有天然防護，滿滿的1g九大卡的能量供打擊用，一個同時燃燒自我也燃燒脂肪的人，需要你熱情的支持！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/CA005_big.jpg'><img src="/public/img/nomination/CA005_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>CA005　呂少驊／土木所碩一</b></p>
+                <p>經歷：校內比賽守過所有守位</p>
+                <p>紀錄：<br>2016/05/30 台大盃八強賽擊出逆轉場內全壘打</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('CA005')"><b>查看球員介紹↓</b></a><br>
+                <div id="CA005" class="w3-container w3-hide">
+                  <p>自從在攻城盃中擊出第一支全壘打後，打擊能力激升，開始扛起土木中心棒次的重擔，經常在比賽中擊出深遠安打，且因腳程飛快，故有腿砲之稱。 送少驊進明星賽吧！讓我們在明星賽一起唱：「安打～少驊～盜壘～少驊；土木腿砲～呂少驊！安打～少驊～盜壘～少驊；重擊敵人～呂少驊！」</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1763,15 +1880,78 @@ function smallNav() {
         
         
         
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="/public/img/nomination/CA009.jpg" style="width:100%" class="w3-hover-opacity">
-            <div class="w3-container w3-white">
-              <p><b>CA009　甘國瑋／生工四</b></p>
-              <p>經歷：105年化工系棒副隊長、台大男壘退役成員</p>
-              <p>紀錄：<br>102年海洋盃冠軍、102年海洋聯賽亞軍、102年全國大交盃亞軍</p>
-              <a class="w3-btn w3-white w3-border" onclick="myFunction('CA009')"><b>查看球員介紹↓</b></a><br>
-              <div id="CA009" class="w3-container w3-hide">
-                <p>從小打壘球的他，在加入校棒以後，因緣際會下開始了他的棒球生涯，或許是他的靈敏度所致，他在第一次練球的當下便大喊：「我要當捕手！！！」 當捕手的心路歷程是很坎坷的，有時候可能要反應靈敏，跑者要盜二壘時必須迅速傳球，有時候又要綜觀全場，因為只有他是面對著整個球場，什麼樣的case捕手都需謹慎應對，並帶動整個球隊的氣勢。 而國瑋的捕手生涯，大致上也還不錯，他的安打+保送+三振次數，大概和他的漏球次數差不多。抓二壘盜壘時，也總是把球傳偏，多送對手一個壘包，也因此他在隊上多了一個綽號。 不過，即便有這麼多搞笑事蹟，他的實力還是足以問鼎先發，三壘阻殺成功率達到八成七，配球也能讓投手發揮最佳實力，有無數場的比賽經驗，正是他的最強後盾。 這次，他將進入明星賽，讓大家了解，台大GD的實力！</p>
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/CA006_big.jpg'><img src="/public/img/nomination/CA006_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>CA006　陳沿徽／機械所碩一</b></p>
+                <p>經歷：103學年度機械系棒副隊長、105學年度新生盃冠軍全職捕手、104學年度台大盃冠軍成員、104學年度新生盃亞軍成員</p>
+                <p>紀錄：<br>HBC社會聯盟單場兩次阻殺、工院盃打出直擊景美球場大樹的再見安打</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('CA006')"><b>查看球員介紹↓</b></a><br>
+                <div id="CA006" class="w3-container w3-hide">
+                  <p>陳金鋒說：「球來就打。」 而我說：「球來就擋。」 有人說：「世界上最遙遠的距離，不是生與死。」 我想說：「而是你離二壘還很遠，我卻殺不到你。」 從大二加入機械系棒不久就決定苦練捕手，也因為高中沒有任何基礎，接球傳球打擊都要從頭來。捕手是棒球場上最累最痛的位子，球具亦是最麻煩的。別人可以一個手套去球場，捕手卻要帶一大包護具，偶爾還要多帶一個手套臨時練或守其他位置用，還有護擋（這超重要）。 從一開始上場蹲的各種漏接，手榴彈式亂傳二壘，沒接到柏安的速球被主審罵。到第一次帶著機械二軍進複賽，這兩年的台大盃新生盃冠軍。雖然辛苦，但是如果能重新選擇，我還是會選擇好好地練捕手吧。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        <div class="w3-row-padding">
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/CA007_big.jpg'><img src="/public/img/nomination/CA007_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>CA007　蔡仲閔／工海二</b></p>
+                <p>經歷：台中一中棒球隊第七屆隊長、交通大學公開二級棒球隊（體育資優考取）、台大工海系棒</p>
+                <p>紀錄：<br>101學年度北區冬季棒球聯賽並列全壘打王；102學年度參加北中南桃四聯高中棒球明星賽；104學年度新生盃棒球賽季軍，挾帶打擊率6成36、上壘率7成05、長打率1.63、OPS2.38的超不科學成績拿下了新人王獎</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('CA007')"><b>查看球員介紹↓</b></a><br>
+                <div id="CA007" class="w3-container w3-hide">
+                  <p>來自南投草屯的巧人，從高中開始便是一股席捲乙組棒球的強力黑旋風，打擊的破壞力、守備的穩定性，以及永遠比投手投過去還快的強肩回傳球，讓他成了場上最安定的力量。 高中畢業時巧人更是考取了甲二級的交大棒球隊，無奈新竹實為美食沙漠，餓了一年肚子的他決定來到公館112，在美食與幸福肥的孕育之下巧人完全釋放長打炮管，開始在校內各比賽虐菜，繳出上述那種除以二都還是很可怕的打擊數據。他還曾經在新生盃時擊出一發台大場中外野出牆全壘打（google map測量保守115公尺，即377呎），震驚台大球界。台大盃對上法律時更是敲出罕見的右打反方向全壘打，證明自己全面而細膩的無死角打擊，絕非一般只會出蠻力猛揮的盲炮能比擬。工海系棒也在他的帶領下闖進了已經絕緣四年的校內盃賽複賽。 想看巧人仲閔的重砲揮擊再次挑戰新體三樓無辜的窗戶嗎？還是想看他拿著護國神捕高志綱的手套演出一個個霸氣阻殺？快投下你的一票吧！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/CA008_big.jpg'><img src="/public/img/nomination/CA008_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>CA008　賴拏雲／生工三</b></p>
+                <p>經歷：台南一中棒球隊、104(竹園崗)台大盃冠軍板凳中的板凳球員、系棒隊長的落選人</p>
+                <p>紀錄：<br>105新生盃單場三阻殺；讓生工王牌投手造就單局4K的紀錄；全高聯不管怎麼配球都被轟出去自己走下來；攻城盃轉戰投手莫名其妙被記錄成單局失九分；大學以來皮卡丘排球從未輸過！發下豪語輸了請吃雞排！</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('CA008')"><b>查看球員介紹↓</b></a><br>
+                <div id="CA008" class="w3-container w3-hide">
+                  <p>在籃球界，號稱Chris paul gasol，用Chris paul的身高打Gasol的位置，在棒球界，號稱生工肥刀、生工沙胖。沒錯，其實就是一個字，胖！ 他能在接到球的一瞬間，以0.001秒的速度將體內的脂肪，轉換成脂肪酸，再轉換成能量，以飛快的速度傳向二壘，完成完美的阻殺。因此有人問，這樣怎麼瘦不下來，他笑而回答，要是瘦下來了，我要怎麼阻殺？能投能捕，生工二刀流，只差沒能跑得比自己投的球快，不能幫自己接球是人生中的一大憾事。球場上的胖子，盜壘時能激勵球隊，觸身時有天然防護，滿滿的1g九大卡的能量供打擊用，一個同時燃燒自我也燃燒脂肪的人，需要你熱情的支持！</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+        
+        
+        
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/nomination/CA009_big.jpg'><img src="/public/img/nomination/CA009_small.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>CA009　甘國瑋／生工四</b></p>
+                <p>經歷：105年化工系棒副隊長、台大男壘退役成員</p>
+                <p>紀錄：<br>102年海洋盃冠軍、102年海洋聯賽亞軍、102年全國大交盃亞軍</p>
+                <a class="w3-btn w3-white w3-border" onclick="myFunction('CA009')"><b>查看球員介紹↓</b></a><br>
+                <div id="CA009" class="w3-container w3-hide">
+                  <p>從小打壘球的他，在加入校棒以後，因緣際會下開始了他的棒球生涯，或許是他的靈敏度所致，他在第一次練球的當下便大喊：「我要當捕手！！！」 當捕手的心路歷程是很坎坷的，有時候可能要反應靈敏，跑者要盜二壘時必須迅速傳球，有時候又要綜觀全場，因為只有他是面對著整個球場，什麼樣的case捕手都需謹慎應對，並帶動整個球隊的氣勢。 而國瑋的捕手生涯，大致上也還不錯，他的安打+保送+三振次數，大概和他的漏球次數差不多。抓二壘盜壘時，也總是把球傳偏，多送對手一個壘包，也因此他在隊上多了一個綽號。 不過，即便有這麼多搞笑事蹟，他的實力還是足以問鼎先發，三壘阻殺成功率達到八成七，配球也能讓投手發揮最佳實力，有無數場的比賽經驗，正是他的最強後盾。 這次，他將進入明星賽，讓大家了解，台大GD的實力！</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1820,6 +2000,12 @@ function myFunction(id) {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
+// colorbox
+ jQuery('a.gallery').colorbox();
+ $(".gallery").colorbox({
+  width: "50%"
+});
 
 </script>
 
