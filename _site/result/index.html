@@ -80,22 +80,47 @@ function smallNav() {
 
 <!-- Menu Container -->
 <div class="w3-container">
-  <div class="w3-content w3-padding-32" style="max-width:1500px">
+  <h2 class="w3-wide w3-center w3-padding-32">票選結果</h2>
+  <div class="w3-row w3-card-2 w3-padding">
+    <div class="w3-col w3-container w3-center" style="width:25%">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'PI');" id="default"  style="text-decoration:none">
+        <div class="s6 tablink" style="20%">投手人選</div>
+      </a>
+    </div>
+    <div class="w3-col w3-container w3-center" style="width:25%">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'CA');" style="text-decoration:none">
+        <div class="s6 tablink">捕手人選</div>
+      </a>
+    </div>
+    <div class="w3-col w3-container w3-center" style="width:25%;">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'IF');" style="text-decoration:none">
+        <div class="s6 tablink" style="20%">內野人選</div>
+      </a>
+    </div>
+    <div class="w3-col w3-container w3-center" style="width:25%">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'OF');" style="text-decoration:none">
+        <div class="s6 tablink" style="20%">外野人選</div>
+      </a>
+    </div>
+  </div>
+
+
+  <div id="PI" class="w3-content menu w3-padding-32" style="max-width:1500px">
     <h2 class="w3-wide w3-center w3-padding-16">投手<br>(正取10名)</h2>
     <canvas id="chart_PI" width="100" height="50"></canvas>
   </div>
 
-  <div class="w3-content w3-padding-32" style="max-width:1500px">
+  <div id="CA" class="w3-content menu w3-padding-32" style="max-width:1500px">
     <h2 class="w3-wide w3-center w3-padding-16">捕手<br>(正取4名)</h2>
     <canvas id="chart_CA" width="100" height="25"></canvas>
   </div>
 
-  <div class="w3-content w3-padding-32" style="max-width:1500px">
+  <div id="IF" class="w3-content menu w3-padding-32" style="max-width:1500px">
     <h2 class="w3-wide w3-center w3-padding-16">內野<br>(正取16名)</h2>
     <canvas id="chart_IF" width="100" height="70"></canvas>
   </div>
 
-  <div class="w3-content w3-padding-32" style="max-width:1500px">
+  <div id="OF" class="w3-content menu w3-padding-32" style="max-width:1500px">
     <h2 class="w3-wide w3-center w3-padding-16">外野<br>(正取10名)</h2>
     <canvas id="chart_OF" width="100" height="50"></canvas>
   </div>
@@ -104,15 +129,41 @@ function smallNav() {
 
 
 <script>
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-theme-d3", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-theme-d3";
+}
+document.getElementById("default").click();
+
+// collapse
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+
 var ctx_IF = document.getElementById("chart_IF");
 var myChart_IF = new Chart(ctx_IF, {
     type: 'horizontalBar',
     data: {
-        labels: ['簡書廷', '蕭清元', '黃靖天', '詹家昕', '小柿喜朗', '林厚和', '林華宗', '林大鈞', '張朝翔', '徐聖龍', '葉競仁', '翁義軒', '李建皜', '楊仲涵', '林資峻', '李政泓', '何光展', '魏士傑', '余中睿', '何長庭', '陳竑瑋', '林敬根', '李彥頡', '吳宥靚', '劉員成', '劉晏昀', '簡珜任', '楊庭彰', '廖于鈞', '賴昶亙', '鄭士淮', '呂翔禾', '吳仲民', '忻振宇', '林俊佑'],
+        labels: ['簡書廷', '黃靖天', '蕭清元', '林華宗', '詹家昕', '林厚和', '小柿喜朗', '葉競仁', '林大鈞', '張朝翔', '翁義軒', '徐聖龍', '何光展', '何長庭', '林資峻', '林敬根', '李建皜', '楊仲涵', '李政泓', '魏士傑', '陳竑瑋', '余中睿', '李彥頡', '簡珜任', '廖于鈞', '劉晏昀', '劉員成', '吳宥靚', '賴昶亙', '呂翔禾', '楊庭彰', '忻振宇', '林俊佑', '鄭士淮', '吳仲民'],
         datasets: [{
             label: '票數',
-            data: [173,142,141,113,103,98,96,91,90,89,88,78,71,71,70,70,64,62,58,58,56,55,54,52,50,48,48,48,48,43,28,26,25,24,22],
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            data: [306,288,242,241,199,198,193,175,174,170,162,158,154,147,144,138,131,125,120,117,109,109,101,100,100,92,88,84,75,66,64,64,60,52,47],
+            backgroundColor: ['rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 1)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)','rgba(255, 99, 132, 0.2)'],
             borderColor: 'rgba(255,99,132,1)',
             borderWidth: 1
         }]
@@ -136,11 +187,11 @@ var ctx_OF = document.getElementById("chart_OF");
 var myChart_OF = new Chart(ctx_OF, {
     type: 'horizontalBar',
     data: {
-        labels: ['林書秀', '倪英瑑', '侯柏丞', '林瑩潔', '鄭宇博', '楊景鈞', '張若瑜', '黃靖', '張元齊', '謝秉融', '邱健盛', '何宜鴻', '劉威辰', '黃楷文', '蔡渝斐', '張維凱', '王子升', '張育寧', '李英仁', '林聖凱', '林士榮', '黃政睿'],
+        labels: ['侯柏丞', '林書秀', '倪英瑑', '鄭宇博', '林瑩潔', '楊景鈞', '邱健盛', '黃靖', '張若瑜', '張元齊', '劉威辰', '黃楷文', '謝秉融', '何宜鴻', '張維凱', '王子升', '蔡渝斐', '張育寧', '李英仁', '林聖凱', '林士榮', '黃政睿'],
         datasets: [{
             label: '票數',
-            data: [149,141,137,125,116,109,100,97,93,83,78,72,68,67,58,58,53,50,42,34,26,19],
-            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+            data: [338,259,239,214,213,201,181,172,172,163,152,139,138,134,120,114,109,103,98,70,53,40],
+            backgroundColor: ['rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)','rgba(54, 162, 235, 1)','rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)','rgba(54, 162, 235, 0.2)'],
             borderColor: 'rgba(54, 162, 235, 1)',
             borderWidth: 1
         }]
@@ -164,11 +215,11 @@ var ctx_PI = document.getElementById("chart_PI");
 var myChart_PI = new Chart(ctx_PI, {
     type: 'horizontalBar',
     data: {
-        labels: ['陳柏安', '黃品維', '任傳中', '柯劭珩', '張祐齊', '詹皓崴', '簡辰宇', '黃柏超', '張鈞濡', '黃晉毅', '王羿璁', '翁新然', '林劼佑', '陳卓', '手塚唯', '鄭杰騏', '張繼剛', '洪偉哲', '蔡宜霖', '梁書哲', '施創譯', '許良亦', '鄧福勝'],
+        labels: ['陳柏安', '黃品維', '柯劭珩', '任傳中', '詹皓崴', '張祐齊', '黃晉毅', '翁新然', '簡辰宇', '黃柏超', '張鈞濡', '王羿璁', '陳卓', '林劼佑', '手塚唯', '鄭杰騏', '許良亦', '洪偉哲', '梁書哲', '蔡宜霖', '張繼剛', '鄧福勝', '施創譯'],
         datasets: [{
             label: '票數',
-            data: [209,184,124,123,107,102,82,82,81,78,77,66,65,64,60,53,43,42,39,39,23,22,22],
-            backgroundColor: 'rgba(255, 206, 86, 0.2)',
+            data: [380,343,233,232,198,180,168,162,157,150,150,134,132,127,116,94,84,77,73,72,72,50,44],
+            backgroundColor: ['rgba(255, 206, 86, 1)','rgba(255, 206, 86, 1)','rgba(255, 206, 86, 1)','rgba(255, 206, 86, 1)','rgba(255, 206, 86, 1)','rgba(255, 206, 86, 1)','rgba(255, 206, 86, 1)','rgba(255, 206, 86, 1)','rgba(255, 206, 86, 1)','rgba(255, 206, 86, 1)','rgba(255, 206, 86, 0.2)','rgba(255, 206, 86, 0.2)','rgba(255, 206, 86, 0.2)','rgba(255, 206, 86, 0.2)','rgba(255, 206, 86, 0.2)','rgba(255, 206, 86, 0.2)','rgba(255, 206, 86, 0.2)','rgba(255, 206, 86, 0.2)','rgba(255, 206, 86, 0.2)','rgba(255, 206, 86, 0.2)','rgba(255, 206, 86, 0.2)','rgba(255, 206, 86, 0.2)','rgba(255, 206, 86, 0.2)'],
             borderColor: 'rgba(255, 206, 86, 1)',
             borderWidth: 1
         }]
@@ -192,11 +243,11 @@ var ctx_CA = document.getElementById("chart_CA");
 var myChart_CA = new Chart(ctx_CA, {
     type: 'horizontalBar',
     data: {
-        labels: ['呂少驊', '林鴻揚', '杜泰儀', '蔡仲閔', '甘國瑋', '陳沿徽', '賴拏雲', '劉庭安'],
+        labels: ['林鴻揚', '呂少驊', '杜泰儀', '蔡仲閔', '甘國瑋', '陳沿徽', '賴拏雲', '劉庭安'],
         datasets: [{
             label: '票數',
-            data: [167,163,134,121,115,100,64,52],
-            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+            data: [319,297,249,241,229,173,126,100],
+            backgroundColor: ['rgba(75, 192, 192, 1)','rgba(75, 192, 192, 1)','rgba(75, 192, 192, 0.2)','rgba(75, 192, 192, 0.2)','rgba(75, 192, 192, 0.2)','rgba(75, 192, 192, 0.2)','rgba(75, 192, 192, 0.2)','rgba(75, 192, 192, 0.2)'],
             borderColor: 'rgba(75, 192, 192, 1)',
             borderWidth: 1
         }]
