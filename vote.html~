@@ -8,31 +8,31 @@ layout:   default
 <!-- Menu Container -->
 <div class="w3-container">
   <div class="w3-content w3-padding-32" style="max-width:1500px">
-    <h2 class="w3-wide w3-center w3-padding-32">提名人選</h2>
+    
     <div class="w3-row w3-card-2 w3-padding">
-      <div class="w3-col w3-container w3-center" style="width:20%;">
-        <a href="javascript:void(0)" onclick="openMenu(event, 'IF');" id="default" style="text-decoration:none">
-          <div class="s6 tablink" style="20%">內野</div>
-        </a>
-      </div>
       <div class="w3-col w3-container w3-center" style="width:20%">
-        <a href="javascript:void(0)" onclick="openMenu(event, 'OF');" style="text-decoration:none">
-          <div class="s6 tablink" style="20%">外野</div>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Vote');" id="default" style="text-decoration:none">
+          <div class="s6 tablink" style="20%">投票</div>
         </a>
       </div>
       <div class="w3-col w3-container w3-center" style="width:20%">
         <a href="javascript:void(0)" onclick="openMenu(event, 'PI');" style="text-decoration:none">
-          <div class="s6 tablink" style="20%">投手</div>
+          <div class="s6 tablink" style="20%">投手人選</div>
         </a>
       </div>
       <div class="w3-col w3-container w3-center" style="width:20%">
         <a href="javascript:void(0)" onclick="openMenu(event, 'CA');" style="text-decoration:none">
-          <div class="s6 tablink">捕手</div>
+          <div class="s6 tablink">捕手人選</div>
+        </a>
+      </div>
+      <div class="w3-col w3-container w3-center" style="width:20%;">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'IF');" style="text-decoration:none">
+          <div class="s6 tablink" style="20%">內野人選</div>
         </a>
       </div>
       <div class="w3-col w3-container w3-center" style="width:20%">
-        <a href="javascript:void(0)" onclick="openMenu(event, 'Vote');" style="text-decoration:none">
-          <div class="s6 tablink" style="20%">投票</div>
+        <a href="javascript:void(0)" onclick="openMenu(event, 'OF');" style="text-decoration:none">
+          <div class="s6 tablink" style="20%">外野人選</div>
         </a>
       </div>
     </div>
@@ -231,7 +231,7 @@ layout:   default
     </div>
 
     <div id="Vote" class="w3-container menu w3-padding-48 w3-card-2">
-      <tr><td align="center">投票將於4/3 上午10:00開放，敬請期待！</td></tr>
+<h6 class="w3-wide w3-center w3-padding-32">※手機投票建議使用「切換為電腦版網站」</h6>
       <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdMk2tsywLd_YXL8XM4yNuT1XRA5CfPcRbzUi0z200g8_49-g/viewform?embedded=true" width="100%" height="500px" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
     </div>
 

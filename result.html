@@ -4,13 +4,18 @@ layout:   default
 
 <!-- Test -->
 
-<div class="w3-container">
-  <h6 class="w3-wide w3-center w3-padding-32">本頁資訊每日更新，並非即時敬請注意！</h6>
-</div>
-
-
 <!-- Menu Container -->
 <div class="w3-container">
+  <div class="w3-content w3-padding-32" style="max-width:1500px">
+    <h2 class="w3-wide w3-center w3-padding-16">投手<br>(正取10名)</h2>
+    <canvas id="chart_PI" width="100" height="50"></canvas>
+  </div>
+
+  <div class="w3-content w3-padding-32" style="max-width:1500px">
+    <h2 class="w3-wide w3-center w3-padding-16">捕手<br>(正取4名)</h2>
+    <canvas id="chart_CA" width="100" height="25"></canvas>
+  </div>
+
   <div class="w3-content w3-padding-32" style="max-width:1500px">
     <h2 class="w3-wide w3-center w3-padding-16">內野<br>(正取16名)</h2>
     <canvas id="chart_IF" width="100" height="70"></canvas>
@@ -21,15 +26,6 @@ layout:   default
     <canvas id="chart_OF" width="100" height="50"></canvas>
   </div>
 
-  <div class="w3-content w3-padding-32" style="max-width:1500px">
-    <h2 class="w3-wide w3-center w3-padding-16">投手<br>(正取10名)</h2>
-    <canvas id="chart_PI" width="100" height="50"></canvas>
-  </div>
-
-  <div class="w3-content w3-padding-32" style="max-width:1500px">
-    <h2 class="w3-wide w3-center w3-padding-16">捕手<br>(正取4名)</h2>
-    <canvas id="chart_CA" width="100" height="25"></canvas>
-  </div>
 </div>
 
 
@@ -40,7 +36,7 @@ var myChart_IF = new Chart(ctx_IF, {
     data: {
         labels: ['簡書廷', '蕭清元', '黃靖天', '詹家昕', '小柿喜朗', '林厚和', '林華宗', '林大鈞', '張朝翔', '徐聖龍', '葉競仁', '翁義軒', '李建皜', '楊仲涵', '林資峻', '李政泓', '何光展', '魏士傑', '余中睿', '何長庭', '陳竑瑋', '林敬根', '李彥頡', '吳宥靚', '劉員成', '劉晏昀', '簡珜任', '楊庭彰', '廖于鈞', '賴昶亙', '鄭士淮', '呂翔禾', '吳仲民', '忻振宇', '林俊佑'],
         datasets: [{
-            label: '# of Votes',
+            label: '票數',
             data: [173,142,141,113,103,98,96,91,90,89,88,78,71,71,70,70,64,62,58,58,56,55,54,52,50,48,48,48,48,43,28,26,25,24,22],
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
             borderColor: 'rgba(255,99,132,1)',
@@ -68,7 +64,7 @@ var myChart_OF = new Chart(ctx_OF, {
     data: {
         labels: ['林書秀', '倪英瑑', '侯柏丞', '林瑩潔', '鄭宇博', '楊景鈞', '張若瑜', '黃靖', '張元齊', '謝秉融', '邱健盛', '何宜鴻', '劉威辰', '黃楷文', '蔡渝斐', '張維凱', '王子升', '張育寧', '李英仁', '林聖凱', '林士榮', '黃政睿'],
         datasets: [{
-            label: '# of Votes',
+            label: '票數',
             data: [149,141,137,125,116,109,100,97,93,83,78,72,68,67,58,58,53,50,42,34,26,19],
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)',
@@ -96,7 +92,7 @@ var myChart_PI = new Chart(ctx_PI, {
     data: {
         labels: ['陳柏安', '黃品維', '任傳中', '柯劭珩', '張祐齊', '詹皓崴', '簡辰宇', '黃柏超', '張鈞濡', '黃晉毅', '王羿璁', '翁新然', '林劼佑', '陳卓', '手塚唯', '鄭杰騏', '張繼剛', '洪偉哲', '蔡宜霖', '梁書哲', '施創譯', '許良亦', '鄧福勝'],
         datasets: [{
-            label: '# of Votes',
+            label: '票數',
             data: [209,184,124,123,107,102,82,82,81,78,77,66,65,64,60,53,43,42,39,39,23,22,22],
             backgroundColor: 'rgba(255, 206, 86, 0.2)',
             borderColor: 'rgba(255, 206, 86, 1)',
@@ -124,7 +120,7 @@ var myChart_CA = new Chart(ctx_CA, {
     data: {
         labels: ['呂少驊', '林鴻揚', '杜泰儀', '蔡仲閔', '甘國瑋', '陳沿徽', '賴拏雲', '劉庭安'],
         datasets: [{
-            label: '# of Votes',
+            label: '票數',
             data: [167,163,134,121,115,100,64,52],
             backgroundColor: 'rgba(75, 192, 192, 0.2)',
             borderColor: 'rgba(75, 192, 192, 1)',
