@@ -1,0 +1,106 @@
+---
+layout:   default
+---
+
+<!-- Test -->
+
+
+<!-- Menu Container -->
+<div class="w3-container">
+  <div class="w3-content w3-padding-32" style="max-width:1500px">
+    <h2 class="w3-wide w3-center w3-padding-32">紀念商品</h2>
+    <div class="w3-row w3-card-2 w3-padding">
+      <div class="w3-col w3-container w3-center" style="width:50%">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'MER');" id="default" style="text-decoration:none">
+          <div class="s6 tablink" style="20%">商品項目</div>
+        </a>
+      </div>
+      <div class="w3-col w3-container w3-center" style="width:50%">
+        <a href="javascript:void(0)" onclick="openMenu(event, 'Order');" style="text-decoration:none">
+          <div class="s6 tablink" style="20%">預購表單</div>
+        </a>
+      </div>
+    </div>
+
+    {% assign counter = 0 %}
+    <div id="MER" class="w3-row-padding menu w3-padding-32">
+      <ul class="w3-ul">
+      {% for prod in site.merchandises %}
+        {% assign mod = counter | modulo:3 %}
+        {% if mod == 0 %}
+        <div class="w3-row-padding">
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/merchandises/{{ prod.name }}.jpg'><img src="/public/img/merchandises/{{ prod.name }}.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>{{ prod.title }}</b></p>
+                <p>價錢：{{ prod.price }}</p>
+                <p>簡介：<br>{{ prod.content }}</p>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+        {% if mod != 0 %}
+          <div class="w3-third w3-margin-bottom w3-padding-8">
+            <div class="w3-card-4">
+              <a class='gallery' href='/public/img/merchandises/{{ prod.name }}.jpg'><img src="/public/img/merchandises/{{ prod.name }}.jpg" style="width:100%" class="w3-hover-opacity"></a>
+              <div class="w3-container w3-white w3-padding-8">
+                <p><b>{{ prod.title }}</b></p>
+                <p>價錢：{{ prod.price }}</p>
+                <p>簡介：<br>{{ prod.content }}</p>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% assign counter = counter | plus: 1 %}
+      {% endfor %}
+      {% assign mod = counter | modulo:3 %}
+      {% if mod == 0 %}
+      </div>
+      {% endif %}
+      </ul>
+    </div>
+
+    <div id="Order" class="w3-container menu w3-padding-48 w3-card-2">
+      <h6 class="w3-wide w3-center w3-padding-32">※尚未開放，敬請期待※</h6>
+    </div>
+
+  </div>
+</div>
+
+
+<script>
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-theme-d3", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-theme-d3";
+}
+document.getElementById("default").click();
+
+// collapse
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// colorbox
+ jQuery('a.gallery').colorbox();
+ $(".gallery").colorbox({
+  width: "50%"
+});
+
+</script>

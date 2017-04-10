@@ -22,6 +22,9 @@ collections:
   videos:
     output:       true
     permalink:    /videos/:title:output_ext
+  merchandises:
+    output:       true
+    permalink:    /merchandises/:title:output_ext
 
 # Setup
 title:            台大棒球明星賽
