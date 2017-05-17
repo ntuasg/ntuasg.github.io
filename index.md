@@ -40,7 +40,44 @@ layout:   default
     </div>
 
     <div id="Games" class="w3-container menu w3-padding-48 w3-card-2">
-      <p>尚未出爐！</p>
+      <table class="w3-table w3-striped">
+        <tr>
+          <td>時間</td>
+          <td>活動內容</td>
+        </tr>
+        <tr>
+          <td>12:30</td>
+          <td>開放進場</td>
+        </tr>
+        <tr>
+          <td>13:00</td>
+          <td>場邊活動及攤販開始</td>
+        </tr>
+        <tr>
+          <td>13:15</td>
+          <td>開場典禮</td>
+        </tr>
+        <tr>
+          <td>13:30</td>
+          <td>賽前表演、開球、球員進場</td>
+        </tr>
+        <tr>
+          <td>14:00</td>
+          <td>上半場比賽：1~4局</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>中場 - 外野擲準大賽</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>下半場比賽 - 5~7局</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>賽後 - 頒獎、抽獎</td>
+        </tr>
+      </table>
     </div>  
   </div>
 </div>
