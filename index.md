@@ -67,7 +67,7 @@ layout:   default
         </tr>
         <tr>
           <td></td>
-          <td>中場 - 外野擲準大賽</td>
+          <td>中場 - 外野擲準大賽、抽獎</td>
         </tr>
         <tr>
           <td></td>
